@@ -1,0 +1,354 @@
+{
+  "export": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "organes": {
+      "organe": [
+        {
+          "@xsi:type": "OrganeParlementaire_Type",
+          "uid": "PO711218",
+          "codeType": "MISINFO",
+          "libelle": "Formation des enseignants",
+          "libelleEdition": "de la mission d'information sur la formation des enseignants",
+          "libelleAbrege": "Formation des enseignants",
+          "libelleAbrev": "FORMENS",
+          "viMoDe": {
+            "dateDebut": "2015-12-16",
+            "dateAgrement": null,
+            "dateFin": "2016-10-05"
+          },
+          "regime": "5ème République",
+          "legislature": "14",
+          "secretariat": {
+            "secretaire01": null,
+            "secretaire02": null
+          }
+        }
+      ]
+    },
+    "acteurs": {
+      "acteur": [
+        {
+          "uid": {
+            "@xsi:type": "IdActeur_type",
+            "#text": "PA702054"
+          },
+          "etatCivil": {
+            "ident": {
+              "civ": "M.",
+              "prenom": "Stéphane",
+              "nom": "Claireaux",
+              "alpha": "Claireaux"
+            },
+            "infoNaissance": {
+              "dateNais": "1964-06-23",
+              "villeNais": "Saint-Pierre-et-Miquelon",
+              "depNais": "Saint-Pierre-et-Miquelon",
+              "paysNais": "France"
+            },
+            "dateDeces": null
+          },
+          "profession": {
+            "libelleCourant": "Chef d'entreprise",
+            "socProcINSEE": {
+              "catSocPro": "Cadres supérieurs (secteur privé)",
+              "famSocPro": "Cadres et ingénieurs"
+            }
+          },
+          "adresses": {
+            "adresse": [
+              {
+                "@xsi:type": "AdressePostale_Type",
+                "uid": "AD702057",
+                "type": "0",
+                "typeLibelle": "Adresse officielle",
+                "poids": "01",
+                "adresseDeRattachement": null,
+                "intitule": "Assemblée nationale",
+                "numeroRue": "126",
+                "nomRue": "Rue de l'Université",
+                "complementAdresse": null,
+                "codePostal": "75355",
+                "ville": "Paris 07 SP"
+              },
+              {
+                "@xsi:type": "AdressePostale_Type",
+                "uid": "AD702669",
+                "type": "2",
+                "typeLibelle": "Adresse publiée de circonscription",
+                "poids": "22",
+                "adresseDeRattachement": null,
+                "intitule": "Permanence parlementaire",
+                "numeroRue": "7",
+                "nomRue": "Rue René Autin",
+                "complementAdresse": null,
+                "codePostal": "97500",
+                "ville": "Saint-Pierre-et-Miquelon"
+              },
+              {
+                "@xsi:type": "AdresseTelephonique_Type",
+                "uid": "AD702670",
+                "type": "11",
+                "typeLibelle": "Téléphone",
+                "poids": "22",
+                "adresseDeRattachement": "AD702669",
+                "numeroTelephone": "05 08 41 99 98"
+              },
+              {
+                "@xsi:type": "AdresseTelephonique_Type",
+                "uid": "AD702671",
+                "type": "12",
+                "typeLibelle": "Télécopie",
+                "poids": "22",
+                "adresseDeRattachement": "AD702669",
+                "numeroTelephone": "05 08 41 99 97"
+              },
+              {
+                "@xsi:type": "AdresseMail_Type",
+                "uid": "AD702672",
+                "type": "15",
+                "typeLibelle": "Mèl",
+                "poids": null,
+                "adresseDeRattachement": null,
+                "valElec": "contact@depute975.fr"
+              },
+              {
+                "@xsi:type": "AdresseMail_Type",
+                "uid": "AD703415",
+                "type": "15",
+                "typeLibelle": "Mèl",
+                "poids": null,
+                "adresseDeRattachement": null,
+                "valElec": "sclaireaux@assemblee-nationale.fr"
+              }
+            ]
+          },
+          "mandats": {
+            "mandat": [
+              {
+                "@xsi:type": "MandatParlementaire_type",
+                "uid": "PM702804",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "ASSEMBLEE",
+                "dateDebut": "2014-06-29",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "50",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "membre",
+                  "libQualite": "membre",
+                  "libQualiteSex": "membre"
+                },
+                "organes": {
+                  "organeRef": "PO644420"
+                },
+                "suppleants": null,
+                "election": {
+                  "lieu": {
+                    "region": "Saint-Pierre-et-Miquelon",
+                    "regionType": "Collectivités d'outre-mer et Nouvelle-Calédonie",
+                    "departement": "Saint-Pierre-et-Miquelon",
+                    "numDepartement": "975",
+                    "numCirco": "1"
+                  },
+                  "causeMandat": "remplacement d'un député nommé au Gouvernement"
+                },
+                "InfosHorsSIAN": {
+                  "HATVP_URI": "http://www.hatvp.fr/pages_nominatives/claireaux-stephane.html"
+                },
+                "mandature": {
+                  "datePriseFonction": "2014-07-30",
+                  "causeFin": null,
+                  "premiereElection": "0",
+                  "placeHemicycle": "296",
+                  "mandatRemplaceRef": "701216"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM702817",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "GP",
+                "dateDebut": "2014-07-30",
+                "datePublication": "2014-07-31",
+                "dateFin": null,
+                "preseance": "20",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre du",
+                  "libQualiteSex": "Membre du"
+                },
+                "organes": {
+                  "organeRef": "PO656022"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM703102",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "DELEG",
+                "dateDebut": "2014-07-31",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "20",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre",
+                  "libQualiteSex": "Membre"
+                },
+                "organes": {
+                  "organeRef": "PO675659"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM703103",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "DELEG",
+                "dateDebut": "2014-07-31",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "21",
+                "nominPrincipale": "0",
+                "infosQualite": {
+                  "codeQualite": "Membre de droit",
+                  "libQualite": "Membre de droit",
+                  "libQualiteSex": "Membre de droit"
+                },
+                "organes": {
+                  "organeRef": "PO675659"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM703853",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "GA",
+                "dateDebut": "2014-10-08",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "20",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre",
+                  "libQualiteSex": "Membre"
+                },
+                "organes": {
+                  "organeRef": "PO675771"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM703855",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "GA",
+                "dateDebut": "2014-10-08",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "20",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre",
+                  "libQualiteSex": "Membre"
+                },
+                "organes": {
+                  "organeRef": "PO675711"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM705092",
+                "acteurRef": "PA702054",
+                "legislature": null,
+                "typeOrgane": "PARPOL",
+                "dateDebut": "2014-12-01",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "5",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre",
+                  "libQualiteSex": "Membre"
+                },
+                "organes": {
+                  "organeRef": "PO685813"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM705866",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "GE",
+                "dateDebut": "2015-01-18",
+                "datePublication": null,
+                "dateFin": null,
+                "preseance": "20",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre",
+                  "libQualiteSex": "Membre"
+                },
+                "organes": {
+                  "organeRef": "PO704831"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM715353",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "COMPER",
+                "dateDebut": "2016-11-22",
+                "datePublication": "2016-11-22",
+                "dateFin": null,
+                "preseance": "32",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Membre",
+                  "libQualite": "Membre",
+                  "libQualiteSex": "Membre"
+                },
+                "organes": {
+                  "organeRef": "PO420120"
+                }
+              },
+              {
+                "@xsi:type": "MandatSimple_Type",
+                "uid": "PM715535",
+                "acteurRef": "PA702054",
+                "legislature": "14",
+                "typeOrgane": "CMP",
+                "dateDebut": "2016-11-17",
+                "datePublication": "2016-11-18",
+                "dateFin": null,
+                "preseance": "28",
+                "nominPrincipale": "1",
+                "infosQualite": {
+                  "codeQualite": "Suppléant",
+                  "libQualite": "Membre suppléant",
+                  "libQualiteSex": "Membre suppléant"
+                },
+                "organes": {
+                  "organeRef": "PO715306"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
