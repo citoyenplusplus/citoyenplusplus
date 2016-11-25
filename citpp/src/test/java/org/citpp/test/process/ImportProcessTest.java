@@ -14,10 +14,18 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ImportProcessTest {
 
 	@Resource(name = "acteursProcess")
-	private Process process;
+	private Process acteursProcess;
+
+	@Resource(name = "votesProcess")
+	private Process votesProcess;
 
 	@Test
 	public void testImportActeursProcess() {
-		this.process.execute();
+		this.acteursProcess.execute();
+	}
+
+	@Test
+	public void testImportVotesProcess() {
+		this.votesProcess.execute();
 	}
 }

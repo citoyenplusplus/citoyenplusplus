@@ -49,7 +49,7 @@ public class ESIndexerImpl implements Indexer {
 	}
 
 	private TransportClient createClient(String host, int port, String clusterName) {
-		LOG.debug("Creating new ES client : cluster name : {} , host {}, port {}", host, clusterName, port);
+		LOG.debug("Creating new ES client : cluster name : {} , host {}, port {}", clusterName, host, port);
 		Settings settings = Settings.settingsBuilder().put("cluster.name", clusterName).build();
 		TransportClient client = TransportClient.builder().settings(settings).build();
 		client.addTransportAddress(new InetSocketTransportAddress(new InetSocketAddress(host, port)));

@@ -20,14 +20,26 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ResourceParserTest {
 	private final static Logger LOG = LoggerFactory.getLogger(ResourceParserTest.class);
 	@Resource(name = "acteursResourceParser")
-	private ResourceParser parser;
+	private ResourceParser acteursResourceParser;
+
+	@Resource(name = "votesResourceParser")
+	private ResourceParser votesResourceParser;
 
 	@Test
 	public void testParseDeputes() {
 		ServiceContext context = new SimpleserviceContextImpl();
 		context.putParam(ResourceParser.INPUT_FILE_PATH_KEY, "src/test/resources/json/sample-deputes.json");
 		LOG.debug("trying to parse file {}", context.getParam(ResourceParser.INPUT_FILE_PATH_KEY));
-		this.parser.execute(context);
+		this.acteursResourceParser.execute(context);
+		Assert.assertNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
+	}
+
+	@Test
+	public void testParseVotes() {
+		ServiceContext context = new SimpleserviceContextImpl();
+		context.putParam(ResourceParser.INPUT_FILE_PATH_KEY, "src/test/resources/json/sample-votes.json");
+		LOG.debug("trying to parse file {}", context.getParam(ResourceParser.INPUT_FILE_PATH_KEY));
+		this.votesResourceParser.execute(context);
 		Assert.assertNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
 	}
 }

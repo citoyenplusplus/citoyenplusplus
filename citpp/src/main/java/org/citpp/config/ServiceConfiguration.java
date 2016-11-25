@@ -18,6 +18,9 @@ public class ServiceConfiguration {
 	@Resource(name = "acteursParser")
 	private JSONParser acteursParser;
 
+	@Resource(name = "votesParser")
+	private JSONParser votesParser;
+
 	@Bean(name = "defaultDownloader")
 	public ResourceDownloader defaultDownloader() {
 		return new ResourceDownloaderImpl();
@@ -31,5 +34,10 @@ public class ServiceConfiguration {
 	@Bean(name = "acteursResourceParser")
 	public ResourceParser acteurResourceParser() {
 		return new ResourceParserImpl(this.acteursParser);
+	}
+
+	@Bean(name = "votesResourceParser")
+	public ResourceParser votesResourceParser() {
+		return new ResourceParserImpl(this.votesParser);
 	}
 }

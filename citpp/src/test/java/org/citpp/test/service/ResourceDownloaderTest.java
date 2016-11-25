@@ -32,4 +32,15 @@ public class ResourceDownloaderTest {
 		Assert.assertNotNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
 		LOG.debug("file downloaded at {}", context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
 	}
+
+	@Test
+	public void testDownloadVotes() {
+		ServiceContext context = new SimpleserviceContextImpl();
+		context.putParam(ResourceDownloader.RESOURCE_URL_KEY,
+				"http://data.assemblee-nationale.fr/static/openData/repository/LOI/scrutins/Scrutins_XIV.json.zip");
+		context.putParam(ResourceDownloader.DOWNLOAD_PATH_PATTERN_KEY, "'target/zip/votes-'YYYY-MM-dd-HH'.zip'");
+		this.downloader.execute(context);
+		Assert.assertNotNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
+		LOG.debug("file downloaded at {}", context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
+	}
 }

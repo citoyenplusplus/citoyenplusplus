@@ -32,4 +32,14 @@ public class ResourceUnarchiverTest {
 		Assert.assertNotNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
 		LOG.debug("file unarchived at {}", context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
 	}
+
+	@Test
+	public void testUnarchiveVotes() {
+		ServiceContext context = new SimpleserviceContextImpl();
+		context.putParam(ResourceUnarchiver.INPUT_FILE_PATH_KEY, "src/test/resources/zip/sample-votes.zip");
+		context.putParam(ResourceUnarchiver.UNARCHIVE_PATH_PATTERN_KEY, "'target/json/votes-'YYYY-MM-dd-HH'.json'");
+		this.unarchiver.execute(context);
+		Assert.assertNotNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
+		LOG.debug("file unarchived at {}", context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
+	}
 }
