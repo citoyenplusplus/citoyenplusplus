@@ -22,19 +22,19 @@ public class ParserConfiguration {
 	@Value("${citpp.parser.acteurs.field:acteur}")
 	private String acteursFieldName;
 
-	@Value("${citpp.parser.acteurs.field:acteur}")
+	@Value("${citpp.parser.acteurs.type:acteur}")
 	private String acteursObjectType;
 
 	@Value("${citpp.parser.organes.field:organe}")
 	private String organesFieldName;
 
-	@Value("${citpp.parser.organes.field:organe}")
+	@Value("${citpp.parser.organes.type:organe}")
 	private String organesObjectType;
 
 	@Value("${citpp.parser.scrutins.field:scrutin}")
 	private String scrutinsFieldName;
 
-	@Value("${citpp.parser.scrutins.field:scrutin}")
+	@Value("${citpp.parser.scrutins.type:scrutin}")
 	private String scrutinsObjectType;
 
 	@Bean(name = "frenchActeursJSONCleaner")
