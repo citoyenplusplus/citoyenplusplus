@@ -1,10 +1,12 @@
 package org.citpp.parser.json.impl;
 
 import java.io.IOException;
+import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 import org.citpp.parser.index.Indexer;
 import org.citpp.parser.json.JSONCleaner;
+import org.citpp.parser.json.JSONIDExtractor;
 import org.citpp.parser.json.JSONParser;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.JsonParseException;
@@ -18,13 +20,16 @@ public class ObjectArrayJSONParser implements JSONParser {
 
 	private final static Logger LOG = LoggerFactory.getLogger(ObjectArrayJSONParser.class);
 	private final JSONCleaner cleaner;
+	private final JSONIDExtractor extractor;
 	private final Indexer indexer;
 	private final String fieldName;
 	private final String objectType;
 
-	public ObjectArrayJSONParser(Indexer indexer, JSONCleaner cleaner, String fieldName, String objectType) {
+	public ObjectArrayJSONParser(Indexer indexer, JSONCleaner cleaner, JSONIDExtractor extractor, String fieldName,
+			String objectType) {
 		this.indexer = indexer;
 		this.cleaner = cleaner;
+		this.extractor = extractor;
 		this.fieldName = fieldName;
 		this.objectType = objectType;
 	}
@@ -43,10 +48,18 @@ public class ObjectArrayJSONParser implements JSONParser {
 					LOG.debug("parsing token {}", token);
 					if (token != null) {
 						JsonNode node = mapper.readTree(parser);
+						Map<String, Object> rootMap = null;
 						if (this.cleaner != null) {
-							node = this.cleaner.cleanNode(node);
+							rootMap = this.cleaner.cleanNode(node);
 						}
-						indexer.index(this.objectType, node.toString().getBytes("UTF-8"));
+						String objectID = null;
+						if (rootMap != null) {
+							objectID = this.extractor.extractID(rootMap);
+							node = mapper.valueToTree(rootMap);
+						} else {
+							objectID = this.extractor.extractID(node);
+						}
+						indexer.createOrUpdate(this.objectType, objectID, node.toString().getBytes("UTF-8"));
 						token = parser.nextToken();
 					}
 				}

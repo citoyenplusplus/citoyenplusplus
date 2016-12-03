@@ -34,7 +34,7 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public JsonNode cleanNode(JsonNode node) throws JsonProcessingException, IOException {
+	public Map<String, Object> cleanNode(JsonNode node) throws JsonProcessingException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		Map<String, Object> rootMap = (Map<String, Object>) mapper.readValue(node, Map.class);
 
@@ -42,7 +42,7 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 			this.transform(rootMap, type.getTransformer(), this.getValuesForTransformerType(type));
 		}
 		this.addSpecificTranforms(rootMap);
-		return mapper.valueToTree(rootMap);
+		return rootMap;
 	}
 
 	protected void transform(Map<String, Object> rootMap, JSONTransformer transformer, JSONPathValues... pathValues) {

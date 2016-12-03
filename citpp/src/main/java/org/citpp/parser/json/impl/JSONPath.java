@@ -17,6 +17,23 @@ public class JSONPath {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
+	public Object getFieldAtPath(Map<String, Object> rootMap) {
+		Object result = null;
+		if (rootMap != null) {
+			if (this.path.length > 0) {
+				Map<String, Object> currentMap = rootMap;
+				int count = 0;
+				while (count < this.path.length - 1) {
+					currentMap = (Map<String, Object>) rootMap.get(this.path[count]);
+					count++;
+				}
+				result = currentMap.get(this.path[this.path.length - 1]);
+			}
+		}
+		return result;
+	}
+
 	public List<Map<String, Object>> getObjectsAtPath(Map<String, Object> rootMap) {
 		List<Map<String, Object>> resultList = new ArrayList<>();
 		if (rootMap != null) {
