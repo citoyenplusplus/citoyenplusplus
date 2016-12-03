@@ -1,5 +1,7 @@
 package org.citpp.parser.json.impl;
 
+import org.citpp.parser.json.JSONTransformerType;
+
 public class FrenchVotesJSONCleanerImpl extends AbstractStandardJSONCleaner {
 
 	private final JSONPathValues[] valuestoInt = new JSONPathValues[] {
@@ -14,13 +16,15 @@ public class FrenchVotesJSONCleanerImpl extends AbstractStandardJSONCleaner {
 			new JSONPathValues("ventilationVotes.organe.groupes.groupe[].vote.decompteNominatif", "nonVotants") };
 
 	@Override
-	protected JSONPathValues[] getStringToIntValues() {
-		return this.valuestoInt;
-	}
+	protected JSONPathValues[] getValuesForTransformerType(JSONTransformerType type) {
+		switch (type) {
+		case STRING_TO_INT:
+			return this.valuestoInt;
+		case STRING_TO_NULL:
 
-	@Override
-	protected JSONPathValues[] getStringToNullValues() {
-		return this.valuestoNull;
+			return this.valuestoNull;
+		default:
+			return null;
+		}
 	}
-
 }

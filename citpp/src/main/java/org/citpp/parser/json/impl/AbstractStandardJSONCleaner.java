@@ -5,16 +5,13 @@ import java.util.List;
 import java.util.Map;
 
 import org.citpp.parser.json.JSONCleaner;
+import org.citpp.parser.json.JSONTransformer;
+import org.citpp.parser.json.JSONTransformerType;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
 public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
-
-	@FunctionalInterface
-	protected interface JSONTransformer {
-		public void transform(Map<String, Object> rootMap, String key);
-	}
 
 	protected final static class JSONPathValues {
 		private final JSONPath path;
@@ -41,16 +38,9 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 		ObjectMapper mapper = new ObjectMapper();
 		Map<String, Object> rootMap = (Map<String, Object>) mapper.readValue(node, Map.class);
 
-		this.transform(rootMap, (map, key) -> {
-			Object object = map.get(key);
-			map.put(key, Integer.parseInt(object.toString()));
-		}, this.getStringToIntValues());
-
-		this.transform(rootMap, (map, key) -> {
-			if (map.get(key) instanceof String) {
-				map.put(key, null);
-			}
-		}, this.getStringToNullValues());
+		for (JSONTransformerType type : JSONTransformerType.values()) {
+			this.transform(rootMap, type.getTransformer(), this.getValuesForTransformerType(type));
+		}
 		this.addSpecificTranforms(rootMap);
 		return mapper.valueToTree(rootMap);
 	}
@@ -75,8 +65,6 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 
 	}
 
-	protected abstract JSONPathValues[] getStringToIntValues();
-
-	protected abstract JSONPathValues[] getStringToNullValues();
+	protected abstract JSONPathValues[] getValuesForTransformerType(JSONTransformerType type);
 
 }

@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.citpp.parser.json.JSONTransformerType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,16 +17,11 @@ public class FrenchReunionsJSONCleanerImpl extends AbstractStandardJSONCleaner {
 
 	private final static Pattern PATTERN = Pattern.compile("(.*)(T(\\d{2}))([^:].*)(\\.)((\\d{1,3})\\+\\d+:\\d+)");
 
-	private final JSONPathValues[] dateFormat = new JSONPathValues[] { new JSONPathValues("", "timeStampFin"),
+	private final JSONPathValues[] paths = new JSONPathValues[] { new JSONPathValues("", "timeStampFin"),
 			new JSONPathValues("cycleDeVie.chrono", "creation", "cloture") };
 
 	@Override
-	protected JSONPathValues[] getStringToIntValues() {
-		return null;
-	}
-
-	@Override
-	protected JSONPathValues[] getStringToNullValues() {
+	protected JSONPathValues[] getValuesForTransformerType(JSONTransformerType type) {
 		return null;
 	}
 
@@ -60,7 +56,7 @@ public class FrenchReunionsJSONCleanerImpl extends AbstractStandardJSONCleaner {
 					LOG.error("{}", e);
 				}
 			}
-		}, dateFormat);
+		}, paths);
 	}
 
 }
