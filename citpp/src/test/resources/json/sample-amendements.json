@@ -1,0 +1,2975 @@
+{
+  "textesEtAmendements": {
+    "texteleg": [
+      {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "refTexteLegislatif": "PIONANR5L14B0013",
+        "amendements": {
+          "amendement": [
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N4",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "4",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL4",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "e",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "2",
+                  "alineaDesignation": "Alinéa 2"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">A l'alin&#233;a 2, substituer aux mots : \"aux objectifs r&#233;gionaux de d&#233;penses d'assurance maladie\", les mots : \"au Fonds d'intervention r&#233;gional\".</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement propose que le rapport annex&#233; au projet de loi de financement de la s&#233;curit&#233; sociale d&#233;crive non seulement l'objectif national de d&#233;penses d'assurance maladie pour les quatre ann&#233;es &#224; venir mais &#233;galement sa part consacr&#233;e au Fonds d'intervention r&#233;gional.</p>\n<p></p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL4.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:04:42",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N10",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "10",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "10",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA267260",
+                    "PA1699",
+                    "PA746",
+                    "PA267289",
+                    "PA2377",
+                    "PA2099"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Créant des objectifs régionaux de dépenses d’assurance maladie (ORDAM),",
+                  "articleDesignationCourte": "TITRE",
+                  "type": "TITRE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "TITRE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Creant_des_objectifs_regionaux_de_depe"
+                },
+                "alinea": null
+              },
+              "corps": {
+                "dispositif": "<p>Substituer aux mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;cr&#233;ant des objectifs r&#233;gionaux de d&#233;penses d&#8217;assurance maladie&#160;&#187;</p>\n<p style=\"text-align: justify;\">les mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;relative &#224; la part de l&#8217;objectif national de d&#233;penses d&#8217;assurance maladie consacr&#233;e au Fonds d&#8217;intervention r&#233;gional&#160;&#187;.</p>",
+                "exposeSommaire": "<p>Amendement de cons&#233;quence.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/10.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:45:54",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N2",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "2",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL2",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "e",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article PREMIER",
+                  "articleDesignationCourte": "ART. PREMIER",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE PREMIER",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_1er"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "4",
+                  "alineaDesignation": "Alinéa 4"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Substituer aux alin&#233;as 2 &#224; 5 l&#8217;alin&#233;a suivant&#160;:</p>\n<p>1&#176; Au 2&#176; du B du I, apr&#232;s le mot&#160;: &#171;&#160;base&#160;&#187;, sont ins&#233;r&#233;s les mots&#160;: &#171;&#160;et sa part consacr&#233;e au Fonds d&#8217;intervention r&#233;gional&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">La pr&#233;sente proposition de loi organique, d&#233;pos&#233;e sur le bureau de l'Assembl&#233;e nationale le 27 juin 2012, m&#233;rite d'&#234;tre mise &#224; jour compte tenu des dispositions l&#233;gislatives intervenues depuis et modifiant la composition de l'objectif national de d&#233;penses d'assurance-maladie (ONDAM).</p>\n<p style=\"text-align: justify;\">En effet, cette proposition de loi organique propose notamment de distinguer au sein de l'ONDAM une part nationale et une part r&#233;gionale, laquelle serait constitu&#233;e d'objectifs r&#233;gionaux de d&#233;penses d'assurance-maladie (ORDAM).</p>\n<p style=\"text-align: justify;\">Or, l&#8217;article 65 de la loi de financement de la s&#233;curit&#233; sociale pour 2012 s'est inscrit dans cette d&#233;marche en cr&#233;ant un nouveau fonds d&#8217;intervention r&#233;gional (FIR) fusionnant des cr&#233;dits et dotations existants au sein de l&#8217;ONDAM, afin de donner aux agences r&#233;gionales de sant&#233; (ARS) des instruments financiers souples et faciles d&#8217;emploi pour les mettre en situation de responsabilit&#233;.&#160;</p>\n<p style=\"text-align: justify;\">Enfin, l'article 65 de la loi de financement de la s&#233;curit&#233; sociale pour 2014 a &#233;rig&#233; le FIR en nouveau sous-objectif de l'ONDAM.<b></b></p>\n<p style=\"text-align: justify;\"><b>Le pr&#233;sent amendement a donc pour objet de consacrer, sur le plan juridique et politique, la cr&#233;ation du Fonds d'intervention r&#233;gional au sein de l'ONDAM, qui correspond &#224; la part r&#233;gionale de l'ONDAM que souhaitait introduire l'article 1er de la pr&#233;sente proposition de loi organique.&#160; </b></p>\n<p style=\"text-align: justify;\"></p>\n<p style=\"text-align: justify;\"><span><br /></span></p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL2.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:03:58",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N9",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "9",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "9",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "o",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA1699",
+                    "PA267289",
+                    "PA267260",
+                    "PA746",
+                    "PA2377",
+                    "PA2099"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "8",
+                  "alineaDesignation": "Alinéa 8"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">Substituer aux alin&#233;as 8 et 9 l&#8217;alin&#233;a suivant&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;b) La derni&#232;re phrase est compl&#233;t&#233;e par les mots&#160;:&#160;&#171;&#160;, qui ne peut intervenir qu&#8217;apr&#232;s le vote de la part de cet objectif consacr&#233;e au Fonds d&#8217;intervention r&#233;gional&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence. Cet amendement permet au Parlement de proc&#233;der &#224; un vote distinct sur la part de l'ONDAM consacr&#233;e au FIR avant de proc&#233;der au vote de l'ONDAM, qui lui-m&#234;me est distinct du vote de la des objectifs de d&#233;pense par branche des r&#233;gimes obligatoires de base.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/9.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:45:49",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N11",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "11",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL11",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "q",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "8",
+                  "alineaDesignation": "Alinéa 8"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">&#160;R&#233;diger ainsi les alin&#233;as 8 et 9 :</p>\n<p style=\"text-align: justify;\">\"Le dernier alin&#233;a est compl&#233;t&#233; par les mots suivants :</p>\n<p style=\"text-align: justify;\">\", qui ne peut intervenir qu'apr&#232;s le vote de la part de cet objectif consacr&#233;e au Fonds d'intervention r&#233;gional.\"</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence. Cet amendement permet au Parlement de proc&#233;der &#224; un vote distinct sur la part de l'ONDAM consacr&#233;e au FIR avant de proc&#233;der au vote de l'ONDAM, qui lui-m&#234;me est distinct du vote de la des objectifs de d&#233;pense par branche des r&#233;gimes obligatoires de base.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL11.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:12:25",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N14",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "14",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "14",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Irrecevable",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA344492",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA607090",
+                    "PA344492",
+                    "PA2084",
+                    "PA1857"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Sir&#233;,  M.&#160;Lazaro, M.&#160;Jean-Pierre&#160;Vigier et M.&#160;Alain&#160;Marleix"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "APRÈS ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "Après",
+                  "divisionRattachee": "APRÈS L'ARTICLE 3, insérer l'article suivant:",
+                  "articleAdditionnel": "1",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": null
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">I.&#160;&#8211;&#160;Le I de l&#8217;article L.&#160;1432&#8209;3 du code de la sant&#233; publique est ainsi modifi&#233;&#160;:</p>\n<p style=\"text-align: justify;\">1&#176; Le 1&#176; est compl&#233;t&#233; par les mots : &#171;&#160;dont le repr&#233;sentant de l&#8217;&#201;tat dans la r&#233;gion et le pr&#233;sident de la chambre r&#233;gionale des comptes&#160;&#187;.</p>\n<p style=\"text-align: justify;\">2&#176; Le 3&#176; est compl&#233;t&#233; par les mots : &#171;&#160;dont le pr&#233;sident du conseil r&#233;gional et un pr&#233;sident de conseil g&#233;n&#233;ral d&#233;sign&#233; par l&#8217;association des d&#233;partements de France&#160;&#187;.</p>\n<p style=\"text-align: justify;\">3&#176; Le huiti&#232;me alin&#233;a est ainsi r&#233;dig&#233; :</p>\n<p style=\"text-align: justify;\">&#171;&#160;Le conseil de surveillance comporte un pr&#233;sident et deux vice-pr&#233;sidents. Il est pr&#233;sid&#233; par le repr&#233;sentant de l&#8217;&#201;tat dans la r&#233;gion. Le pr&#233;sident du conseil r&#233;gional et le pr&#233;sident du conseil g&#233;n&#233;ral d&#233;sign&#233; par l&#8217;association des d&#233;partements de France sont vice-pr&#233;sidents de droit.&#160;&#187;</p>\n<p style=\"text-align: justify;\">II.&#160;&#8211;&#160; Les conseils de surveillance en fonctionnement &#224; la date de promulgation de la pr&#233;sente loi continuent de fonctionner dans leur composition actuelle, jusqu&#8217;au 31 d&#233;cembre 2014, date &#224; laquelle les dispositions n&#233;cessaires pour leur &#233;volution conforme au I du pr&#233;sent article doivent avoir &#233;t&#233; mises en &#339;uvre.&#160;&#187;</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Etablissements publics de l&#8217;Etat &#224; caract&#232;re administratif, les Agences R&#233;gionales de Sant&#233; sont n&#233;cessairement pr&#233;sid&#233;es par le Pr&#233;fet de R&#233;gion, dans le cadre du conseil de surveillance.</p>\n<p style=\"text-align: justify;\">L&#8217;objet du pr&#233;sent amendement est une meilleure implication et articulation des ARS avec les collectivit&#233;s territoriales dans la conception et la mise en &#339;uvre des politiques de sant&#233; et d&#8217;autonomie.</p>\n<p style=\"text-align: justify;\">Il est ainsi propos&#233; d&#8217;organiser une vice-pr&#233;sidence du conseil de surveillance par le pr&#233;sident du conseil r&#233;gional, d&#8217;une part, ainsi qu&#8217;une par un pr&#233;sident du conseil g&#233;n&#233;ral d&#233;sign&#233; par l&#8217;ADF, d&#8217;autre part. Il n&#8217;est pas pr&#233;vu, d&#233;lib&#233;r&#233;ment, que ces deux personnalit&#233;s ex&#233;cutives de collectivit&#233;s territoriales puissent se faire repr&#233;senter aux s&#233;ances du conseil de surveillance.</p>\n<p style=\"text-align: justify;\">Le pr&#233;sent amendement propose &#233;galement l&#8217;implication naturelle du pr&#233;sident de la chambre r&#233;gionale des comptes, au regard de l&#8217;importance des engagements financiers publics d&#233;cid&#233;s par les ARS et leurs agents.</p>\n<p style=\"text-align: justify;\">&#160;</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/14.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": null,
+              "dateDepot": "2014-02-17",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N6",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "6",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL6",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "m",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "6",
+                  "alineaDesignation": "Alinéa 6"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">A l'alin&#233;a 6, substituer aux mots : \"des objectifs r&#233;gionaux de d&#233;penses d'assurance maladie\", les mots : \"de sa part consacr&#233;e au Fonds d'intervention r&#233;gional\".</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence. Par rapport au droit existant, l'annexe du projet de loi de financement de la s&#233;curit&#233; sociale consacr&#233;e &#224; l'ONDAM devra pr&#233;ciser l'&#233;volution, au regard des besoins de sant&#233; publique, des soins financ&#233;s au titre du Fonds d'intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL6.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:04:48",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N6",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "6",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "6",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "j",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA2099",
+                    "PA267289",
+                    "PA1699",
+                    "PA267260",
+                    "PA746",
+                    "PA2377"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "7",
+                  "alineaDesignation": "Alinéa 7"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">Substituer aux alin&#233;as 7 et 8 l&#8217;alin&#233;a suivant&#160;:</p>\n<p style=\"text-align: justify;\"><span>&#171;&#160;c)&#160;Apr&#232;s le mot&#160;:&#160;&#171;maladie&#187;&#160;, la fin de la deuxi&#232;me phrase est ainsi r&#233;dig&#233;e&#160;:&#160;&#171;, de sa part consacr&#233;e au Fonds d&#8217;intervention r&#233;gional ou de la composition de ses autres sous-objectifs, en indiquant l&#8217;&#233;volution &#224; structure constante de chacun de ces &#233;l&#233;ments concern&#233;s par les modifications de p&#233;rim&#232;tre.&#160;&#187;</span></p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence relatif au contenu de l' annexe du projet de loi de financement de la s&#233;curit&#233; sociale consacr&#233;e &#224; l'ONDAM.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/6.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:39:05",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N2",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "2",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "2",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA267289",
+                    "PA746",
+                    "PA1699",
+                    "PA2099",
+                    "PA267260",
+                    "PA2377"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article PREMIER",
+                  "articleDesignationCourte": "ART. PREMIER",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE PREMIER",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_1er"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "5",
+                  "alineaDesignation": "Alinéa 5"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Substituer aux alin&#233;as&#160;6 et&#160;7 l&#8217;alin&#233;a suivant&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;3&#176; &#192; la premi&#232;re phrase du&#160;3&#176; du D du&#160;I , les mots&#160;: &#171;&#160;ainsi que ses&#160;&#187; sont remplac&#233;s par les mots&#160;:&#160;&#171;&#160;, sa part consacr&#233;e au Fonds d&#8217;intervention r&#233;gional ainsi que ses autres&#160;&#187;.</p>",
+                "exposeSommaire": "<p>Amendement de cons&#233;quence&#160;: il appartient chaque ann&#233;e au Parlement de fixer la part de l&#8217;ONDAM consacr&#233;e au Fonds d&#8217;intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/2.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:34:45",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N1",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "1",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL1",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Créant des objectifs régionaux de dépenses d’assurance maladie (ORDAM),",
+                  "articleDesignationCourte": "TITRE",
+                  "type": "TITRE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "TITRE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Creant_des_objectifs_regionaux_de_depe"
+                },
+                "alinea": null
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">Substituer aux mots : \"cr&#233;ant des objectifs r&#233;gionaux de d&#233;penses d'assurance maladie\", les mots \"relative &#224; la part de l'objectif national de d&#233;penses d'assurance maladie consacr&#233;e au Fonds d'intervention r&#233;gional\".</p>",
+                "exposeSommaire": "<p>Amendement de cons&#233;quence.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL1.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:12:42",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N8",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "8",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "8",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA2377",
+                    "PA2099",
+                    "PA746",
+                    "PA267260",
+                    "PA1699",
+                    "PA267289"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "4",
+                  "alineaDesignation": "Alinéa 4"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Substituer aux alin&#233;as 4 et 5 l&#8217;alin&#233;a suivant&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;b) La premi&#232;re phrase est compl&#233;t&#233;e par les mots&#160;:&#160;&#171;qui ne peut intervenir qu&#8217;apr&#232;s un vote sur la rectification de la part de cet objectif consacr&#233;e au Fonds d&#8217;intervention r&#233;gional.&#160;&#187;</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement permet au Parlement de proc&#233;der &#224; un vote distinct sur la rectification de la part de l'ONDAM consacr&#233;e au FIR avant de proc&#233;der au vote de la rectification de l'ONDAM, qui lui-m&#234;me est distinct du vote de la rectification des objectifs de d&#233;pense par branche des r&#233;gimes obligatoires de base.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/8.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:45:48",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N8",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "8",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL8",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "e",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "2",
+                  "alineaDesignation": "Alinéa 2"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>I. Supprimer les alin&#233;as 2 et 3.</p>\n<p>II. En cons&#233;quence, supprimer &#233;galement les alin&#233;as 6 et 7.</p>",
+                "exposeSommaire": "<p>La d&#233;composition de l'ONDAM en sous-objectifs doit rester imp&#233;rative.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL8.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:09:55",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N1",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "1",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "1",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "e",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA267289",
+                    "PA2377",
+                    "PA1699",
+                    "PA2099",
+                    "PA267260",
+                    "PA746"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article PREMIER",
+                  "articleDesignationCourte": "ART. PREMIER",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE PREMIER",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_1er"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "4",
+                  "alineaDesignation": "Alinéa 4"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">Substituer aux alin&#233;as 2 &#224; 5 l&#8217;alin&#233;a suivant&#160;:</p>\n<p>&#171;&#160;1&#176; Au 2&#176; du B du I, apr&#232;s le mot&#160;: &#171;&#160;base&#160;&#187;, sont ins&#233;r&#233;s les mots&#160;: &#171;&#160;et sa part consacr&#233;e au Fonds d&#8217;intervention r&#233;gional&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">La pr&#233;sente proposition de loi organique, d&#233;pos&#233;e sur le bureau de l'Assembl&#233;e nationale le 27 juin 2012, m&#233;rite d'&#234;tre mise &#224; jour compte tenu des dispositions l&#233;gislatives intervenues depuis et modifiant la composition de l'objectif national de d&#233;penses d'assurance-maladie (ONDAM).</p>\n<p style=\"text-align: justify;\">En effet, cette proposition de loi organique propose notamment de distinguer au sein de l'ONDAM une part nationale et une part r&#233;gionale, laquelle serait constitu&#233;e d'objectifs r&#233;gionaux de d&#233;penses d'assurance-maladie (ORDAM).</p>\n<p style=\"text-align: justify;\">Or, l&#8217;article 65 de la loi de financement de la s&#233;curit&#233; sociale pour 2012 s'est inscrit dans cette d&#233;marche en cr&#233;ant un nouveau fonds d&#8217;intervention r&#233;gional (FIR) fusionnant des cr&#233;dits et dotations existants au sein de l&#8217;ONDAM, afin de donner aux agences r&#233;gionales de sant&#233; (ARS) des instruments financiers souples et faciles d&#8217;emploi pour les mettre en situation de responsabilit&#233;.&#160;</p>\n<p style=\"text-align: justify;\">Enfin, l'article 65 de la loi de financement de la s&#233;curit&#233; sociale pour 2014 a &#233;rig&#233; le FIR en nouveau sous-objectif de l'ONDAM.</p>\n<p style=\"text-align: justify;\">Le pr&#233;sent amendement a donc pour objet de consacrer, sur le plan juridique et politique, la cr&#233;ation du Fonds d'intervention r&#233;gional au sein de l'ONDAM, qui correspond &#224; la part r&#233;gionale de l'ONDAM que souhaitait introduire l'article 1er de la pr&#233;sente proposition de loi organique.&#160;</p>\n<p style=\"text-align: justify;\"></p>\n<p style=\"text-align: justify;\"></p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/1.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:34:44",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N9",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "9",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL9",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "g",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "4",
+                  "alineaDesignation": "Alinéa 4"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">R&#233;diger ainsi les alin&#233;as 4 et 5 :</p>\n<p style=\"text-align: justify;\">\"2 &#176; Le deuxi&#232;me alin&#233;a est compl&#233;t&#233; par les mots suivants :</p>\n<p style=\"text-align: justify;\">\" qui ne peut intervenir qu'apr&#232;s un vote sur la rectification de la part de cet objectif consacr&#233;e au Fonds d'intervention r&#233;gional.\"</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement permet au Parlement de proc&#233;der &#224; un vote distinct sur la rectification de la part de l'ONDAM consacr&#233;e au FIR avant de proc&#233;der au vote de la rectification de l'ONDAM, qui lui-m&#234;me est distinct du vote de la rectification des objectifs de d&#233;pense par branche des r&#233;gimes obligatoires de base.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL9.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:12:21",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N4",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "4",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "4",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA1699",
+                    "PA2377",
+                    "PA2099",
+                    "PA746",
+                    "PA267289",
+                    "PA267260"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "4",
+                  "alineaDesignation": "Alinéa 4"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Apr&#232;s le mot&#160;:</p>\n<p>&#171;&#160;r&#233;dig&#233;e&#160;:&#160;&#171;&#160;&#187;</p>\n<p>r&#233;diger ainsi la fin de l'alin&#233;a 4 :</p>\n<p style=\"text-align: justify;\">&#171;&#160;et la part de cet objectif consacr&#233;e au Fonds d&#8217;intervention r&#233;gional ainsi que la d&#233;composition de cet objectif en d&#8217;autres sous-objectifs&#160;&#187;.&#160;&#187;</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence : l'annexe 7 du projet de loi de financement de la s&#233;curit&#233; sociale consacr&#233;e &#224; l'objectif national de d&#233;penses d'assurance maladie devra d&#233;sormais pr&#233;sent&#233;e le p&#233;rim&#232;tre de la part de l'ONDAM consacr&#233;e au Fonds d'intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/4.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:39:05",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N10",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "10",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL10",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "m",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Retiré",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "6",
+                  "alineaDesignation": "Alinéa 6"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Les alin&#233;as 6 et 7 sont supprim&#233;s.</p>",
+                "exposeSommaire": "<p>La d&#233;composition de l'ONDAM en sous-objectifs doit rester imp&#233;rative.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL10.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": null,
+              "dateDepot": "2014-02-11",
+              "dateDistribution": null,
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N12",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "12",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "12",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "b",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA356",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA356"
+                },
+                "texteAffichable": "M.&#160;Bapt et les membres  du groupe socialiste, r&#233;publicain et citoyen"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": null
+              },
+              "corps": {
+                "dispositif": "<p>Supprimer cet article.</p>",
+                "exposeSommaire": "<p>Dans un avis de d&#233;cembre 2011, le Haut conseil pour l&#8217;avenir de l&#8217;assurance maladie (HCAAM) a &#233;mis un avis d&#233;favorable &#224; la mise en place d&#8217;Objectifs R&#233;gionaux des D&#233;penses d&#8217;Assurance Maladie (ORDAM). En mettant en exergue la complexit&#233; de fixation du montant et du taux d&#8217;&#233;volution d&#8217;un ORDAM, le HCAAM r&#233;affirme la n&#233;cessit&#233; d&#8217;un pilotage national du syst&#232;me d&#8217;assurance maladie.</p>\n<p>Il recommande n&#233;anmoins de pr&#233;voir davantage de marges de man&#339;uvre pour les directeurs g&#233;n&#233;raux des agences r&#233;gionales de sant&#233; (ARS) dans la fongibilit&#233; des cr&#233;dits dont ils ont la responsabilit&#233;.</p>\n<p>C&#8217;est pourquoi, depuis mai 2012, notre majorit&#233; a revaloris&#233; le fonds d&#8217;intervention r&#233;gional (FIR)&#160;:</p>\n<p>- &#201;largissement du p&#233;rim&#232;tre du FIR (doublement du volume), dans le cadre du PLFSS 2013&#160;;</p>\n<p>- Cr&#233;ation d&#8217;un 7<sup>&#232;me</sup> sous objectif au sein de l&#8217;ONDAM consacr&#233; au FIR, dans le cadre du PLFSS pour 2014&#160;;</p>\n<p>- Assurer plus de flexibilit&#233; financi&#232;re en permettant des transferts entre la dotation annuelle de financement et le FIR, dans le cadre du PLFSS pour 2014.</p>\n<p>&#160;</p>\n<p>La cr&#233;ation d&#8217;un 7<sup>&#232;me</sup> sous objectif au sein de l&#8217;ONDAM sanctuarise le financement du FIR et constitue une triple garantie&#160;:</p>\n<p>- c&#8217;est une garantie de transparence sur les montants allou&#233;s annuellement au FIR&#160;;</p>\n<p>- c&#8217;est une garantie d&#8217;un meilleur pilotage de la d&#233;pense et de son ex&#233;cution&#160;;</p>\n<p>- c&#8217;est une garantie de meilleure visibilit&#233; sur le d&#233;cloisonnement de l&#8217;offre de soins.</p>\n<p>&#160;</p>\n<p>La strat&#233;gie nationale de sant&#233; et le projet de loi qui la mettra en &#339;uvre, dans les prochains mois, seront l&#8217;occasion d&#8217;aborder l&#8217;ensemble de ces enjeux.</p>\n<p>&#160;</p>\n<p>Pour toutes ces raisons cet amendement propose de supprimer l&#8217;article.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/12.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:39:00",
+                "sortEnSeance": "Adopté"
+              },
+              "dateDepot": "2014-02-17",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N11",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "11",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "11",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "b",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA356",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA356"
+                },
+                "texteAffichable": "M.&#160;Bapt et les membres  du groupe socialiste, r&#233;publicain et citoyen"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article PREMIER",
+                  "articleDesignationCourte": "ART. PREMIER",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE PREMIER",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_1er"
+                },
+                "alinea": null
+              },
+              "corps": {
+                "dispositif": "<p>Supprimer cet article.</p>",
+                "exposeSommaire": "<p>Dans un avis de d&#233;cembre 2011, le Haut conseil pour l&#8217;avenir de l&#8217;assurance maladie (HCAAM) a &#233;mis un avis d&#233;favorable &#224; la mise en place d&#8217;Objectifs R&#233;gionaux des D&#233;penses d&#8217;Assurance Maladie (ORDAM). En mettant en exergue la complexit&#233; de fixation du montant et du taux d&#8217;&#233;volution d&#8217;un ORDAM, le HCAAM r&#233;affirme la n&#233;cessit&#233; d&#8217;un pilotage national du syst&#232;me d&#8217;assurance maladie.</p>\n<p>Il recommande n&#233;anmoins de pr&#233;voir davantage de marges de man&#339;uvre pour les directeurs g&#233;n&#233;raux des agences r&#233;gionales de sant&#233; (ARS) dans la fongibilit&#233; des cr&#233;dits dont ils ont la responsabilit&#233;.</p>\n<p>C&#8217;est pourquoi, depuis mai 2012, notre majorit&#233; a revaloris&#233; le fonds d&#8217;intervention r&#233;gional (FIR)&#160;:</p>\n<p>- &#201;largissement du p&#233;rim&#232;tre du FIR (doublement du volume), dans le cadre du PLFSS 2013&#160;;</p>\n<p>- Cr&#233;ation d&#8217;un 7<sup>&#232;me</sup> sous objectif au sein de l&#8217;ONDAM consacr&#233; au FIR, dans le cadre du PLFSS pour 2014&#160;;</p>\n<p>- Assurer plus de flexibilit&#233; financi&#232;re en permettant des transferts entre la dotation annuelle de financement et le FIR, dans le cadre du PLFSS pour 2014.</p>\n<p>&#160;</p>\n<p>La cr&#233;ation d&#8217;un 7<sup>&#232;me</sup> sous objectif au sein de l&#8217;ONDAM sanctuarise le financement du FIR et constitue une triple garantie&#160;:</p>\n<p>- c&#8217;est une garantie de transparence sur les montants allou&#233;s annuellement au FIR&#160;;</p>\n<p>- c&#8217;est une garantie d&#8217;un meilleur pilotage de la d&#233;pense et de son ex&#233;cution&#160;;</p>\n<p>- c&#8217;est une garantie de meilleure visibilit&#233; sur le d&#233;cloisonnement de l&#8217;offre de soins.</p>\n<p>&#160;</p>\n<p>La strat&#233;gie nationale de sant&#233; et le projet de loi qui la mettra en &#339;uvre, dans les prochains mois, seront l&#8217;occasion d&#8217;aborder l&#8217;ensemble de ces enjeux.</p>\n<p>&#160;</p>\n<p>Pour toutes ces raisons cet amendement propose de supprimer l&#8217;article.</p>\n<p>&#160;</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/11.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:34:43",
+                "sortEnSeance": "Adopté"
+              },
+              "dateDepot": "2014-02-17",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N13",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "13",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "13",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "b",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA356",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA356"
+                },
+                "texteAffichable": "M.&#160;Bapt et les membres  du groupe socialiste, r&#233;publicain et citoyen"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": null
+              },
+              "corps": {
+                "dispositif": "<p>Supprimer cet article.</p>",
+                "exposeSommaire": "<p>Dans un avis de d&#233;cembre 2011, le Haut conseil pour l&#8217;avenir de l&#8217;assurance maladie (HCAAM) a &#233;mis un avis d&#233;favorable &#224; la mise en place d&#8217;Objectifs R&#233;gionaux des D&#233;penses d&#8217;Assurance Maladie (ORDAM). En mettant en exergue la complexit&#233; de fixation du montant et du taux d&#8217;&#233;volution d&#8217;un ORDAM, le HCAAM r&#233;affirme la n&#233;cessit&#233; d&#8217;un pilotage national du syst&#232;me d&#8217;assurance maladie.</p>\n<p>Il recommande n&#233;anmoins de pr&#233;voir davantage de marges de man&#339;uvre pour les directeurs g&#233;n&#233;raux des agences r&#233;gionales de sant&#233; (ARS) dans la fongibilit&#233; des cr&#233;dits dont ils ont la responsabilit&#233;.</p>\n<p>C&#8217;est pourquoi, depuis mai 2012, notre majorit&#233; a revaloris&#233; le fonds d&#8217;intervention r&#233;gional (FIR)&#160;:</p>\n<p>- &#201;largissement du p&#233;rim&#232;tre du FIR (doublement du volume), dans le cadre du PLFSS 2013&#160;;</p>\n<p>- Cr&#233;ation d&#8217;un 7<sup>&#232;me</sup> sous objectif au sein de l&#8217;ONDAM consacr&#233; au FIR, dans le cadre du PLFSS pour 2014&#160;;</p>\n<p>- Assurer plus de flexibilit&#233; financi&#232;re en permettant des transferts entre la dotation annuelle de financement et le FIR, dans le cadre du PLFSS pour 2014.</p>\n<p>&#160;</p>\n<p>La cr&#233;ation d&#8217;un 7<sup>&#232;me</sup> sous objectif au sein de l&#8217;ONDAM sanctuarise le financement du FIR et constitue une triple garantie&#160;:</p>\n<p>- c&#8217;est une garantie de transparence sur les montants allou&#233;s annuellement au FIR&#160;;</p>\n<p>- c&#8217;est une garantie d&#8217;un meilleur pilotage de la d&#233;pense et de son ex&#233;cution&#160;;</p>\n<p>- c&#8217;est une garantie de meilleure visibilit&#233; sur le d&#233;cloisonnement de l&#8217;offre de soins.</p>\n<p>&#160;</p>\n<p>La strat&#233;gie nationale de sant&#233; et le projet de loi qui la mettra en &#339;uvre, dans les prochains mois, seront l&#8217;occasion d&#8217;aborder l&#8217;ensemble de ces enjeux.</p>\n<p>&#160;</p>\n<p>Pour toutes ces raisons cet amendement propose de supprimer l&#8217;article.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/13.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:45:42",
+                "sortEnSeance": "Adopté"
+              },
+              "dateDepot": "2014-02-17",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N3",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "3",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL3",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "l",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article PREMIER",
+                  "articleDesignationCourte": "ART. PREMIER",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE PREMIER",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_1er"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "6",
+                  "alineaDesignation": "Alinéa 6"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Substituer aux alin&#233;as 6 et 7 l&#8217;alin&#233;a suivant&#160;:</p>\n<p>3&#176; A la premi&#232;re phrase du D du I , les mots : \"ainsi que ses sous-objectifs\" sont remplac&#233;s par les mots: \", sa part consacr&#233;e au Fonds d'intervention r&#233;gional ainsi que ses autres sous-objectifs\"</p>",
+                "exposeSommaire": "<p>Amendement de cons&#233;quence : il appartient chaque ann&#233;e au Parlement de fixer la part de l'ONDAM consacr&#233;e au Fonds d'intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL3.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:04:02",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N3",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "3",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "3",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "e",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA746",
+                    "PA1699",
+                    "PA267260",
+                    "PA2377",
+                    "PA267289",
+                    "PA2099"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "2",
+                  "alineaDesignation": "Alinéa 2"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>&#192; la fin de l&#8217;alin&#233;a&#160;2, substituer aux mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;aux objectifs r&#233;gionaux de d&#233;penses d&#8217;assurance maladie&#160;&#187;</p>\n<p style=\"text-align: justify;\">les mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;au Fonds d&#8217;intervention r&#233;gional&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement propose que le rapport annex&#233; au projet de loi de financement de la s&#233;curit&#233; sociale d&#233;crive non seulement l'objectif national de d&#233;penses d'assurance maladie pour les quatre ann&#233;es &#224; venir mais &#233;galement sa part consacr&#233;e au Fonds d'intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/3.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:39:04",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N5",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "5",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "5",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "m",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA2377",
+                    "PA1699",
+                    "PA746",
+                    "PA2099",
+                    "PA267289",
+                    "PA267260"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "6",
+                  "alineaDesignation": "Alinéa 6"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">&#192; l&#8217;alin&#233;a&#160;8, substituer aux mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;des objectifs r&#233;gionaux de d&#233;penses d&#8217;assurance maladie&#160;&#187;</p>\n<p style=\"text-align: justify;\">les mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;de sa part consacr&#233;e au Fonds d&#8217;intervention r&#233;gional&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence. Par rapport au droit existant, l'annexe du projet de loi de financement de la s&#233;curit&#233; sociale consacr&#233;e &#224; l'ONDAM devra pr&#233;ciser l'&#233;volution, au regard des besoins de sant&#233; publique, des soins financ&#233;s au titre du Fonds d'intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/5.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:39:05",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N5",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "5",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL5",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "4",
+                  "alineaDesignation": "Alinéa 4"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">Remplacer l'alin&#233;a 4 par l'alin&#233;a suivant :</p>\n<p style=\"text-align: justify;\">\"a) Apr&#232;s le mot : \"maladie\", la fin de la premi&#232;re phrase est ainsi r&#233;dig&#233;e : \" et la part de cet objectif consacr&#233;e au Fonds d'intervention r&#233;gional ainsi que la d&#233;composition de cet objectif en d'autres sous-objectifs\".\"</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Amendement de cons&#233;quence : l'annexe 7 du projet de loi de financement de la s&#233;curit&#233; sociale consacr&#233;e &#224; l'objectif national de d&#233;penses d'assurance maladie devra d&#233;sormais pr&#233;sent&#233;e le p&#233;rim&#232;tre de la part de l'ONDAM consacr&#233;e au Fonds d'intervention r&#233;gional.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL5.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:04:46",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420B0013P0D1N7",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "7",
+                "numRect": "1",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "7 (Rect)",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "e",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA2099",
+                    "PA267289",
+                    "PA1699",
+                    "PA746",
+                    "PA267260",
+                    "PA2377"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Door,  M.&#160;Martin-Lalande, M.&#160;Carrez, M.&#160;Jacquat, M.&#160;Perrut et Mme&#160;Poletti"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 3",
+                  "articleDesignationCourte": "ART. 3",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 3",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_3"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "2",
+                  "alineaDesignation": "Alinéa 2"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">I.&#160;&#8211; Supprimer l'alin&#233;a 3.</p>\n<p>II.&#160;&#8211; En cons&#233;quence, supprimer l&#8217;alin&#233;a&#160;7.</p>",
+                "exposeSommaire": "<p>La d&#233;composition de l'ONDAM en sous-objectifs doit rester imp&#233;rative.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/AN/7.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2014IDS18290",
+              "sort": {
+                "dateSaisie": "2014-02-20T12:45:45",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2014-02-14",
+              "dateDistribution": "2014-02-19",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14PO59051B0013P0D1N7",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "7",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "PIONANR5L14B0013",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO59051",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "CL7",
+              "etapeTexte": "1ère lecture (1ère assemblée saisie)",
+              "triAmendement": "q",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA267289",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO707869"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA267289"
+                },
+                "texteAffichable": "M.&#160;Door, rapporteur"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article 2",
+                  "articleDesignationCourte": "ART. 2",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE 2",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/0013.asp#D_Article_2"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "7",
+                  "alineaDesignation": "Alinéa 7"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Substituer aux alin&#233;as 7 et 8 l&#8217;alin&#233;a suivant&#160;:</p>\n<p><span>c) &#160;Apr&#232;s le mot : \"maladie\", la deuxi&#232;me phrase est ainsi r&#233;dig&#233;e : \", de sa part consacr&#233;e au Fonds d'intervention r&#233;gional ou de la composition de ses autres sous-objectifs, en indiquant l'&#233;volution &#224; structure constante de chacun de ces &#233;l&#233;ments concern&#233;s par les modifications de p&#233;rim&#232;tre.\"</span></p>",
+                "exposeSommaire": "<p>Amendement de cons&#233;quence relatif au contenu de l' annexe du projet de loi de financement de la s&#233;curit&#233; sociale consacr&#233;e &#224; l'ONDAM.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/0013/CION_LOIS/CL7.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": null,
+              "sort": {
+                "dateSaisie": "2014-02-12T12:04:50",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2014-02-11",
+              "dateDistribution": "2014-02-11",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "refTexteLegislatif": "RAPPANR5L14BTC2841",
+        "amendements": {
+          "amendement": [
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N2",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "2",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "2",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "pi",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA610002",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656014"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA609520",
+                    "PA608186",
+                    "PA609816",
+                    "PA588872",
+                    "PA332747",
+                    "PA605625",
+                    "PA2045",
+                    "PA606545",
+                    "PA605518",
+                    "PA605963",
+                    "PA610427",
+                    "PA610002",
+                    "PA605922",
+                    "PA609016",
+                    "PA606910",
+                    "PA606258",
+                    "PA610860",
+                    "PA607619"
+                  ]
+                },
+                "texteAffichable": "Mme&#160;Sas,  M.&#160;Alauzet, Mme&#160;Abeille, Mme&#160;Allain, Mme&#160;Attard, Mme&#160;Auroi, M.&#160;Baupin, Mme&#160;Bonneton, M.&#160;Cavard, M.&#160;Coronado, M.&#160;de Rugy, Mme&#160;Duflot, M.&#160;Fran&#231;ois-Michel&#160;Lambert, M.&#160;Mam&#232;re, Mme&#160;Massonneau, M.&#160;Molac, Mme&#160;Pompili et M.&#160;Roumegas"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "22",
+                  "alineaDesignation": "Alinéa 22"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">&#192; l&#8217;alin&#233;a&#160;22, apr&#232;s le mot&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;strat&#233;giques&#160;&#187;,</p>\n<p style=\"text-align: justify;\">ins&#233;rer les mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;,&#160;notamment dans les domaines de la transition &#233;cologique et &#233;nerg&#233;tique, de l&#8217;efficacit&#233; &#233;nerg&#233;tique et des &#233;nergies renouvelables&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Il est important de rappeler que les investissements dans la transition &#233;cologique et &#233;nerg&#233;tique, l&#8217;efficacit&#233; &#233;nerg&#233;tique et les &#233;nergies renouvelables doivent &#234;tre exclus de l&#8217;assiette du calcul du d&#233;ficit de 3&#160;%.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/2.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:46:53",
+                "sortEnSeance": "Tombé"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N3",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "3",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "3",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "s",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA606545",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656014"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA607619",
+                    "PA609816",
+                    "PA610427",
+                    "PA605963",
+                    "PA609016",
+                    "PA606545",
+                    "PA588872",
+                    "PA605625",
+                    "PA609520",
+                    "PA610860",
+                    "PA605922",
+                    "PA605518",
+                    "PA606258",
+                    "PA2045",
+                    "PA610002",
+                    "PA608186",
+                    "PA332747",
+                    "PA606910"
+                  ]
+                },
+                "texteAffichable": "M.&#160;Roumegas,  Mme&#160;Sas, M.&#160;Alauzet, Mme&#160;Abeille, Mme&#160;Allain, Mme&#160;Attard, Mme&#160;Auroi, M.&#160;Baupin, Mme&#160;Bonneton, M.&#160;Cavard, M.&#160;Coronado, M.&#160;de Rugy, Mme&#160;Duflot, M.&#160;Fran&#231;ois-Michel&#160;Lambert, M.&#160;Mam&#232;re, Mme&#160;Massonneau, M.&#160;Molac et Mme&#160;Pompili"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "Apres",
+                  "numero": "23",
+                  "alineaDesignation": null
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"page-break-after: avoid;\">Apr&#232;s l&#8217;alin&#233;a&#160;23, ins&#233;rer l&#8217;alin&#233;a suivant&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;3&#176;&#160;<i>bis</i>&#160;Consid&#232;re que les effets budg&#233;taires positifs, directs ou indirects, des efforts en mati&#232;re de pr&#233;vention sanitaire et de limitation des risques d&#8217;exposition aux toxiques devraient &#233;galement permettre l&#8217;exclusion de ces efforts de l&#8217;assiette du calcul du solde public nominal et structurel dans le cadre du pacte de stabilit&#233; et de croissance et du trait&#233; sur la stabilit&#233;, la coordination et la gouvernance au sein de l&#8217;Union &#233;conomique et mon&#233;taire&#160;;&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Les effets budg&#233;taires positifs des efforts en mati&#232;re de pr&#233;vention sanitaire et de limitation des risques d&#8217;exposition aux toxiques, notamment sur le budget de la S&#233;curit&#233; sociale, ne sont plus &#224; d&#233;montrer. Nous estimons que, compte tenu de ces effets positifs, il serait logique de les exclure de l&#8217;assiette du calcul des 3&#160;%.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/3.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:51:52",
+                "sortEnSeance": "Retiré"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N5",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "5",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "5",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "k",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA605076",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA605076"
+                },
+                "texteAffichable": "Mme&#160;Bechtel"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "19",
+                  "alineaDesignation": "Alinéa 19"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>Supprimer l&#8217;alin&#233;a&#160;19.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement supprime le consid&#233;rant introduit par la commission des Affaires europ&#233;ennes &#224; l&#8217;alin&#233;a&#160;19 relatif aux objectifs pour 2030 en mati&#232;re de climat et d&#8217;&#233;nergie pr&#233;sent&#233;s par la Commission europ&#233;enne le 22 janvier 2014 puisque, si son objet est l&#233;gitime, il pourrait sembler restreindre le champ des investissements dont il est demand&#233; au Gouvernement de n&#233;gocier la d&#233;duction du d&#233;ficit public et du d&#233;ficit structurel. Toutefois, les investissements li&#233;s &#224; la transition &#233;nerg&#233;tique seront, par un amendement ci-apr&#232;s, express&#233;ment mentionn&#233;s &#224; l&#8217;alin&#233;a&#160;23 qui pr&#233;cise la nature des investissements vis&#233;s par la pr&#233;sente r&#233;solution.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/5.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:42:28",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N4",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "4",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "4",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "p",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA609218",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA610891",
+                    "PA609218"
+                  ]
+                },
+                "texteAffichable": "Mme&#160;Grelier et M.&#160;Cordery"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "22",
+                  "alineaDesignation": "Alinéa 22"
+                }
+              },
+              "corps": {
+                "dispositif": "<p style=\"text-align: justify;\">Apr&#232;s le mot&#160;:</p>\n<p style=\"text-align: justify;\"><span>&#171;&#160;mon&#233;taire&#160;&#187;, </span></p>\n<p style=\"text-align: justify;\"><span>r&#233;diger ainsi la fin de l&#8217;alin&#233;a&#160;22&#160;:<br /></span></p>\n<p style=\"text-align: justify;\"><span>&#171;&#160;, d&#8217;une part,&#160;les d&#233;penses nationales consacr&#233;es &#224; des projets cofinanc&#233;s par l&#8217;Union europ&#233;enne, en particulier par le Fonds europ&#233;en pour les investissements strat&#233;giques, quels que soient le secteur &#233;conomique vis&#233; et la situation de l&#8217;&#233;conomie et des finances publiques de l&#8217;&#201;tat membre concern&#233; et, d&#8217;autre part, les contributions nationales nettes au budget de l&#8217;Union europ&#233;enne&#160;;&#160;&#187;.</span></p>",
+                "exposeSommaire": "<p style=\"page-break-after: avoid;\"><span>Cet amendement vise &#224; exclure les contributions nationales nettes au budget de l&#8217;Union europ&#233;enne du calcul du d&#233;ficit public.</span></p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/4.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:46:37",
+                "sortEnSeance": "Adopté"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N7",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "7",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "7",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "ro",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA605076",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA605076"
+                },
+                "texteAffichable": "Mme&#160;Bechtel"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "23",
+                  "alineaDesignation": "Alinéa 23"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>R&#233;diger ainsi l&#8217;alin&#233;a&#160;23&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;3&#176;&#160;Invite le Gouvernement &#224; demander &#224; la Commission de d&#233;finir des r&#232;gles communes permettant d&#8217;appr&#233;cier les effets positifs, directs et v&#233;rifi&#233;s sur le budget des &#201;tats membres de l&#8217;Union europ&#233;enne des investissements qu&#8217;ils r&#233;alisent directement en mati&#232;re de recherche et de d&#233;veloppement, notamment en mati&#232;re de transition &#233;nerg&#233;tique, y compris lorsque ces investissements sont financ&#233;s par un seul &#201;tat, en vue d&#8217;exclure ces derniers du calcul du solde public nominal et structurel dans le cadre du pacte de stabilit&#233; et de croissance et du trait&#233; sur la stabilit&#233;, la coordination et la gouvernance au sein de l&#8217;Union &#233;conomique et mon&#233;taire&#160;;&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement vise &#224; pr&#233;voir que certains investissements nationaux pourraient &#234;tre d&#233;duits du calcul du solde nominal et du solde structurel. Des conditions seraient fix&#233;es par les instances comp&#233;tentes (Conseil de l&#8217;Union europ&#233;enne et Commission europ&#233;enne) afin de d&#233;terminer des r&#232;gles communes relatives &#224; l&#8217;effet positif de l&#8217;investissement sur les finances publiques, ce qui suppose une &#233;valuation &#224; moyen terme. Les r&#232;gles fixeraient aussi le principe selon lequel il ne peut s&#8217;agir que d&#8217;investissements directs et bien entendu v&#233;rifi&#233;s. Quant au contenu de ces investissements, il devrait &#233;galement &#234;tre pr&#233;cis&#233; dans les m&#234;mes formes avec l&#8217;&#233;num&#233;ration des domaines auxquels ils peuvent s&#8217;appliquer, tels que la transition &#233;nerg&#233;tique.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/7.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:49:29",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N6",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "6",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "6",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "ri",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA605076",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656002"
+                },
+                "cosignataires": {
+                  "acteurRef": "PA605076"
+                },
+                "texteAffichable": "Mme&#160;Bechtel"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "23",
+                  "alineaDesignation": "Alinéa 23"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>R&#233;diger ainsi l&#8217;alin&#233;a&#160;23&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;3&#176;&#160;Consid&#232;re que les effets budg&#233;taires des investissements, b&#233;n&#233;ficiant directement &#224; la recherche et au d&#233;veloppement, notamment en mati&#232;re de transition &#233;nerg&#233;tique, y compris lorsque qu&#8217;ils sont financ&#233;s par un seul &#201;tat, devraient &#233;galement permettre l&#8217;exclusion de ces investissements du calcul du solde public nominal et structurel dans le cadre du pacte de stabilit&#233; et de croissance et du trait&#233; sur la stabilit&#233;, la coordination et la gouvernance au sein de l&#8217;Union &#233;conomique et mon&#233;taire,&#160;&#224; la condition que des r&#232;gles communes soient adopt&#233;es pour permettre d&#8217;appr&#233;cier le caract&#232;re positif, direct et v&#233;rifi&#233; de ces effets&#160;;&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">Cet amendement vise &#224; pr&#233;voir que certains investissements nationaux pourraient &#234;tre d&#233;duits du calcul du solde nominal et du solde structurel. Des conditions seraient fix&#233;es par les instances comp&#233;tentes (Conseil de l&#8217;Union europ&#233;enne et Commission europ&#233;enne) afin de d&#233;terminer des r&#232;gles communes relatives &#224; l&#8217;effet positif de l&#8217;investissement sur les finances publiques, ce qui suppose une &#233;valuation &#224; moyen terme. Les r&#232;gles fixeraient aussi le principe selon lequel il ne peut s&#8217;agir que d&#8217;investissements directs et bien entendu v&#233;rifi&#233;s. Quant au contenu de ces investissements, il devrait &#233;galement &#234;tre pr&#233;cis&#233; dans les m&#234;mes formes avec l&#8217;&#233;num&#233;ration des domaines auxquels ils peuvent s&#8217;appliquer, tels que la transition &#233;nerg&#233;tique.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/6.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:49:05",
+                "sortEnSeance": "Rejeté"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            },
+            {
+              "uid": "AMANR5L14SEA644420BTC2841P0D1N1",
+              "identifiant": {
+                "legislature": "14",
+                "numero": "1",
+                "numRect": "0",
+                "saisine": {
+                  "refTexteLegislatif": "RAPPANR5L14BTC2841",
+                  "numeroPartiePLF": "0",
+                  "organeExamen": "PO644420",
+                  "mentionSecondeDeliberation": "0"
+                }
+              },
+              "numeroLong": "1",
+              "etapeTexte": "Lecture unique",
+              "triAmendement": "i",
+              "cardinaliteAmdtMultiples": "1",
+              "amendementParent": null,
+              "etat": "Discuté",
+              "signataires": {
+                "auteur": {
+                  "typeAuteur": "Depute",
+                  "acteurRef": "PA610002",
+                  "organeRef": null,
+                  "groupePolitiqueRef": "PO656014"
+                },
+                "cosignataires": {
+                  "acteurRef": [
+                    "PA2045",
+                    "PA610002",
+                    "PA605922",
+                    "PA605963",
+                    "PA609520",
+                    "PA610860",
+                    "PA605625",
+                    "PA606545",
+                    "PA610427",
+                    "PA588872",
+                    "PA608186",
+                    "PA606258",
+                    "PA609816",
+                    "PA606910",
+                    "PA607619",
+                    "PA605518",
+                    "PA332747",
+                    "PA609016"
+                  ]
+                },
+                "texteAffichable": "Mme&#160;Sas,  M.&#160;Alauzet, Mme&#160;Abeille, Mme&#160;Allain, Mme&#160;Attard, Mme&#160;Auroi, M.&#160;Baupin, Mme&#160;Bonneton, M.&#160;Cavard, M.&#160;Coronado, M.&#160;de Rugy, Mme&#160;Duflot, M.&#160;Fran&#231;ois-Michel&#160;Lambert, M.&#160;Mam&#232;re, Mme&#160;Massonneau, M.&#160;Molac, Mme&#160;Pompili et M.&#160;Roumegas"
+              },
+              "pointeurFragmentTexte": {
+                "missionVisee": null,
+                "division": {
+                  "titre": "Article unique",
+                  "articleDesignationCourte": "ART. UNIQUE",
+                  "type": "ARTICLE",
+                  "avant_A_Apres": "A",
+                  "divisionRattachee": "ARTICLE UNIQUE",
+                  "articleAdditionnel": "0",
+                  "chapitreAdditionnel": "0",
+                  "urlDivisionTexteVise": "/14/textes/2841.asp#D_Article_unique"
+                },
+                "alinea": {
+                  "avant_A_Apres": "A",
+                  "numero": "18",
+                  "alineaDesignation": "Alinéa 18"
+                }
+              },
+              "corps": {
+                "dispositif": "<p>&#192; l&#8217;alin&#233;a&#160;18, supprimer les mots&#160;:</p>\n<p style=\"text-align: justify;\">&#171;&#160;,&#160;ind&#233;pendamment m&#234;me du co&#251;t li&#233; &#224; l&#8217;entretien d&#8217;une force de dissuasion nucl&#233;aire qui la place dans une situation budg&#233;taire diff&#233;rente des autres &#201;tats signataires du trait&#233; sur la stabilit&#233;, la coordination et la gouvernance au sein de l&#8217;Union &#233;conomique et mon&#233;taire susvis&#233;,&#160;&#187;.</p>",
+                "exposeSommaire": "<p style=\"text-align: justify;\">La dissuasion nucl&#233;aire fran&#231;aise rel&#232;ve essentiellement d&#8217;une politique de d&#233;fense nationale et non d&#8217;une mutualisation au niveau europ&#233;en. Ainsi, il est logique de ne pas y faire r&#233;f&#233;rence dans ce texte.</p>",
+                "annexeExposeSommaire": null
+              },
+              "representations": {
+                "representation": {
+                  "nom": "PDF",
+                  "typeMime": {
+                    "type": "application",
+                    "subType": "PDF"
+                  },
+                  "statutRepresentation": {
+                    "verbatim": "true",
+                    "canonique": "true",
+                    "officielle": "true",
+                    "transcription": "false",
+                    "enregistrement": "false"
+                  },
+                  "repSource": null,
+                  "offset": null,
+                  "contenu": {
+                    "documentURI": "/14/amendements/2841/AN/1.pdf"
+                  },
+                  "dateDispoRepresentation": null
+                }
+              },
+              "seanceDiscussion": "RUANR5L14S2015IDS19304",
+              "sort": {
+                "dateSaisie": "2015-06-08T18:39:04",
+                "sortEnSeance": "Adopté"
+              },
+              "dateDepot": "2015-06-04",
+              "dateDistribution": "2015-06-05",
+              "article99": "0",
+              "loiReference": {
+                "codeLoi": null,
+                "divisionCodeLoi": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

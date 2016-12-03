@@ -51,10 +51,11 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 				map.put(key, null);
 			}
 		}, this.getStringToNullValues());
+		this.addSpecificTranforms(rootMap);
 		return mapper.valueToTree(rootMap);
 	}
 
-	private void transform(Map<String, Object> rootMap, JSONTransformer transformer, JSONPathValues... pathValues) {
+	protected void transform(Map<String, Object> rootMap, JSONTransformer transformer, JSONPathValues... pathValues) {
 		if (pathValues != null && pathValues.length > 0 && rootMap != null) {
 			for (JSONPathValues jsonPathValue : pathValues) {
 				List<Map<String, Object>> workingMaps = jsonPathValue.getPath().getObjectsAtPath(rootMap);
@@ -67,6 +68,10 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 				}
 			}
 		}
+
+	}
+
+	protected void addSpecificTranforms(Map<String, Object> rootMap) {
 
 	}
 

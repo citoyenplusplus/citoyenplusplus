@@ -1,0 +1,59 @@
+{
+  "reunions": {
+    "reunion": [
+      {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "uid": "RUANR5L14S2016IDF0076295",
+        "timeStampDebut": "2016-03-15T10:00:00.000+01:00",
+        "timeStampFin": "2016-03-15T12:00:00.000+01:00",
+        "lieu": {
+          "code": "SALREU005",
+          "libelleCourt": "2ème Bureau",
+          "libelleLong": "2ème Bureau, Palais Bourbon"
+        },
+        "cycleDeVie": {
+          "etat": "confirmé",
+          "chrono": {
+            "creation": "2016-01-22T11:39:19.000+01:00",
+            2014-05-21T0017:18.0Z
+            "cloture": null
+          }
+        },
+        "demandeurs": {
+          "acteur": {
+            "nom": "Mme Cécile DUFLOT",
+            "acteurRef": "PA588872"
+          }
+        },
+        "organeReuniRef": null,
+        "typeReunion": "DEP"
+      },
+      {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "uid": "RUANR5L14S2017IDF0088915",
+        "timeStampDebut": "2017-02-09T08:30:00.000+01:00",
+        "timeStampFin": "2017-02-09T10:00:00.000+01:00",
+        "lieu": {
+          "code": "SALREU019",
+          "libelleCourt": "Salon Mars I",
+          "libelleLong": "Salon Mars I, 101, rue de l'Université"
+        },
+        "cycleDeVie": {
+          "etat": "Confirmé",
+          "chrono": {
+            "creation": "2016-12-01T17:07:41.000+01:00",
+            "cloture": null
+          }
+        },
+        "demandeurs": {
+          "acteur": {
+            "nom": "M. Yves BLEIN",
+            "acteurRef": "PA608641"
+          }
+        },
+        "organeReuniRef": null,
+        "typeReunion": "DEP"
+      }
+    ]
+  }
+}

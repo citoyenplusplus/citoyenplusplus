@@ -6,6 +6,7 @@ import org.citpp.parser.index.Indexer;
 import org.citpp.parser.json.JSONCleaner;
 import org.citpp.parser.json.JSONParser;
 import org.citpp.parser.json.impl.FrenchActeursJSONCleanerImpl;
+import org.citpp.parser.json.impl.FrenchReunionsJSONCleanerImpl;
 import org.citpp.parser.json.impl.FrenchVotesJSONCleanerImpl;
 import org.citpp.parser.json.impl.JSONParserListImpl;
 import org.citpp.parser.json.impl.ObjectArrayJSONParser;
@@ -14,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ParserConfiguration {
+public class JSONParserConfiguration {
 
 	@Resource(name = "defaultESIndexer")
 	private Indexer indexer;
@@ -37,6 +38,18 @@ public class ParserConfiguration {
 	@Value("${citpp.parser.scrutins.type:scrutin}")
 	private String scrutinsObjectType;
 
+	@Value("${citpp.parser.textelegs.field:texteleg}")
+	private String textesFieldName;
+
+	@Value("${citpp.parser.textelegs.type:texteleg}")
+	private String textesObjectType;
+
+	@Value("${citpp.parser.reunions.field:reunion}")
+	private String reunionsFieldName;
+
+	@Value("${citpp.parser.reunions.type:reunion}")
+	private String reunionsObjectType;
+
 	@Bean(name = "frenchActeursJSONCleaner")
 	public JSONCleaner frenchActeursJSONCleaner() {
 		return new FrenchActeursJSONCleanerImpl();
@@ -45,6 +58,11 @@ public class ParserConfiguration {
 	@Bean(name = "frenchVotesJSONCleaner")
 	public JSONCleaner frenchVotesJSONCleaner() {
 		return new FrenchVotesJSONCleanerImpl();
+	}
+
+	@Bean(name = "frenchReunionsJSONCleaner")
+	public JSONCleaner frenchReunionsJSONCleaner() {
+		return new FrenchReunionsJSONCleanerImpl();
 	}
 
 	@Bean(name = "acteursParser")
@@ -62,4 +80,14 @@ public class ParserConfiguration {
 				this.scrutinsObjectType);
 	}
 
+	@Bean(name = "amendementsParser")
+	public JSONParser amendementsParser() {
+		return new ObjectArrayJSONParser(this.indexer, null, this.textesFieldName, this.textesObjectType);
+	}
+
+	@Bean(name = "reunionsParser")
+	public JSONParser reunionsParser() {
+		return new ObjectArrayJSONParser(this.indexer, this.frenchReunionsJSONCleaner(), this.reunionsFieldName,
+				this.reunionsObjectType);
+	}
 }
