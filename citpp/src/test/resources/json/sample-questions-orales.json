@@ -1,0 +1,182 @@
+{
+  "questionsOralesSansDebat": {
+    "question": [
+      {
+        "uid": "QANR5L14QOSD209",
+        "identifiant": {
+          "numero": "209",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QOSD",
+        "indexationAN": {
+          "rubrique": "politique sociale",
+          "teteAnalyse": "centres communaux d'action sociale",
+          "analyses": {
+            "analyse": [
+              "missions",
+              "statistiques"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA2084",
+            "mandatRef": "PM645407"
+          },
+          "groupe": {
+            "organeRef": "PO707869",
+            "abrege": "LES-REP",
+            "developpe": "Les Républicains"
+          }
+        },
+        "minInt": {
+          "abrege": "Affaires sociales et santé",
+          "developpe": "Ministère des affaires sociales et de la santé"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Affaires sociales et santé",
+              "developpe": "Ministère des affaires sociales et de la santé"
+            }
+          }
+        },
+        "textesQuestion": {
+          "texteQuestion": {
+            "infoJO": {
+              "typeJO": "JO_QUESTION",
+              "dateJO": "2013-03-12"
+            },
+            "texte": "M. Alain Marleix appelle l'attention de Mme la ministre des affaires sociales et de la santé sur la lutte menée contre l'exclusion par les CCAS. Si ce bénévolat et l'oeuvre de toutes ces associations caritatives doivent être salués comme il se doit, nous ne devons pas cependant oublier le rôle joué tous les ans quotidiennement aussi, dans bon nombre de communes françaises, par les CCAS auprès des familles en difficulté et des plus démunis recensés sur leurs territoires. Les CCAS constituent depuis très longtemps un des maillons de la chaîne incontournable mais dont on ne parle que très peu souvent. Il lui demande de lui apporter des précisions sur l'action menée par ces organismes sociaux et s'il lui est possible de lui fournir le montant alloué annuellement par ceux-ci en faveur de la lutte contre la pauvreté et la précarité."
+          }
+        },
+        "textesReponse": {
+          "texteReponse": {
+            "infoJO": {
+              "typeJO": "JO_DEBAT",
+              "dateJO": "2013-03-20"
+            },
+            "texte": "<p align='center'>LUTTE CONTRE L'EXCLUSION MENÉE<br/>PAR LES CENTRES COMMUNAUX D'ACTION SOCIALE </p><b>Mme la présidente.</b> La parole est à M. Alain Marleix, pour exposer sa question, n° 209, relative à la lutte contre l'exclusion menée par les centres communaux d'action sociale.<br/><b>M. Alain Marleix.</b> Madame la ministre des affaires sociales et de la santé, je souhaite appeler l'attention du Gouvernement sur la lutte contre l'exclusion menée par les CCAS, autrement dit par nos collectivités territoriales. Cette question intéresse aussi M. le ministre de l'intérieur.<br/>Période hivernale oblige, les Restos du Coeur, le Secours catholique et les nombreuses autres associations caritatives ont été sous les feux de l'actualité, et ce d'autant plus que l'Europe a, hélas ! diminué les subsides accordés à l'aide alimentaire.<br/>Ces associations et leurs bénévoles se dévouent quotidiennement pour venir en aide aux plus démunis. Des collectes alimentaires ont été organisées encore ces dernières semaines à travers toute la France. Il est indéniable qu'un hommage appuyé doit être adressé à toutes ces personnes qui apportent leur contribution à toutes celles et tous ceux qui souffrent financièrement et moralement.<br/>Si ce bénévolat et l'oeuvre de toutes ces associations caritatives doivent être salués comme il se doit, nous ne devons pas oublier, me semble-t-il, le rôle joué tous les ans quotidiennement, dans quasiment toutes les communes françaises, par les CCAS auprès des familles en difficulté et des plus démunis recensés sur leurs territoires.<br/>Si les médias citent le plus souvent en exemple les associations caritatives les plus représentatives ou les plus médiatisées compte tenu de la présence de nombreux artistes dans la lutte constante contre l'exclusion, les CCAS constituent depuis très longtemps un des maillons incontournables de la chaîne mais dont on ne parle, hélas ! que très peu souvent. Cette action, qui apparaît presque souterraine, est néanmoins déterminante par son ampleur sur tout le territoire national.<br/>Je vous demande de bien vouloir apporter des précisions sur l'action menée par ces organismes sociaux et par les quelque 650 000 conseillers municipaux que compte notre pays, qui se dévouent inlassablement. Pouvez-vous nous communiquer le montant alloué chaque année par les collectivités locales et les organismes sociaux à la lutte contre la pauvreté et la précarité ?<br/><b>Mme la présidente.</b> La parole est à Mme la ministre des affaires sociales et de la santé.<br/><b>Mme Marisol Touraine,</b> <i>ministre des affaires sociales et de la santé. </i>Monsieur le député, je vous remercie de votre question qui me donne l'occasion de saluer le travail remarquable des centres communaux et intercommunaux d'action sociale. Les élus locaux connaissent bien l'engagement des élus et des bénévoles.<br/>Leur rôle dans la mise en oeuvre des politiques de lutte contre l'exclusion et dans le travail de proximité qui doit être mené chaque jour au plus près de nos concitoyens est évidemment tout à fait essentiel.<br/>L'action des CCAS et des CIAS mobilise au total 2,6 milliards d'euros de budget consolidé, ce qui est considérable.<br/>Dans le champ de la lutte contre les exclusions, ces organismes ont su développer de nombreux outils. Ainsi, en matière d'aide alimentaire, ils proposent des aides financières, des bons alimentaires, des colis ou des chèques d'accompagnement personnalisé. Certains de ces centres gèrent parfois une épicerie ou un restaurant social.<br/>Leur engagement en matière d'hébergement et de logement, de soutien à la gestion budgétaire, à l'insertion socioprofessionnelle est également important. Ils sont les principaux relais de proximité pour la mise en place des dispositifs légaux d'accompagnement professionnel, que ce soit dans le cadre du RSA ou de l'insertion par l'activité économique.<br/>On a souvent tendance à réduire leur champ d'intervention à l'aide alimentaire ou à l'aide à l'accès au logement, mais il est plus large : accès à la culture et aux loisirs, accès aux droits, micro-crédit personnel, lutte contre l'illettrisme. Ils sont mobilisés sur tous ces fronts alors que ce sont des compétences facultatives, ce qui montre leur volonté de répondre aux difficultés concrètes de la population.<br/>J'ajoute que plus du tiers de ces centres déclare compter dans ses équipes un ou plusieurs travailleurs sociaux. La plupart de ces centres est située dans des communes ou intercommunalités de moins de 10 000 habitants. Les centres jouent ainsi un rôle important en relation avec les conseils généraux mais aussi les autres associations et les caisses de sécurité sociale.<br/>Les travaux préparatoires de la Conférence nationale contre la pauvreté et pour l'inclusion sociale ont montré l'importance de cette action coordonnée. Le plan de lutte contre l'exclusion présenté par le Gouvernement le 21 janvier dernier a prévu une évaluation de leur rôle, mais en même temps la reconnaissance de leur rôle majeur sur nos territoires.<br/>"
+          }
+        },
+        "cloture": {
+          "codeCloture": "REP_PUB",
+          "libelleCloture": "Réponse publiée",
+          "dateCloture": "2013-03-20",
+          "infoJO": {
+            "typeJO": "JO_DEBAT",
+            "dateJO": "2013-03-20",
+            "pageJO": "3012"
+          }
+        }
+      },
+      {
+        "uid": "QANR5L14QOSD1536",
+        "identifiant": {
+          "numero": "1536",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QOSD",
+        "indexationAN": {
+          "rubrique": "professions de santé",
+          "teteAnalyse": "médecins",
+          "analyses": {
+            "analyse": [
+              "effectifs de la profession",
+              "répartition géographique"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA608695",
+            "mandatRef": "PM645605"
+          },
+          "groupe": {
+            "organeRef": "PO713077",
+            "abrege": "SER",
+            "developpe": "Socialiste, écologiste et républicain"
+          }
+        },
+        "minInt": {
+          "abrege": "Affaires sociales et santé",
+          "developpe": "Ministère des affaires sociales et de la santé"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Affaires sociales et santé",
+              "developpe": "Ministère des affaires sociales et de la santé"
+            }
+          }
+        },
+        "textesQuestion": {
+          "texteQuestion": {
+            "infoJO": {
+              "typeJO": "JO_QUESTION",
+              "dateJO": "2016-11-22"
+            },
+            "texte": "Mme Cécile Untermaier attire l'attention de Mme la ministre des affaires sociales et de la santé sur la désertification médicale dans les territoires ruraux. De plus en plus de médecins partant à la retraite éprouvent des difficultés à trouver de jeunes confrères pour reprendre leur cabinet ou leur succéder au sein de maisons de santé nouvellement mises en place. Malgré la mise en place dès 2012 par le Gouvernement, du pacte territoire-santé, dont l'objectif est d'assurer une meilleure répartition des médecins sur le territoire par divers moyens et en particulier, par la création de maisons de santé pluridisciplinaires, les difficultés persistent. Les patients peinent à trouver un médecin traitant et savent qu'ils ne pourront plus disposer d'un médecin référent. Par ailleurs, les maisons de santé, pour certaines d'entre elles, concentrent les difficultés en terme de recrutement et mettent en situation préoccupante la collectivité locale qui finance l'opération. Aussi, elle lui demande quelles solutions sont envisageables pour améliorer cette situation."
+          }
+        },
+        "textesReponse": null,
+        "cloture": null
+      },
+      {
+        "uid": "QANR5L14QOSD1544",
+        "identifiant": {
+          "numero": "1544",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QOSD",
+        "indexationAN": {
+          "rubrique": "arts et spectacles",
+          "teteAnalyse": "musique",
+          "analyses": {
+            "analyse": [
+              "scènes de musiques actuelles",
+              "dotations"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA2603",
+            "mandatRef": "PM645552"
+          },
+          "groupe": {
+            "organeRef": "PO713077",
+            "abrege": "SER",
+            "developpe": "Socialiste, écologiste et républicain"
+          }
+        },
+        "minInt": {
+          "abrege": "Culture et communication",
+          "developpe": "Ministère de la culture et de la communication"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Culture et communication",
+              "developpe": "Ministère de la culture et de la communication"
+            }
+          }
+        },
+        "textesQuestion": {
+          "texteQuestion": {
+            "infoJO": {
+              "typeJO": "JO_QUESTION",
+              "dateJO": "2016-11-22"
+            },
+            "texte": "M. Marcel Rogemont interroge Mme la ministre de la culture et de la communication à propos des SMAC et plus particulièrement des moyens alloués à l'ATM, l'Association des Trans musicales. Le label SMAC regroupe environ 150 lieux musicaux de petite et moyenne capacité, dédiés aux musiques actuelles. En mettant à disposition des infrastructures d'aide à la création, ces structures font partie des garanties de l'accès à la culture pour tous. Indispensables au développement et au rayonnement de la musique actuelle dans les territoires, ces labels font néanmoins partie des parents pauvres des différentes aides accordées par le ministère. Ainsi, à l'aune de sa 37e édition, le festival des Trans musicales, fidèle à sa ligne éditoriale, maintient une exigence de découvertes qui en fait un des événements les plus importants de l'agenda des musiques actuelles. Malgré le succès reconnu de ce festival, l'ATM, structure porteuse du projet, connaît une situation budgétaire toujours préoccupante. Depuis 2008, l'ATM fait face à l'augmentation mesurée et constante de ses charges de fonctionnement et de production générale. Malgré de fréquents taux de remplissage à 100 %, ces records, assez aléatoires, ne permettent plus de générer un excédent suffisant pour sortir de la fragilité. Cette situation d'instabilité génère une gestion de projet par à-coups. La logique de projet a laissé place à la logique de budget sans que puisse s'affermir un équilibre stable. Les budgets de production liés au projet artistique et culturel sont devenus des variables d'ajustement. L'évolution des subventions publiques fait apparaître une diminution du pourcentage de ces aides dans le budget global pointant particulièrement l'érosion du soutien de la DRAC Bretagne et du ministère de la culture et de la communication dans une même période d'élargissement et de densification du projet. Pour que la convention pluriannuelle d'objectif puisse être honorée, l'ATM a besoin d'une aide pérenne significative pour consolider son budget. Dans l'objectif de préserver l'existant du projet et de consolider sa pertinence, il sollicite une équité de traitement avec les institutions des autres domaines artistiques et lui demande quelles perspectives pourrait-il ouvrir en direction des SMAC, dispositif créé depuis plus de 16 ans et qui n'a cessé de faire ses preuves."
+          }
+        },
+        "textesReponse": null,
+        "cloture": null
+      }
+    ]
+  }
+}

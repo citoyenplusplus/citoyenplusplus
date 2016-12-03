@@ -25,6 +25,16 @@ public class ImportProcessTest {
 	@Resource(name = "reunionsProcess")
 	private Process reunionsProcess;
 
+	@Resource(name = "dossiersProcess")
+	private Process dossiersProcess;
+
+	@Resource(name = "questionsOralesProcess")
+	private Process questionsOralesProcess;
+	@Resource(name = "questionsEcritesProcess")
+	private Process questionsEcritesProcess;
+	@Resource(name = "questionsGouvProcess")
+	private Process questionsGouvProcess;
+
 	@Test
 	public void testImportActeursProcess() {
 		this.acteursProcess.execute();
@@ -43,5 +53,25 @@ public class ImportProcessTest {
 	@Test
 	public void testImportReunionsProcess() {
 		this.reunionsProcess.execute();
+	}
+
+	@Test
+	public void testImportDossiersProcess() {
+		this.dossiersProcess.execute();
+	}
+
+	@Test
+	public void testImportQuestionsOralesProcess() {
+		this.questionsOralesProcess.execute();
+	}
+
+	@Test
+	public void testImportQuestionsEcritesProcess() {
+		this.questionsEcritesProcess.execute();
+	}
+
+	@Test
+	public void testImportQuestionsGouvProcess() {
+		this.questionsGouvProcess.execute();
 	}
 }

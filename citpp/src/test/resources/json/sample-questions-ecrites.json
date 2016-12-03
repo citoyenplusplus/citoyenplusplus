@@ -1,0 +1,182 @@
+{
+  "questionsEcrites": {
+    "question": [
+      {
+        "uid": "QANR5L14QE96439",
+        "identifiant": {
+          "numero": "96439",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QE",
+        "indexationAN": {
+          "rubrique": "tourisme et loisirs",
+          "teteAnalyse": "politique du tourisme",
+          "analyses": {
+            "analyse": [
+              "taxe de séjour",
+              "personnes en situation de handicap",
+              "perspectives"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA344242",
+            "mandatRef": "PM645170"
+          },
+          "groupe": {
+            "organeRef": "PO713077",
+            "abrege": "SER",
+            "developpe": "Socialiste, écologiste et républicain"
+          }
+        },
+        "minInt": {
+          "abrege": "Finances et comptes publics",
+          "developpe": "Ministère des finances et des comptes publics"
+        },
+        "minAttribs": {
+          "minAttrib": [
+            {
+              "denomination": {
+                "abrege": "Finances et comptes publics",
+                "developpe": "Ministère des finances et des comptes publics"
+              }
+            },
+            {
+              "denomination": {
+                "abrege": "Économie et finances",
+                "developpe": "Ministère de l'économie et des finances"
+              }
+            }
+          ]
+        },
+        "textesQuestion": {
+          "texteQuestion": {
+            "infoJO": {
+              "typeJO": "JO_QUESTION",
+              "dateJO": "2016-06-07"
+            },
+            "texte": "M. Philippe Kemel appelle l'attention de M. le ministre des finances et des comptes publics sur l'abrogation de la circulaire référencée n° NOR/LBL/BO3/10070/C en date du 3 octobre 2003 qui fixait des exonérations (et réductions) ne dépendant pas des natures d'hébergement mais liées aux conditions des personnes hébergées. En effet, la dernière loi de finances vient de supprimer l'exonération de la taxe de séjour dont bénéficiaient jusqu'à présent les personnes handicapées durant leurs loisirs et leurs vacances. Ce dispositif permettait indirectement aux associations, ayant pour objet de mettre en place des séjours ou vacances pour des personnes handicapées, de bénéficier d'une réduction sur le tarif global du séjour. En outre, ces personnes déficientes intellectuellement disposent, en général, de faibles revenus et une augmentation, aussi minime soit-elle, impacte réellement sur leur participation à ces moments d'évasion de leur quotidien. Il lui demande si le Gouvernement envisage de revenir sur la suppression de cette exonération qui bénéficiait aux plus modestes."
+          }
+        },
+        "textesReponse": null,
+        "cloture": null,
+        "signalement": null,
+        "renouvellements": null
+      },
+      {
+        "uid": "QANR5L14QE100996",
+        "identifiant": {
+          "numero": "100996",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QE",
+        "indexationAN": {
+          "rubrique": "professions de santé",
+          "teteAnalyse": "réglementation",
+          "analyses": {
+            "analyse": [
+              "activité physique adaptée",
+              "décret",
+              "publication"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA2098",
+            "mandatRef": "PM645351"
+          },
+          "groupe": {
+            "organeRef": "PO707869",
+            "abrege": "LES-REP",
+            "developpe": "Les Républicains"
+          }
+        },
+        "minInt": {
+          "abrege": "Affaires sociales et santé",
+          "developpe": "Ministère des affaires sociales et de la santé"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Affaires sociales et santé",
+              "developpe": "Ministère des affaires sociales et de la santé"
+            }
+          }
+        },
+        "textesQuestion": {
+          "texteQuestion": {
+            "infoJO": {
+              "typeJO": "JO_QUESTION",
+              "dateJO": "2016-11-29"
+            },
+            "texte": "M. Philippe Armand Martin attire l'attention de Mme la ministre des affaires sociales et de la santé sur le remboursement des activités physiques adaptées et encadrées dans le cadre du parcours de soins des patients atteints de cancer. La pratique régulière d'une activité physique adaptée et encadrée est de plus en plus considérée par le personnel soignant comme un complément du soin efficace contre le cancer. Une enquête nationale a été menée sur les conditions d'accès à l'activité physique en cancérologie, auprès de 1 554 patients (dont deux tiers de femmes souffrant d'un cancer du sein) et de 900 soignants. Le bénéfice a été constaté dans tous les cas de figure (cancer du sein, hématologique, digestif, poumon, ORL, urologique). Selon cette enquête, 90 % des patients sondés ont constaté une baisse de la fatigue et une amélioration de leur qualité de vie notamment grâce à l'amélioration de leurs capacités cardio-respiratoires. Dans cette cohorte, 83 % des patients affirment ressentir une amélioration de leurs chances de guérison et une meilleure tolérance au traitement. Les soignants prescrivent de plus en plus une activité physique adaptée et encadrée, et ce phénomène est plus important encore chez les jeunes médecins. C'est dans cet esprit que la loi du 26 janvier 2016 de modernisation de notre système de santé avait prévu, dans son article 144, la prescription, par le médecin traitant, de l'activité physique adaptée à la pathologie, aux capacités physiques et au risque médical du patient, dans le cadre du parcours de soins des patients atteints d'une affection de longue durée. À ce jour, le décret n'est pas encore publié. Le personnel soignant et les patients s'inquiètent de son contenu et du niveau de remboursement des activités prescrites. Aussi il souhaite savoir à quelle échéance paraîtra ce décret."
+          }
+        },
+        "textesReponse": null,
+        "cloture": null,
+        "signalement": null,
+        "renouvellements": null
+      },
+      {
+        "uid": "QANR5L14QE100883",
+        "identifiant": {
+          "numero": "100883",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QE",
+        "indexationAN": {
+          "rubrique": "animaux",
+          "teteAnalyse": "équidés",
+          "analyses": {
+            "analyse": [
+              "Fonds équitation",
+              "mesures de soutien",
+              "bénéficiaires"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA607395",
+            "mandatRef": "PM645343"
+          },
+          "groupe": {
+            "organeRef": "PO713077",
+            "abrege": "SER",
+            "developpe": "Socialiste, écologiste et républicain"
+          }
+        },
+        "minInt": {
+          "abrege": "Agriculture, agroalimentaire et forêt",
+          "developpe": "Ministère de l'agriculture, de l'agroalimentaire et de la forêt"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Agriculture, agroalimentaire et forêt",
+              "developpe": "Ministère de l'agriculture, de l'agroalimentaire et de la forêt"
+            }
+          }
+        },
+        "textesQuestion": {
+          "texteQuestion": {
+            "infoJO": {
+              "typeJO": "JO_QUESTION",
+              "dateJO": "2016-11-29"
+            },
+            "texte": "M. Stéphane Travert attire l'attention de M. le ministre de l'agriculture, de l'agroalimentaire et de la forêt, porte-parole du Gouvernement, sur les inquiétudes des acteurs de la filière équine face à la gestion du « fonds équitation ». Ce fonds créé en 2014 en raison du passage de la TVA à taux réduit au taux normal, suite à l'arrêt de la Cour de Justice de l'Union Européenne et dans l'attente de la révision de la directive européenne 2006/112/CE, devait permettre d'accompagner l'ensemble de la filière équine afin d'amortir les effets de cette hausse. La convention de gestion de fonds signée entre la FFE, le GHN, le FNC et les sociétés de courses avait pour finalité la répartition équitable des dotations entre tous les acteurs de la filière. Or il semble que la Fédération française d'équitation entend réserver les dotations au seul bénéfice de ses adhérents, ce qui revient à exclure 25 % des autres opérateurs de la filière, menaçant ainsi leur pérennité. Il lui demande quelles sont ses intentions pour permettre une répartition équitable de ces dotations et ainsi lever les incertitudes qui pèsent sur cette filière."
+          }
+        },
+        "textesReponse": null,
+        "cloture": null,
+        "signalement": null,
+        "renouvellements": null
+      }
+    ]
+  }
+}

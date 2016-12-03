@@ -50,6 +50,24 @@ public class JSONParserConfiguration {
 	@Value("${citpp.parser.reunions.type:reunion}")
 	private String reunionsObjectType;
 
+	@Value("${citpp.parser.dossiers.field:dossier}")
+	private String dossiersFieldName;
+
+	@Value("${citpp.parser.dossiers.type:dossier}")
+	private String dossiersObjectType;
+
+	@Value("${citpp.parser.documents.field:document}")
+	private String documentsFieldName;
+
+	@Value("${citpp.parser.documents.type:document}")
+	private String documentsObjectType;
+
+	@Value("${citpp.parser.questions.field:question}")
+	private String questionsFieldName;
+
+	@Value("${citpp.parser.questions.type:question}")
+	private String questionsObjectType;
+
 	@Bean(name = "frenchActeursJSONCleaner")
 	public JSONCleaner frenchActeursJSONCleaner() {
 		return new FrenchActeursJSONCleanerImpl();
@@ -90,4 +108,19 @@ public class JSONParserConfiguration {
 		return new ObjectArrayJSONParser(this.indexer, this.frenchReunionsJSONCleaner(), this.reunionsFieldName,
 				this.reunionsObjectType);
 	}
+
+	@Bean(name = "dossiersParser")
+	public JSONParser dossiersParser() {
+		JSONParser dossiersParser = new ObjectArrayJSONParser(this.indexer, null, this.dossiersFieldName,
+				dossiersObjectType);
+		JSONParser documentsParser = new ObjectArrayJSONParser(this.indexer, null, this.documentsFieldName,
+				this.documentsObjectType);
+		return new JSONParserListImpl(dossiersParser, documentsParser);
+	}
+
+	@Bean(name = "questionsParser")
+	public JSONParser questionsParser() {
+		return new ObjectArrayJSONParser(this.indexer, null, this.questionsFieldName, this.questionsObjectType);
+	}
+
 }

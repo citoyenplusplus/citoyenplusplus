@@ -7,7 +7,9 @@ public enum JSONTransformerType {
 		}
 	}), STRING_TO_INT((map, key) -> {
 		Object object = map.get(key);
-		map.put(key, Integer.parseInt(object.toString()));
+		if (object != null) {
+			map.put(key, Integer.parseInt(object.toString()));
+		}
 	});
 	private final JSONTransformer transformer;
 

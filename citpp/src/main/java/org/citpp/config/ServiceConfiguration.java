@@ -27,6 +27,12 @@ public class ServiceConfiguration {
 	@Resource(name = "reunionsParser")
 	private JSONParser reunionsParser;
 
+	@Resource(name = "dossiersParser")
+	private JSONParser dossiersParser;
+
+	@Resource(name = "questionsParser")
+	private JSONParser questionsParser;
+
 	@Bean(name = "defaultDownloader")
 	public ResourceDownloader defaultDownloader() {
 		return new ResourceDownloaderImpl();
@@ -51,8 +57,19 @@ public class ServiceConfiguration {
 	public ResourceParser amendementsResourceParser() {
 		return new ResourceParserImpl(this.amendementsParser);
 	}
+
 	@Bean(name = "reunionsResourceParser")
 	public ResourceParser reunionsResourceParser() {
 		return new ResourceParserImpl(this.reunionsParser);
+	}
+
+	@Bean(name = "dossiersResourceParser")
+	public ResourceParser dossiersResourceParser() {
+		return new ResourceParserImpl(this.dossiersParser);
+	}
+
+	@Bean(name = "questionsResourceParser")
+	public ResourceParser questionsResourceParser() {
+		return new ResourceParserImpl(this.questionsParser);
 	}
 }

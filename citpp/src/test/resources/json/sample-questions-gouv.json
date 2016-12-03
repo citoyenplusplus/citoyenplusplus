@@ -1,0 +1,190 @@
+{
+  "questionsGvt": {
+    "question": [
+      {
+        "uid": "QANR5L14QG2426",
+        "identifiant": {
+          "numero": "2426",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QG",
+        "indexationAN": {
+          "rubrique": "eau",
+          "teteAnalyse": "agences de l'eau",
+          "analyses": {
+            "analyse": [
+              "financement",
+              "perspectives"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA2690",
+            "mandatRef": "PM645458"
+          },
+          "groupe": {
+            "organeRef": "PO656010",
+            "abrege": "UDI",
+            "developpe": "Union des démocrates et indépendants"
+          }
+        },
+        "minInt": {
+          "abrege": "Écologie, développement durable et énergie",
+          "developpe": "Ministère de l'écologie, du développement durable et de l'énergie"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Écologie, développement durable et énergie",
+              "developpe": "Ministère de l'écologie, du développement durable et de l'énergie"
+            }
+          }
+        },
+        "textesReponse": {
+          "texteReponse": {
+            "infoJO": {
+              "typeJO": "JO_DEBAT",
+              "dateJO": "2014-12-17"
+            },
+            "texte": "</p><p align=\"CENTER\"> POLITIQUE DE L'EAU <a name=PG6></a> </p><br><strong>M. le président. </strong>La parole est à M. François Sauvadet, pour le groupe de l'Union des démocrates et indépendants.<br><br><strong>M. François Sauvadet. </strong>Je voudrais tout d'abord féliciter notre nouveau collègue de son élection <i>(Applaudissements sur les bancs des groupes UDI et UMP.)</i> Ce qui compte, ce n'est pas la sensibilité politique supposée des électeurs qui se sont exprimés mais bien qu'il ait été élu ; c'est cela, la démocratie.<br><br>Monsieur le président, ma question s'adresse à Mme la ministre de l'écologie.<br><br>Madame la ministre, vous avez fixé une feuille de route ambitieuse pour protéger notre ressource en eau. Cette ambition, nous la partageons tous car, vous le savez, la France n'a pas atteint les objectifs de bon état écologique de l'eau qu'elle s'était fixés malgré nos efforts.<br><br>Cependant, madame la ministre, il est parfaitement incompréhensible que, au moment où vous fixez cette feuille de route, le Gouvernement s'apprête à ponctionner le budget des agences de l'eau à hauteur de 175 millions d'euros chaque année pendant trois ans.<br><br><strong>M. Dominique Bussereau.</strong> Eh oui !<br><br><strong>M. François Sauvadet. </strong>Cela représente 10 % des investissements dans le domaine de l'eau, sans lesquels il va falloir malgré tout accompagner l'extension des zones vulnérables qui, selon les annonces, vont concerner 3 800 communes supplémentaires, ce qui est beaucoup trop. Il va falloir aussi poursuivre le combat contre la prolifération des algues vertes, veiller à la qualité de nos rivières, de notre littoral et de nos nappes phréatiques. Il va falloir en outre engager, vous l'avez dit, une réduction des fuites sur les réseaux d'eau, et les communes rurales ne pourront pas y faire face. Il va falloir enfin venir en aide aux communes au moment où elles se voient confier de nouvelles responsabilités liées à la prévention des inondations.<br><br>Toutes ces actions devront être menées en veillant à ce que la hausse du prix de l'eau payée par les consommateurs soit stoppée, ce qui est un sujet important. Je vous le dis tout net au nom des six agences de l'eau : on ne saura pas faire avec cette ponction financière inopportune. <i>(Applaudissements sur les bancs du groupe UDI.)</i><br><br><strong>M. Jean Lassalle.</strong> Très juste !<br><br><strong>M. François Sauvadet. </strong>Ce que je vous demande donc au nom du groupe UDI c'est de revenir sur cette décision et de ne pas réduire l'effort que nous avons à consacrer à l'eau au moment même où les collectivités sont elles aussi ponctionnées d'une manière inédite et ne sont pas en mesure d'investir seules.<br><br>Je veux également redire aux consommateurs qui payent l'eau qu'un principe a été rappelé plusieurs fois par le législateur : l'argent des redevances de l'eau doit aller à l'eau ; il doit servir non pas à ajuster ou à boucher les trous du budget de l'État, mais à investir. <i>(Applaudissements sur les bancs du groupe UDI et sur quelques bancs du groupe UMP.)</i><br><br><strong>M. Jean Lassalle.</strong> Très bien !<br><br><strong>M. le président. </strong>La parole est à Mme la ministre de l'écologie, du développement durable et de l'énergie.<br><br><strong>Mme Ségolène Royal,</strong><i> ministre de l'écologie, du développement durable et de l'énergie. </i>Monsieur le député, vous êtes aussi président du comité de bassin de Seine-Normandie et j'ai eu l'occasion de recevoir récemment vos homologues des autres comités de bassin et vous-même <i>(« Ah ! » sur les bancs des groupes UDI et UMP) </i>et même de déjeuner avec vous. <i>(Exclamations sur les mêmes bancs.)</i> Avouez-le, monsieur le député ; vous l'aviez donc caché à vos collègues ? <i>(Sourires.)</i><br><br><strong>M. le président.</strong> Ne compromettez pas M. Sauvadet, madame la ministre ! <i>(Sourires.) </i><br><br><strong>Mme Ségolène Royal,</strong><i> ministre . </i>Il n'y a pourtant aucune honte à cela, vous savez. Nous sommes en République, et nous pouvons travailler conjointement au service de l'intérêt général.<br><br>J'ai eu l'occasion de vous dire lors de cette entrevue que, malgré le prélèvement de 175 millions d'euros sur le fonds de roulement des agences de l'eau par mesure d'économie pour la période 2015-2017, celles-ci auront au cours du dixième programme les mêmes moyens financiers qu'au cours du programme précédent.<br><br><strong>M. Sylvain Berrios.</strong> Ce n'est pas vrai !<br><br><strong>Mme Ségolène Royal,</strong><i> ministre. </i>Tous les organismes placés sous mon autorité doivent contribuer aux économies et recentrer leurs actions sur leurs priorités. J'ai donc, vous le savez, redéfini la politique de l'eau autour de deux priorités essentielles.<br><br>La première est la protection de la qualité de l'eau potable et des masses d'eau. La seconde priorité est la lutte contre les gaspillages. La Caisse des dépôts et consignations a prévu une ligne budgétaire de 20 milliards d'euros pour la réalisation de travaux sur les réseaux d'eau. L'ensemble des communes pourront puiser dans ces ressources pour faire en sorte que l'on n'ait plus, comme aujourd'hui, sur trois litres d'eau traités et pour lesquels les Français paient les taxes prévues sur leurs factures, seulement deux litres d'eau qui arrivent au robinet, et parfois même un litre sur trois.<br><br>Je ne doute pas que vous comprendrez ces priorités et que nous pourrons continuer à travailler ensemble. <i>(Applaudissements sur quelques bancs du groupe SRC.)</i><br> <p>"
+          }
+        },
+        "cloture": {
+          "codeCloture": "REP_PUB",
+          "libelleCloture": "Réponse publiée",
+          "dateCloture": "2014-12-17",
+          "infoJO": {
+            "typeJO": "JO_DEBAT",
+            "dateJO": "2014-12-17",
+            "pageJO": "10221"
+          }
+        }
+      },
+      {
+        "uid": "QANR5L14QG4263",
+        "identifiant": {
+          "numero": "4263",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QG",
+        "indexationAN": {
+          "rubrique": "retraites : généralités",
+          "teteAnalyse": "pensions",
+          "analyses": {
+            "analyse": [
+              "CSG",
+              "taux",
+              "perspectives"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA1809",
+            "mandatRef": "PM645415"
+          },
+          "groupe": {
+            "organeRef": "PO656022",
+            "abrege": "RRDP",
+            "developpe": "Radical, républicain, démocrate et progressiste"
+          }
+        },
+        "minInt": {
+          "abrege": "Budget et comptes publics",
+          "developpe": "Secrétariat d'État, auprès du ministère de l'économie et des finances, chargé du budget et des comptes publics"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Budget et comptes publics",
+              "developpe": "Secrétariat d'État, auprès du ministère de l'économie et des finances, chargé du budget et des comptes publics"
+            }
+          }
+        },
+        "textesReponse": {
+          "texteReponse": {
+            "infoJO": {
+              "typeJO": "JO_DEBAT",
+              "dateJO": "2016-10-19"
+            },
+            "texte": "</p><p align=\"CENTER\"> BAISSE DE LA CSG POUR LES PETITES RETRAITES <a name=PG14></a> </p><br><strong>M. le président. </strong>La parole est à M. Jérôme Lambert, pour le groupe radical, républicain, démocrate et progressiste.<br><br><strong>M. Jérôme Lambert. </strong>Ma question porte sur les taux de contribution sociale généralisée – CSG – appliqués aux revenus des retraités.<br><br>Avant 2012, il existait trois taux de CSG : un taux à 0 %, exonérant de CSG les retraites dont le montant était inférieur à environ 1 200 euros par mois ; un taux à 3,8 %, pour les retraites dont le montant était situé entre 1 200 et 1 500 euros, qui concerne environ 1 million de retraités ; un taux de 6,6 % pour les retraites supérieures à 1 500 euros par mois.<br><br>Après 2012, ce barème a été révisé. Le taux moyen de 3,8 % a été supprimé ; c'est désormais le taux supérieur de 6,6 % qui s'applique pour les retraités percevant entre 1 200 et 1 500 euros. Cela entraîne une augmentation des prélèvements équivalente à environ 3 % du montant des revenus. Pour des retraités percevant des ressources qui restent très modestes et se situent en dessous du montant moyen des retraites, cela s'est traduit par un prélèvement supplémentaire mensuel pouvant atteindre 45 euros par mois, soit près de 550 euros par an.<br><br>L'application de cette mesure, perçue comme une injustice fiscale et sociale, a provoqué beaucoup d'émois et chacun s'en souvient encore. Aujourd'hui, notre collègue Valérie Rabault, rapporteure générale, fait un certain nombre de propositions,…<br><br><strong>Mme Karine Berger et M. Jean-Marc Germain.</strong> Très bien !<br><br><strong>M. Jérôme Lambert. </strong>…dont l'une vise à rétablir un taux moyen permettant de surseoir à ce prélèvement supplémentaire, à l'heure où les comptes sociaux se portent mieux.<br><br>De nombreux députés, dont ceux du groupe radical, républicain, démocrate et progressiste, soutiennent cette proposition. Nous espérons que le Gouvernement approuvera l'impératif besoin de redonner du pouvoir d'achat à des retraités modestes, qui ont contribué toute leur vie par leur travail à la prospérité de notre pays. Quel est donc l'avis du Gouvernement sur cette question ? <i>(Applaudissements sur les bancs du groupe radical, républicain, démocrate et progressiste, et sur quelques bancs du groupe socialiste, écologiste et républicain et du groupe de l'Union des démocrates et indépendants.)</i><br><br><strong>M. le président. </strong>La parole est à M. le secrétaire d'État chargé du budget et des comptes publics.<br><br><strong>M. Christian Eckert,</strong><i> secrétaire d'État chargé du budget et des comptes publics. </i>Monsieur le député, je vous répondrai par un constat, une volonté et une observation.<br><br>Le constat, vous l'avez fait : il existe trois taux différenciés de CSG pour les revenus de remplacement, essentiellement les retraites, mais aussi les indemnités journalières ou les indemnités de chômage. L'application de ces taux est fonction du revenu fiscal de référence des contribuables. Cette assiette a été modifiée par plusieurs éléments. Certains sont anciens – je pense à la demi-part des veuves, dont plusieurs ici doivent se souvenir. D'autres concernent notamment l'intégration de certaines majorations de pension dans le revenu fiscal de référence.<br><br>La volonté, qui est partagée par le Gouvernement, découle du redressement des comptes publics, que vous avez évoqué ; certains le contestent, mais c'est une réalité. Nous pouvons en effet passer à une phase de redistribution. La correction – certains diraient « le rattrapage » – du mécanisme que vous avez signalé redevient possible, à condition bien entendu d'en trouver la juste compensation, afin de ne pas modifier la trajectoire de redressement des comptes publics.<br><br>Le Gouvernement est donc ouvert à la proposition de Valérie Rabault et de nombre de vos collègues. Le coût de la mesure serait d'environ 250 à 300 millions d'euros. Il faudra calculer les seuils correspondants ; nous y travaillons actuellement.<br><br>Je ne doute pas que, puisque nous avons fait un même constat, que nous partageons une même volonté, le Parlement fera aboutir cette proposition.<br><br>Dernière remarque : certains veulent baisser l'ISF, tandis que d'autres veulent réduire proportionnellement l'impôt pour tous. J'attends avec gourmandise et avec sérénité le débat qui s'ouvrira tout à l'heure. <i>(Applaudissements sur plusieurs bancs du groupe socialiste, écologiste et républicain et sur les bancs du groupe radical, républicain, démocrate et progressiste.)</i><br> <p>"
+          }
+        },
+        "cloture": {
+          "codeCloture": "REP_PUB",
+          "libelleCloture": "Réponse publiée",
+          "dateCloture": "2016-10-19",
+          "infoJO": {
+            "typeJO": "JO_DEBAT",
+            "dateJO": "2016-10-19",
+            "pageJO": "6286"
+          }
+        }
+      },
+      {
+        "uid": "QANR5L14QG4261",
+        "identifiant": {
+          "numero": "4261",
+          "regime": "5eme République",
+          "legislature": "14"
+        },
+        "type": "QG",
+        "indexationAN": {
+          "rubrique": "transports aériens",
+          "teteAnalyse": "aéroport de Notre-Dame-des-Landes",
+          "analyses": {
+            "analyse": [
+              "avancement du projet",
+              "perspectives"
+            ]
+          }
+        },
+        "auteur": {
+          "identite": {
+            "acteurRef": "PA266797",
+            "mandatRef": "PM645338"
+          },
+          "groupe": {
+            "organeRef": "PO707869",
+            "abrege": "LES-REP",
+            "developpe": "Les Républicains"
+          }
+        },
+        "minInt": {
+          "abrege": "Premier ministre",
+          "developpe": "Premier ministre"
+        },
+        "minAttribs": {
+          "minAttrib": {
+            "denomination": {
+              "abrege": "Premier ministre",
+              "developpe": "Premier ministre"
+            }
+          }
+        },
+        "textesReponse": {
+          "texteReponse": {
+            "infoJO": {
+              "typeJO": "JO_DEBAT",
+              "dateJO": "2016-10-19"
+            },
+            "texte": "</p><p align=\"CENTER\"> PROJET D'AÉROPORT DE NOTRE-DAME-DES-LANDES <a name=PG12></a> </p><br><strong>M. le président. </strong>La parole est à M. Philippe Gosselin, pour le groupe Les Républicains.<br><br><strong>M. Philippe Gosselin. </strong>Monsieur le Premier ministre, je voudrais vous interroger sur la position, les positions, les divergences, les atermoiements – j'avoue chercher le mot juste – du Gouvernement sur le projet d'aéroport de Notre-Dame-des-Landes. <i>(« Ah ! » sur les bancs du groupe Les Républicains.)</i> C'est une affaire grave, je dirai même très grave.<br><br>La cacophonie qui règne au sein de la majorité sur la question de l'évacuation des « zadistes » soulève, vous le savez, de nombreuses questions quant à la date de lancement des travaux : quand seront-ils engagés ?<br><br>Alors que le Gouvernement est empêtré, depuis le début du quinquennat, dans des querelles internes sur ce projet, vous aviez, me semble-t-il, sorti du chapeau un référendum : la belle affaire ! On pouvait, à l'époque, s'interroger sur sa pertinence ; nous ne pouvons, à présent, que prendre acte de sa tenue. Mais, ce que les Français ne comprennent pas, monsieur le Premier ministre, c'est la possibilité de ne pas tenir compte du résultat. Le Président de la République peut ne pas souhaiter que le peuple s'exprime, puis souhaiter qu'il s'exprime, pour ensuite confier à des journalistes qu'il ne sait pas ce qu'il fera… Bref, on a bien compris que, ces derniers temps, il était occupé à autre chose qu'à régler ce problème à bras-le-corps.<br><br>Quoi qu'il en soit, monsieur le Premier ministre, vous avez, à plusieurs reprises, fait entendre votre voix. Mais, à chaque fois, vous avez été contredit par votre ministre de l'écologie, Mme Royal. <i>(Exclamations sur les bancs du groupe Les Républicains et sur quelques bancs du groupe de l'Union des démocrates et indépendants.) </i>C'est un tournis incessant. La réalité, c'est que, dans cette affaire, l'autorité de l'État est affaiblie, bafouée. La réalité, c'est que l'État lui-même est bafoué.<br><br><strong>M. François Rochebloine.</strong> Très bien !<br><br><strong>M. Philippe Gosselin. </strong>Les querelles internes au Gouvernement conduisent à une situation de blocage. La réalité, enfin, c'est que la parole du peuple est bafouée, et ça, c'est inacceptable.<br><br>Alors monsieur le Premier ministre, en attendant que ça change – car ça va sans doute changer –, quelle est la position du Gouvernement dans l'affaire Notre-Dame-des-Landes ? Pour reprendre les termes de votre ministre, allez-vous « arrêter les frais » ou pas ? Je résume : stop ou encore ? <i>(Applaudissements sur les bancs du groupe Les Républicains et du groupe de l'Union des démocrates et indépendants.)</i><br><br><strong>M. le président. </strong>La parole est à M. le Premier ministre.<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Monsieur Gosselin, nous avons souvent eu l'occasion, au gré des questions posées par les parlementaires de la majorité comme de l'opposition, pour certains élus de la grande région des Pays de la Loire, d'évoquer ce sujet. C'est un dossier complexe, qui dure depuis déjà plusieurs années.<br><br><strong>M. Christian Jacob.</strong> Jusque-là, on est d'accord !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Mais, à chaque étape administrative, à chaque recours administratif, ce dossier a avancé. <i>(Exclamations sur quelques bancs du groupe Les Républicains.)</i> Les élus, pour la plupart des Pays de la Loire – notamment de Loire-Atlantique – ou de Bretagne, régions directement concernées, les chambres de commerce, les acteurs économiques soutiennent ce projet.<br><br><strong>M. Guy Geoffroy.</strong> Ça, on le sait !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Comme le Président de la République l'avait annoncé, il a été décidé d'organiser une consultation pour donner encore plus de force à ce projet. Or, contrairement à tous les pronostics, la majorité des électeurs de la Loire-Atlantique se sont déplacés, et une très nette majorité s'est prononcée en faveur de ce projet.<br><br><strong>M. Claude Goasguen.</strong> Eh oui !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Les électeurs se sont exprimés en toute connaissance de cause, et pas sur n'importe quel projet, mais sur le projet de transfert de l'actuel aéroport à Notre-Dame-des-Landes,…<br><br><strong>M. Christian Jacob.</strong> Et ça, ça change tout !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>…après avoir participé à un débat et reçu toutes les informations nécessaires.<br><br><strong>M. Jean-François Copé.</strong> Absolument !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Je crois, comme chacun d'entre vous, à la force du peuple. Quand le peuple se prononce, lorsque toutes les procédures juridiques ont été respectées, dans le plein respect de l'État de droit, la décision doit s'appliquer.<br><br><strong>Plusieurs députés du groupe Les Républicains.</strong> Et Mme Royal ?<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>C'est ma conviction et, je n'en doute pas un seul instant, c'est la conviction de tous les parlementaires ici réunis, au-delà des positions prises par les uns et les autres. <i>(Exclamations sur les bancs du groupe Les Républicains.)</i> <br><br><strong>M. Philippe Gosselin.</strong> Royal, démission !<br><br><strong>M. le président.</strong> Monsieur Gosselin, s'il vous plaît !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>C'est la seule position qui puisse aujourd'hui valoir : le respect des procédures de l'État de droit et le respect de la parole du peuple et de la démocratie.<br><br><strong>M. Guy Geoffroy.</strong> Il faut le dire à Mme Royal !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Il ne sert à rien de s'énerver : il y a un calendrier,…<br><br><strong>M. Philippe Gosselin.</strong> Lequel ?<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>…qui doit être respecté. L'évacuation de l'actuelle ZAD – zone à défendre – de Notre-Dame-des-Landes, comme, d'ailleurs, la protection du centre-ville de Nantes, trop souvent saccagé par des casseurs qui ne respectent ni l'État de droit, ni la démocratie, sont évidemment pour nous des priorités. Le calendrier sera donc respecté : l'évacuation permettra la réalisation des travaux de préparation et l'édification du nouvel aéroport. <i>(Exclamations sur les bancs du groupe Les Républicains.)</i><br><br><strong>M. le président.</strong> S'il vous plaît, mes chers collègues !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>J'entends tous les cris, les tentatives d'interruption, j'entends, ici ou là, les commentaires, mais ce qui m'importe, pour ma part, c'est l'engagement du Gouvernement et le respect de la parole donnée.<br><br>Cependant, la ministre de l'écologie a raison de le signaler <i>(Mêmes mouvements)</i>…<br><br><strong>M. Jacques Myard.</strong> Elle fait la gueule ?<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>…et ceux qui connaissent le dossier le savent bien, à commencer par le ministre de l'intérieur, cette opération d'évacuation…<br><br><strong>M. Claude Goasguen.</strong> Est risquée !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>…sera périlleuse et risquée, en premier lieu pour les forces de l'ordre. Cependant, s'il y a violence, elle ne vient pas de l'État : la seule violence qui soit vient aujourd'hui de ces groupes « zadistes ». <i>(Applaudissements sur quelques bancs du groupe socialiste, écologiste et républicain, du groupe Les Républicains, du groupe de l'Union des démocrates et indépendants et du groupe radical, républicain, démocrate et progressiste.)</i><br><br><strong>M. Claude Goasguen.</strong> Exactement !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Raison de plus pour ne pas céder à la violence. Raison de plus, comme le fait, sur chacun des dossiers, le ministre de l'intérieur, pour préparer cela avec précision et méticulosité. <i>(Applaudissements sur quelques bancs du groupe Les Républicains et du groupe de l'Union des démocrates et indépendants.)</i><br><br><strong>M. Guy Geoffroy.</strong> Ne tardez quand même pas trop !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>Raison de plus pour ne pas proférer des paroles qui perturbent l'action de l'État.<br><br><strong>M. Joël Giraud.</strong> Très bien !<br><br><strong>M. Manuel Valls,</strong><i> Premier ministre. </i>J'en prends l'engagement devant le Parlement, car c'est ma conception de l'État de droit, c'est ma conception de la République, c'est ma conception de la démocratie, c'est ma conception de la responsabilité : cet aéroport se fera parce que les électeurs le demandent et parce que c'est ainsi que l'on regarde l'avenir en face et que l'on respecte les Français. <i>(Applaudissements sur les bancs du groupe socialiste, écologiste et républicain, du groupe Les Républicains, du groupe de l'Union des démocrates et indépendants et du groupe radical, républicain, démocrate et progressiste.)</i><br><br><strong>M. Philippe Cochet.</strong> Royal, démission !<br> <p>"
+          }
+        },
+        "cloture": {
+          "codeCloture": "REP_PUB",
+          "libelleCloture": "Réponse publiée",
+          "dateCloture": "2016-10-19",
+          "infoJO": {
+            "typeJO": "JO_DEBAT",
+            "dateJO": "2016-10-19",
+            "pageJO": "6284"
+          }
+        }
+      }
+    ]
+  }
+}
