@@ -3,7 +3,6 @@ package org.citpp.parser.index.impl;
 import java.net.InetSocketAddress;
 
 import org.citpp.parser.index.Indexer;
-import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.update.UpdateResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
@@ -36,11 +35,9 @@ public class ESIndexerImpl implements Indexer {
 	@Override
 	public void createOrUpdate(String objectType, String objectID, byte[] object) {
 		try {
-			IndexRequest indexRequest = new IndexRequest(this.elasticSearchIndexName, objectType, objectID)
-					.source(object);
 			UpdateResponse response = this.getESClient()
 					.prepareUpdate(this.elasticSearchIndexName, objectType, objectID).setDoc(object)
-					.setUpsert(indexRequest).get();
+					.setDocAsUpsert(true).get();
 			if (response != null) {
 				LOG.debug("Update response {}", response);
 			}
