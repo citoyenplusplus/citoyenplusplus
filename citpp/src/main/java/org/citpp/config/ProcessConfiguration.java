@@ -1,9 +1,15 @@
 package org.citpp.config;
 
+import java.text.MessageFormat;
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.annotation.Resource;
 
+import org.apache.commons.lang.StringUtils;
 import org.citpp.process.Process;
 import org.citpp.process.impl.FrenchOpenDataImportProcessImpl;
+import org.citpp.process.impl.ProcessListImpl;
 import org.citpp.service.ResourceDownloader;
 import org.citpp.service.ResourceParser;
 import org.citpp.service.ResourceUnarchiver;
@@ -87,6 +93,24 @@ public class ProcessConfiguration {
 	@Value("${citpp.process.questions.orales.unarchiver.path.pattern:'target/json/questions-orales-'YYYY-MM-dd-HH'.json'}")
 	private String questionsOralesUnarchiverPathPattern;
 
+	@Resource(name = "reservesResourceParser")
+	private ResourceParser reservesParser;
+	@Value("${citpp.process.reserves.resource.url:http://data.assemblee-nationale.fr/static/openData/repository/RESERVE_PARLEMENTAIRE/{0}_reserve_parlementaire.json.zip}")
+	private String reservesResourceURL;
+	@Value("${citpp.process.reserves.downloader.path.pattern:'target/zip/reserves-'YYYY-MM-dd-HH'.zip'}")
+	private String reservesDownloaderPathPattern;
+	@Value("${citpp.process.reserves.unarchiver.path.pattern:'target/json/reserves-'YYYY-MM-dd-HH'.json'}")
+	private String reservesUnarchiverPathPattern;
+
+	@Resource(name = "representantsResourceParser")
+	private ResourceParser representantsParser;
+	@Value("${citpp.process.representants.resource.url:http://data.assemblee-nationale.fr/static/openData/repository/REPRESENTANTS_INTERETS/Representants_interets.json.zip}")
+	private String representantsResourceURL;
+	@Value("${citpp.process.representants.downloader.path.pattern:'target/zip/representants-'YYYY-MM-dd-HH'.zip'}")
+	private String representantsDownloaderPathPattern;
+	@Value("${citpp.process.representants.unarchiver.path.pattern:'target/json/representants-'YYYY-MM-dd-HH'.json'}")
+	private String representantsUnarchiverPathPattern;
+
 	@Bean(name = "acteursProcess")
 	public Process acteursProcess() {
 		return new FrenchOpenDataImportProcessImpl(this.downloader, this.unarchiver, this.acteursParser,
@@ -137,5 +161,26 @@ public class ProcessConfiguration {
 		return new FrenchOpenDataImportProcessImpl(this.downloader, this.unarchiver, this.questionsParser,
 				this.questionOralesResourceURL, this.questionsOralesDownloaderPathPattern,
 				this.questionsOralesUnarchiverPathPattern);
+	}
+
+	@Bean(name = "reservesProcess")
+	public Process reservesProcess() {
+		List<Process> processes = new ArrayList<>();
+		MessageFormat format = new MessageFormat(this.reservesResourceURL);
+		String[] years = { "2013", "2014", "2015" };
+		for (String string : years) {
+			processes.add(new FrenchOpenDataImportProcessImpl(this.downloader, this.unarchiver, this.reservesParser,
+					format.format(new String[] { string }),
+					StringUtils.replace(this.reservesDownloaderPathPattern, "reserves-", "reserves-" + string + "-"),
+					StringUtils.replace(this.reservesUnarchiverPathPattern, "reserves-", "reserves-" + string + "-")));
+		}
+		return new ProcessListImpl(processes);
+	}
+
+	@Bean(name = "representantsProcess")
+	public Process representantsProcess() {
+		return new FrenchOpenDataImportProcessImpl(this.downloader, this.unarchiver, this.representantsParser,
+				this.representantsResourceURL, this.representantsDownloaderPathPattern,
+				this.representantsUnarchiverPathPattern);
 	}
 }

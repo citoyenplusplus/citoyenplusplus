@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.citpp.parser.json.JSONParser;
+import org.citpp.service.ServiceContext;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonToken;
@@ -19,9 +20,10 @@ public class JSONParserListImpl implements JSONParser {
 	}
 
 	@Override
-	public boolean handleToken(JsonParser parser, JsonToken token) throws JsonParseException, IOException {
+	public boolean handleToken(ServiceContext context, JsonParser parser, JsonToken token)
+			throws JsonParseException, IOException {
 		for (JSONParser jsonParser : parsers) {
-			if (jsonParser.handleToken(parser, token)) {
+			if (jsonParser.handleToken(context, parser, token)) {
 				return true;
 			}
 		}

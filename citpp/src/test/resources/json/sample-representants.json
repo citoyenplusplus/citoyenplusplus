@@ -1,0 +1,34 @@
+[
+  {
+    "Nom": "CNES",
+    "Acronyme": "Centre National d'Etudes Spatiales",
+    "Statut légal": "Etablissement Public à caractère  Industriel et Commercial",
+    "Catégorie": "Organisme public",
+    "Site internet": "www.cnes.fr",
+    "Adresse": {
+      "Numéro": "2",
+      "Voie": "Place Maurice Quentin",
+      "Code postal": "75039",
+      "Ville": "Paris cedex 01",
+      "Numéro de téléphone": "33144767500"
+    },
+    "Dirigeant / personne juridiquement responsable": "Monsieur Jean-Yves LE GALL (Président)",
+    "Personnes bénéficiaires de la carte de représentant": [
+      "Monsieur Pierre TREFOURET",
+      "Monsieur Guillaume DE BLANCHARD"
+    ],
+    "Objectif et mission": "Le CNES propose au Gouvernement la politique spatiale de la France et la met en oeuvre",
+    "URL registre Assemblée": "http://www2.assemblee-nationale.fr/representant/detail_representant_interet/1988",
+    "Nombre de personnes": "2400",
+    "Nombre de personnes participant aux activités qui relèvent du champ d'application du registre des représentants": "2",
+    "Principales initiatives liées à l'Assemblée nationale couvertes l'année précédente": "Organisation d'un petit dejeuner annuel avec les rapporteurs\r\nSoutien au Groupe des Parlementaires pour l'Espace",
+    "Données financières": {
+      "Année ou période du dernier exercice comptable": "2014",
+      "Budget global": "2000000000",
+      "Budget financement public": "2000000000"
+    },
+    "Estimation des coûts liés aux activités directes de représentation d'intérêts exercées auprès du Parlement": "200000",
+    "Intermédiaire, de type cabinet de consultants spécialisés, cabinet d'avocats, professionnels des relations publiques": "-",
+    "Autre information financière ou précision complémentaire": "-"
+  }
+]

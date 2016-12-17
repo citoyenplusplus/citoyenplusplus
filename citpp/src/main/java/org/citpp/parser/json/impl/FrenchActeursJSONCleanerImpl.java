@@ -9,7 +9,7 @@ public class FrenchActeursJSONCleanerImpl extends AbstractStandardJSONCleaner {
 
 	@Override
 	protected JSONPathValues[] getValuesForTransformerType(JSONTransformerType type) {
-		if (JSONTransformerType.STRING_TO_INT.equals(type)) {
+		if (JSONTransformerType.STRING_TO_INTEGER.equals(type)) {
 			return this.values;
 		}
 		return null;

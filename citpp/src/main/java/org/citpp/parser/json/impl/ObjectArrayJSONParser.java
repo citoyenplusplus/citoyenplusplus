@@ -8,6 +8,8 @@ import org.citpp.parser.index.Indexer;
 import org.citpp.parser.json.JSONCleaner;
 import org.citpp.parser.json.JSONIDExtractor;
 import org.citpp.parser.json.JSONParser;
+import org.citpp.parser.json.JSONServiceContextHandler;
+import org.citpp.service.ServiceContext;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.JsonParser;
@@ -22,20 +24,23 @@ public class ObjectArrayJSONParser implements JSONParser {
 	private final JSONCleaner cleaner;
 	private final JSONIDExtractor extractor;
 	private final Indexer indexer;
+	private final JSONServiceContextHandler serviceContextHandler;
 	private final String fieldName;
 	private final String objectType;
 
-	public ObjectArrayJSONParser(Indexer indexer, JSONCleaner cleaner, JSONIDExtractor extractor, String fieldName,
-			String objectType) {
+	public ObjectArrayJSONParser(Indexer indexer, JSONCleaner cleaner, JSONIDExtractor extractor,
+			JSONServiceContextHandler serviceContextHandler, String fieldName, String objectType) {
 		this.indexer = indexer;
 		this.cleaner = cleaner;
 		this.extractor = extractor;
+		this.serviceContextHandler = serviceContextHandler;
 		this.fieldName = fieldName;
 		this.objectType = objectType;
 	}
 
 	@Override
-	public boolean handleToken(JsonParser parser, JsonToken token) throws JsonParseException, IOException {
+	public boolean handleToken(ServiceContext context, JsonParser parser, JsonToken token)
+			throws JsonParseException, IOException {
 		if (JsonToken.FIELD_NAME.equals(token)) {
 			String currentFieldName = parser.getCurrentName();
 			if (StringUtils.equals(this.fieldName, currentFieldName)) {
@@ -52,14 +57,21 @@ public class ObjectArrayJSONParser implements JSONParser {
 						if (this.cleaner != null) {
 							rootMap = this.cleaner.cleanNode(node);
 						}
-						String objectID = null;
-						if (rootMap != null) {
-							objectID = this.extractor.extractID(rootMap);
-							node = mapper.valueToTree(rootMap);
-						} else {
-							objectID = this.extractor.extractID(node);
+						if (this.serviceContextHandler != null) {
+							node = this.serviceContextHandler.handleServiceContext(context, node);
 						}
-						indexer.createOrUpdate(this.objectType, objectID, node.toString().getBytes("UTF-8"));
+						if (this.extractor != null) {
+							String objectID = null;
+							if (rootMap != null) {
+								objectID = this.extractor.extractID(rootMap);
+								node = mapper.valueToTree(rootMap);
+							} else {
+								objectID = this.extractor.extractID(node);
+							}
+							indexer.createOrUpdate(this.objectType, objectID, node.toString().getBytes("UTF-8"));
+						} else {
+							indexer.create(this.objectType, node.toString().getBytes("UTF-8"));
+						}
 						token = parser.nextToken();
 					}
 				}

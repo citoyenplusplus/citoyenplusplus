@@ -18,7 +18,7 @@ public class FrenchVotesJSONCleanerImpl extends AbstractStandardJSONCleaner {
 	@Override
 	protected JSONPathValues[] getValuesForTransformerType(JSONTransformerType type) {
 		switch (type) {
-		case STRING_TO_INT:
+		case STRING_TO_INTEGER:
 			return this.valuestoInt;
 		case STRING_TO_NULL:
 

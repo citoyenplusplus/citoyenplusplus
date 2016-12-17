@@ -6,7 +6,10 @@ import org.citpp.parser.index.Indexer;
 import org.citpp.parser.json.JSONCleaner;
 import org.citpp.parser.json.JSONIDExtractor;
 import org.citpp.parser.json.JSONParser;
+import org.citpp.parser.json.JSONServiceContextHandler;
 import org.citpp.parser.json.impl.FrenchActeursJSONCleanerImpl;
+import org.citpp.parser.json.impl.FrenchRepresentantsJSONCleanerImpl;
+import org.citpp.parser.json.impl.FrenchReserveJSONServiceContextHandlerImpl;
 import org.citpp.parser.json.impl.FrenchReunionsJSONCleanerImpl;
 import org.citpp.parser.json.impl.FrenchVotesJSONCleanerImpl;
 import org.citpp.parser.json.impl.JSONParserListImpl;
@@ -76,6 +79,21 @@ public class JSONParserConfiguration {
 	@Value("${citpp.parser.questions.type:question}")
 	private String questionsObjectType;
 
+	@Value("${citpp.parser.reserves.field:reserve}")
+	private String reservesFieldName;
+
+	@Value("${citpp.parser.reserves.type:reserve}")
+	private String reservesObjectType;
+
+	@Value("${citpp.parser.representants.id.field.path:Nom}")
+	private String representantsIDFieldPath;
+
+	@Value("${citpp.parser.representants.field:representant}")
+	private String representantsFieldName;
+
+	@Value("${citpp.parser.representants.type:representant}")
+	private String representantsObjectType;
+
 	@Bean(name = "standardIDExtractor")
 	public JSONIDExtractor standardIDExtractor() {
 		return new StandardJSONIDExtractorImpl(this.standardIDFieldPath);
@@ -84,6 +102,11 @@ public class JSONParserConfiguration {
 	@Bean(name = "acteursIDExtractor")
 	public JSONIDExtractor acteursIDExtractor() {
 		return new StandardJSONIDExtractorImpl(this.acteursIDFieldPath);
+	}
+
+	@Bean(name = "representantsIDExtractor")
+	public JSONIDExtractor representantsIDExtractor() {
+		return new StandardJSONIDExtractorImpl(this.representantsIDFieldPath);
 	}
 
 	@Bean(name = "frenchActeursJSONCleaner")
@@ -101,46 +124,67 @@ public class JSONParserConfiguration {
 		return new FrenchReunionsJSONCleanerImpl();
 	}
 
+	@Bean(name = "frenchRepresentantsJSONCleaner")
+	public JSONCleaner frenchRepresentantsJSONCleaner() {
+		return new FrenchRepresentantsJSONCleanerImpl();
+	}
+
+	@Bean(name = "frenchReserveJSONServiceContextHandler")
+	public JSONServiceContextHandler frenchReserveJSONServiceContextHandler() {
+		return new FrenchReserveJSONServiceContextHandlerImpl();
+	}
+
 	@Bean(name = "acteursParser")
 	public JSONParser acteursParser() {
 		JSONParser acteursParser = new ObjectArrayJSONParser(this.indexer, this.frenchActeursJSONCleaner(),
-				this.acteursIDExtractor(), this.acteursFieldName, acteursObjectType);
-		JSONParser organesParser = new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(),
+				this.acteursIDExtractor(), null, this.acteursFieldName, acteursObjectType);
+		JSONParser organesParser = new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), null,
 				this.organesFieldName, this.organesObjectType);
 		return new JSONParserListImpl(acteursParser, organesParser);
 	}
 
 	@Bean(name = "votesParser")
 	public JSONParser votesParser() {
-		return new ObjectArrayJSONParser(this.indexer, this.frenchVotesJSONCleaner(), this.standardIDExtractor(),
+		return new ObjectArrayJSONParser(this.indexer, this.frenchVotesJSONCleaner(), this.standardIDExtractor(), null,
 				this.scrutinsFieldName, this.scrutinsObjectType);
 	}
 
 	@Bean(name = "amendementsParser")
 	public JSONParser amendementsParser() {
-		return new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), this.textesFieldName,
+		return new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), null, this.textesFieldName,
 				this.textesObjectType);
 	}
 
 	@Bean(name = "reunionsParser")
 	public JSONParser reunionsParser() {
 		return new ObjectArrayJSONParser(this.indexer, this.frenchReunionsJSONCleaner(), this.standardIDExtractor(),
-				this.reunionsFieldName, this.reunionsObjectType);
+				null, this.reunionsFieldName, this.reunionsObjectType);
 	}
 
 	@Bean(name = "dossiersParser")
 	public JSONParser dossiersParser() {
-		JSONParser dossiersParser = new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(),
+		JSONParser dossiersParser = new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), null,
 				this.dossiersFieldName, dossiersObjectType);
-		JSONParser documentsParser = new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(),
+		JSONParser documentsParser = new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), null,
 				this.documentsFieldName, this.documentsObjectType);
 		return new JSONParserListImpl(dossiersParser, documentsParser);
 	}
 
 	@Bean(name = "questionsParser")
 	public JSONParser questionsParser() {
-		return new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), this.questionsFieldName,
+		return new ObjectArrayJSONParser(this.indexer, null, this.standardIDExtractor(), null, this.questionsFieldName,
 				this.questionsObjectType);
 	}
 
+	@Bean(name = "reservesParser")
+	public JSONParser reservesParser() {
+		return new ObjectArrayJSONParser(this.indexer, null, null, this.frenchReserveJSONServiceContextHandler(),
+				this.reservesFieldName, this.reservesObjectType);
+	}
+
+	@Bean(name = "representantsParser")
+	public JSONParser representantsParser() {
+		return new ObjectArrayJSONParser(this.indexer, this.frenchRepresentantsJSONCleaner(),
+				this.representantsIDExtractor(), null, this.representantsFieldName, this.representantsObjectType);
+	}
 }

@@ -6,6 +6,8 @@ import org.citpp.parser.json.JSONParser;
 import org.citpp.service.ResourceDownloader;
 import org.citpp.service.ResourceParser;
 import org.citpp.service.ResourceUnarchiver;
+import org.citpp.service.impl.FrenchRepresentantResourceParserImpl;
+import org.citpp.service.impl.FrenchReserveResourceParserImpl;
 import org.citpp.service.impl.ResourceDownloaderImpl;
 import org.citpp.service.impl.ResourceParserImpl;
 import org.citpp.service.impl.ResourceUnarchiverImpl;
@@ -32,6 +34,12 @@ public class ServiceConfiguration {
 
 	@Resource(name = "questionsParser")
 	private JSONParser questionsParser;
+
+	@Resource(name = "reservesParser")
+	private JSONParser reservesParser;
+
+	@Resource(name = "representantsParser")
+	private JSONParser representantsParser;
 
 	@Bean(name = "defaultDownloader")
 	public ResourceDownloader defaultDownloader() {
@@ -71,5 +79,15 @@ public class ServiceConfiguration {
 	@Bean(name = "questionsResourceParser")
 	public ResourceParser questionsResourceParser() {
 		return new ResourceParserImpl(this.questionsParser);
+	}
+
+	@Bean(name = "reservesResourceParser")
+	public ResourceParser reservesResourceParser() {
+		return new FrenchReserveResourceParserImpl(this.reservesParser);
+	}
+
+	@Bean(name = "representantsResourceParser")
+	public ResourceParser representantsResourceParser() {
+		return new FrenchRepresentantResourceParserImpl(this.representantsParser);
 	}
 }
