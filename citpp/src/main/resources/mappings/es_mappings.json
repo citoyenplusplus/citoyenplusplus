@@ -1,0 +1,2680 @@
+{
+	"citpp": {
+		"mappings": {
+			"amendement": {
+				"properties": {
+					"amendementParent": {
+						"type": "string"
+					},
+					"article99": {
+						"type": "string"
+					},
+					"cardinaliteAmdtMultiples": {
+						"type": "string"
+					},
+					"corps": {
+						"properties": {
+							"annexeExposeSommaire": {
+								"type": "string"
+							},
+							"dispositif": {
+								"type": "string"
+							},
+							"dispositifAmdtCredit": {
+								"properties": {
+									"listeProgrammes": {
+										"properties": {
+											"programme": {
+												"properties": {
+													"AE": {
+														"properties": {
+															"montantNegatif": {
+																"type": "string"
+															},
+															"montantPositif": {
+																"type": "string"
+															}
+														}
+													},
+													"CP": {
+														"properties": {
+															"montantNegatif": {
+																"type": "string"
+															},
+															"montantPositif": {
+																"type": "string"
+															}
+														}
+													},
+													"action": {
+														"type": "string"
+													},
+													"id": {
+														"type": "string"
+													},
+													"libelle": {
+														"type": "string"
+													},
+													"lignesCredits": {
+														"properties": {
+															"ligneCredit": {
+																"properties": {
+																	"AE": {
+																		"properties": {
+																			"montantNegatif": {
+																				"type": "string"
+																			},
+																			"montantPositif": {
+																				"type": "string"
+																			}
+																		}
+																	},
+																	"CP": {
+																		"properties": {
+																			"montantNegatif": {
+																				"type": "string"
+																			},
+																			"montantPositif": {
+																				"type": "string"
+																			}
+																		}
+																	},
+																	"id": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									"totalAE": {
+										"properties": {
+											"montantNegatif": {
+												"type": "string"
+											},
+											"montantPositif": {
+												"type": "string"
+											},
+											"solde": {
+												"type": "string"
+											}
+										}
+									},
+									"totalCP": {
+										"properties": {
+											"montantNegatif": {
+												"type": "string"
+											},
+											"montantPositif": {
+												"type": "string"
+											},
+											"solde": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"exposeSommaire": {
+								"type": "string"
+							}
+						}
+					},
+					"dateDepot": {
+						"type": "date",
+						"format": "strict_date_optional_time||epoch_millis"
+					},
+					"dateDistribution": {
+						"type": "date",
+						"format": "strict_date_optional_time||epoch_millis"
+					},
+					"etapeTexte": {
+						"type": "string"
+					},
+					"etat": {
+						"type": "string"
+					},
+					"identifiant": {
+						"properties": {
+							"legislature": {
+								"type": "string"
+							},
+							"numRect": {
+								"type": "string"
+							},
+							"numero": {
+								"type": "string"
+							},
+							"saisine": {
+								"properties": {
+									"mentionSecondeDeliberation": {
+										"type": "string"
+									},
+									"numeroPartiePLF": {
+										"type": "string"
+									},
+									"organeExamen": {
+										"type": "string"
+									},
+									"refTexteLegislatif": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"loiReference": {
+						"properties": {
+							"codeLoi": {
+								"type": "string"
+							},
+							"divisionCodeLoi": {
+								"type": "string"
+							}
+						}
+					},
+					"numeroLong": {
+						"type": "string"
+					},
+					"pointeurFragmentTexte": {
+						"properties": {
+							"alinea": {
+								"properties": {
+									"alineaDesignation": {
+										"type": "string"
+									},
+									"avant_A_Apres": {
+										"type": "string"
+									},
+									"numero": {
+										"type": "string"
+									}
+								}
+							},
+							"division": {
+								"properties": {
+									"articleAdditionnel": {
+										"type": "string"
+									},
+									"articleDesignationCourte": {
+										"type": "string"
+									},
+									"avant_A_Apres": {
+										"type": "string"
+									},
+									"chapitreAdditionnel": {
+										"type": "string"
+									},
+									"divisionRattachee": {
+										"type": "string"
+									},
+									"titre": {
+										"type": "string"
+									},
+									"type": {
+										"type": "string"
+									},
+									"urlDivisionTexteVise": {
+										"type": "string"
+									}
+								}
+							},
+							"missionVisee": {
+								"properties": {
+									"codeMissionPLF": {
+										"type": "string"
+									},
+									"idMissionAN": {
+										"type": "string"
+									},
+									"libelleMission": {
+										"type": "string"
+									},
+									"libelleMissionPLF": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"representations": {
+						"properties": {
+							"representation": {
+								"properties": {
+									"contenu": {
+										"properties": {
+											"documentURI": {
+												"type": "string"
+											}
+										}
+									},
+									"nom": {
+										"type": "string"
+									},
+									"statutRepresentation": {
+										"properties": {
+											"canonique": {
+												"type": "string"
+											},
+											"enregistrement": {
+												"type": "string"
+											},
+											"officielle": {
+												"type": "string"
+											},
+											"transcription": {
+												"type": "string"
+											},
+											"verbatim": {
+												"type": "string"
+											}
+										}
+									},
+									"typeMime": {
+										"properties": {
+											"subType": {
+												"type": "string"
+											},
+											"type": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"seanceDiscussion": {
+						"type": "string"
+					},
+					"signataires": {
+						"properties": {
+							"auteur": {
+								"properties": {
+									"acteur": {
+										"type": "string"
+									},
+									"acteurRef": {
+										"type": "string"
+									},
+									"groupePolitique": {
+										"type": "string"
+									},
+									"groupePolitiqueRef": {
+										"type": "string"
+									},
+									"organe": {
+										"type": "string"
+									},
+									"organeRef": {
+										"type": "string"
+									},
+									"typeAuteur": {
+										"type": "string"
+									}
+								}
+							},
+							"cosignataires": {
+								"properties": {
+									"acteurRef": {
+										"type": "string"
+									}
+								}
+							},
+							"texteAffichable": {
+								"type": "string"
+							}
+						}
+					},
+					"sort": {
+						"properties": {
+							"dateSaisie": {
+								"type": "date",
+								"format": "strict_date_optional_time||epoch_millis"
+							},
+							"sortEnSeance": {
+								"type": "string"
+							}
+						}
+					},
+					"triAmendement": {
+						"type": "string"
+					},
+					"uid": {
+						"type": "string"
+					}
+				}
+			},
+			"dossier": {
+				"properties": {
+					"dossierParlementaire": {
+						"properties": {
+							"@xsi:type": {
+								"type": "string"
+							},
+							"PLF": {
+								"properties": {
+									"EtudePLF": {
+										"properties": {
+											"missionMinefi": {
+												"properties": {
+													"libelleCourt": {
+														"type": "string"
+													},
+													"libelleLong": {
+														"type": "string"
+													},
+													"missions": {
+														"properties": {
+															"mission": {
+																"properties": {
+																	"libelleCourt": {
+																		"type": "string"
+																	},
+																	"libelleLong": {
+																		"type": "string"
+																	},
+																	"typeBudget": {
+																		"type": "string"
+																	},
+																	"typeMission": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"typeBudget": {
+														"type": "string"
+													},
+													"typeMission": {
+														"type": "string"
+													}
+												}
+											},
+											"ordreCommission": {
+												"type": "string"
+											},
+											"ordreDIQS": {
+												"type": "string"
+											},
+											"organeRef": {
+												"type": "string"
+											},
+											"rapporteur": {
+												"properties": {
+													"acteurRef": {
+														"type": "string"
+													},
+													"typeRapporteur": {
+														"type": "string"
+													}
+												}
+											},
+											"texteAssocie": {
+												"type": "string"
+											},
+											"uid": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"actesLegislatifs": {
+								"properties": {
+									"acteLegislatif": {
+										"properties": {
+											"@xsi:type": {
+												"type": "string"
+											},
+											"actesLegislatifs": {
+												"properties": {
+													"acteLegislatif": {
+														"properties": {
+															"@xsi:type": {
+																"type": "string"
+															},
+															"actesLegislatifs": {
+																"properties": {
+																	"acteLegislatif": {
+																		"properties": {
+																			"@xsi:type": {
+																				"type": "string"
+																			},
+																			"actesLegislatifs": {
+																				"properties": {
+																					"acteLegislatif": {
+																						"properties": {
+																							"@xsi:type": {
+																								"type": "string"
+																							},
+																							"codeActe": {
+																								"type": "string"
+																							},
+																							"date": {
+																								"type": "date",
+																								"format": "strict_date_optional_time||epoch_millis"
+																							},
+																							"dateActe": {
+																								"type": "date",
+																								"format": "strict_date_optional_time||epoch_millis"
+																							},
+																							"libelleActe": {
+																								"properties": {
+																									"libelleCourt": {
+																										"type": "string"
+																									},
+																									"nomCanonique": {
+																										"type": "string"
+																									}
+																								}
+																							},
+																							"odjRef": {
+																								"type": "string"
+																							},
+																							"organeRef": {
+																								"type": "string"
+																							},
+																							"rapporteurs": {
+																								"properties": {
+																									"rapporteur": {
+																										"properties": {
+																											"acteurRef": {
+																												"type": "string"
+																											},
+																											"etudePLFRef": {
+																												"type": "string"
+																											},
+																											"typeRapporteur": {
+																												"type": "string"
+																											}
+																										}
+																									}
+																								}
+																							},
+																							"reunionRef": {
+																								"type": "string"
+																							},
+																							"statutConclusion": {
+																								"properties": {
+																									"fam_code": {
+																										"type": "string"
+																									},
+																									"libelle": {
+																										"type": "string"
+																									}
+																								}
+																							},
+																							"texteAdopte": {
+																								"type": "string"
+																							},
+																							"texteAssocie": {
+																								"type": "string"
+																							},
+																							"uid": {
+																								"type": "string"
+																							}
+																						}
+																					}
+																				}
+																			},
+																			"auteurMotion": {
+																				"type": "string"
+																			},
+																			"auteurs": {
+																				"properties": {
+																					"acteurRef": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"codeActe": {
+																				"type": "string"
+																			},
+																			"date": {
+																				"type": "date",
+																				"format": "strict_date_optional_time||epoch_millis"
+																			},
+																			"dateActe": {
+																				"type": "date",
+																				"format": "strict_date_optional_time||epoch_millis"
+																			},
+																			"decision": {
+																				"properties": {
+																					"fam_code": {
+																						"type": "string"
+																					},
+																					"libelle": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"initiateurs": {
+																				"properties": {
+																					"organeRef": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"libelleActe": {
+																				"properties": {
+																					"libelleCourt": {
+																						"type": "string"
+																					},
+																					"nomCanonique": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"odjRef": {
+																				"type": "string"
+																			},
+																			"organeRef": {
+																				"type": "string"
+																			},
+																			"rapporteurs": {
+																				"properties": {
+																					"rapporteur": {
+																						"properties": {
+																							"acteurRef": {
+																								"type": "string"
+																							},
+																							"typeRapporteur": {
+																								"type": "string"
+																							}
+																						}
+																					}
+																				}
+																			},
+																			"reunionRef": {
+																				"type": "string"
+																			},
+																			"statutConclusion": {
+																				"properties": {
+																					"fam_code": {
+																						"type": "string"
+																					},
+																					"libelle": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"texteAssocie": {
+																				"type": "string"
+																			},
+																			"typeMotion": {
+																				"properties": {
+																					"fam_code": {
+																						"type": "string"
+																					},
+																					"libelle": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"uid": {
+																				"type": "string"
+																			},
+																			"voteRef": {
+																				"type": "string"
+																			}
+																		}
+																	}
+																}
+															},
+															"auteurs": {
+																"properties": {
+																	"acteurRef": {
+																		"type": "string"
+																	}
+																}
+															},
+															"casSaisine": {
+																"properties": {
+																	"fam_code": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															},
+															"codeActe": {
+																"type": "string"
+															},
+															"codeLoi": {
+																"type": "string"
+															},
+															"contributionInternaute": {
+																"properties": {
+																	"dateFermeture": {
+																		"type": "string"
+																	},
+																	"dateOuverture": {
+																		"type": "string"
+																	}
+																}
+															},
+															"date": {
+																"type": "date",
+																"format": "strict_date_optional_time||epoch_millis"
+															},
+															"dateActe": {
+																"type": "date",
+																"format": "strict_date_optional_time||epoch_millis"
+															},
+															"infoJO": {
+																"properties": {
+																	"dateJO": {
+																		"type": "string"
+																	},
+																	"numJO": {
+																		"type": "string"
+																	},
+																	"typeJO": {
+																		"type": "string"
+																	}
+																}
+															},
+															"infoJOCE": {
+																"properties": {
+																	"dateJOCE": {
+																		"type": "string"
+																	},
+																	"refJOCE": {
+																		"type": "string"
+																	}
+																}
+															},
+															"infoJORect": {
+																"properties": {
+																	"dateJO": {
+																		"type": "string"
+																	},
+																	"numJO": {
+																		"type": "string"
+																	},
+																	"typeJO": {
+																		"type": "string"
+																	}
+																}
+															},
+															"initiateur": {
+																"properties": {
+																	"acteurs": {
+																		"properties": {
+																			"acteur": {
+																				"properties": {
+																					"acteurRef": {
+																						"type": "string"
+																					},
+																					"mandatRef": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															},
+															"initiateurs": {
+																"properties": {
+																	"acteurRef": {
+																		"type": "string"
+																	}
+																}
+															},
+															"libelleActe": {
+																"properties": {
+																	"libelleCourt": {
+																		"type": "string"
+																	},
+																	"nomCanonique": {
+																		"type": "string"
+																	}
+																}
+															},
+															"motif": {
+																"type": "string"
+															},
+															"organeRef": {
+																"type": "string"
+															},
+															"provenance": {
+																"type": "string"
+															},
+															"referenceNOR": {
+																"type": "string"
+															},
+															"statutAdoption": {
+																"properties": {
+																	"fam_code": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															},
+															"statutConclusion": {
+																"properties": {
+																	"fam_code": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															},
+															"texteAssocie": {
+																"type": "string"
+															},
+															"texteEuropeen": {
+																"properties": {
+																	"titreTexteEuropeen": {
+																		"type": "string"
+																	},
+																	"typeTexteEuropeen": {
+																		"type": "string"
+																	}
+																}
+															},
+															"texteLoiRef": {
+																"type": "string"
+															},
+															"titreLoi": {
+																"type": "string"
+															},
+															"typeDeclaration": {
+																"properties": {
+																	"fam_code": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															},
+															"typeMotionCensure": {
+																"properties": {
+																	"fam_code": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															},
+															"uid": {
+																"type": "string"
+															},
+															"urlConclusion": {
+																"type": "string"
+															},
+															"urlLegifrance": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"codeActe": {
+												"type": "string"
+											},
+											"libelleActe": {
+												"properties": {
+													"libelleCourt": {
+														"type": "string"
+													},
+													"nomCanonique": {
+														"type": "string"
+													}
+												}
+											},
+											"organeRef": {
+												"type": "string"
+											},
+											"uid": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"indexation": {
+								"properties": {
+									"themes": {
+										"properties": {
+											"@niveau": {
+												"type": "string"
+											},
+											"theme": {
+												"properties": {
+													"libelleTheme": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"initiateur": {
+								"properties": {
+									"acteurs": {
+										"properties": {
+											"acteur": {
+												"properties": {
+													"acteurRef": {
+														"type": "string"
+													},
+													"mandatRef": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									},
+									"organes": {
+										"properties": {
+											"organe": {
+												"properties": {
+													"organeRef": {
+														"properties": {
+															"uid": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"legislature": {
+								"type": "string"
+							},
+							"procedureParlementaire": {
+								"properties": {
+									"code": {
+										"type": "string"
+									},
+									"libelle": {
+										"type": "string"
+									}
+								}
+							},
+							"titreDossier": {
+								"properties": {
+									"senatChemin": {
+										"type": "string"
+									},
+									"titre": {
+										"type": "string"
+									},
+									"titreChemin": {
+										"type": "string"
+									}
+								}
+							},
+							"uid": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"representant": {
+				"properties": {
+					"Acronyme": {
+						"type": "string"
+					},
+					"Adhésion à un code de conduite, une charte éthique, une charte sur le lobbying ou respect d'un cadre déontologique, quel qu'il soit": {
+						"type": "string"
+					},
+					"Adresse": {
+						"properties": {
+							"Boîte postale": {
+								"type": "string"
+							},
+							"Code postal": {
+								"type": "string"
+							},
+							"Numéro": {
+								"type": "string"
+							},
+							"Numéro de téléphone": {
+								"type": "string"
+							},
+							"Ville": {
+								"type": "string"
+							},
+							"Voie": {
+								"type": "string"
+							}
+						}
+					},
+					"Autre information financière ou précision complémentaire": {
+						"type": "string"
+					},
+					"Catégorie": {
+						"type": "string"
+					},
+					"Chiffre d'affaires": {
+						"properties": {
+							"Montant absolu": {
+								"type": "string"
+							},
+							"Secteurs": {
+								"properties": {
+									"Affaires institutionnelles, vie publique": {
+										"type": "string"
+									},
+									"Agriculture": {
+										"type": "string"
+									},
+									"Agroalimentaire": {
+										"type": "string"
+									},
+									"Artisanat": {
+										"type": "string"
+									},
+									"Arts et culture": {
+										"type": "string"
+									},
+									"Audiovisuel": {
+										"type": "string"
+									},
+									"Banque": {
+										"type": "string"
+									},
+									"Bâtiment": {
+										"type": "string"
+									},
+									"Collectivités": {
+										"type": "string"
+									},
+									"Commerce": {
+										"type": "string"
+									},
+									"Consommation": {
+										"type": "string"
+									},
+									"Coopération": {
+										"type": "string"
+									},
+									"Défense": {
+										"type": "string"
+									},
+									"Education": {
+										"type": "string"
+									},
+									"Emploi": {
+										"type": "string"
+									},
+									"Energie": {
+										"type": "string"
+									},
+									"Environnement": {
+										"type": "string"
+									},
+									"Famille": {
+										"type": "string"
+									},
+									"Finances sociales": {
+										"type": "string"
+									},
+									"Fiscalité": {
+										"type": "string"
+									},
+									"Gouvernance": {
+										"type": "string"
+									},
+									"Handicap": {
+										"type": "string"
+									},
+									"Hôtellerie": {
+										"type": "string"
+									},
+									"Immobilier": {
+										"type": "string"
+									},
+									"Industrie": {
+										"type": "string"
+									},
+									"Jeunesse": {
+										"type": "string"
+									},
+									"Justice": {
+										"type": "string"
+									},
+									"Presse": {
+										"type": "string"
+									},
+									"Professions libérales": {
+										"type": "string"
+									},
+									"Recherche": {
+										"type": "string"
+									},
+									"Santé": {
+										"type": "string"
+									},
+									"Sports": {
+										"type": "string"
+									},
+									"Sécurité": {
+										"type": "string"
+									},
+									"Transports": {
+										"type": "string"
+									},
+									"Télécom": {
+										"type": "string"
+									}
+								}
+							},
+							"Tranche": {
+								"type": "string"
+							}
+						}
+					},
+					"Dirigeant / personne juridiquement responsable": {
+						"type": "string"
+					},
+					"Domaines d'activité et centres d'intérêt": {
+						"type": "string"
+					},
+					"Données financières": {
+						"properties": {
+							"Année ou période du dernier exercice comptable": {
+								"type": "string"
+							},
+							"Budget financement autres": {
+								"type": "double"
+							},
+							"Budget financement commercialisation de produits / services": {
+								"type": "double"
+							},
+							"Budget financement cotisations": {
+								"type": "double"
+							},
+							"Budget financement dons": {
+								"type": "double"
+							},
+							"Budget financement public": {
+								"type": "double"
+							},
+							"Budget global": {
+								"type": "double"
+							}
+						}
+					},
+					"Estimation des coûts liés aux activités directes de représentation d'intérêts exercées auprès du Parlement": {
+						"type": "string"
+					},
+					"Estimation du chiffre d'affaires dans la tranche de montants appropriée": {
+						"type": "string"
+					},
+					"Intermédiaire, de type cabinet de consultants spécialisés, cabinet d'avocats, professionnels des relations publiques": {
+						"type": "string"
+					},
+					"Les adhérents": {
+						"properties": {
+							"Nature juridique": {
+								"properties": {
+									"Personnes morales": {
+										"type": "string"
+									},
+									"Personnes physiques": {
+										"type": "string"
+									},
+									"Précisions": {
+										"type": "string"
+									}
+								}
+							},
+							"Nom des personnes morales membres de l'organisme": {
+								"type": "string"
+							},
+							"Nombre total d'adhérents personnes morales": {
+								"type": "string"
+							}
+						}
+					},
+					"Nom": {
+						"type": "string"
+					},
+					"Nombre de personnes": {
+						"type": "long"
+					},
+					"Nombre de personnes participant aux activités qui relèvent du champ d'application du registre des représentants": {
+						"type": "string"
+					},
+					"Nombre de salariés en France": {
+						"type": "string"
+					},
+					"Nombre de salariés à l'étranger": {
+						"type": "string"
+					},
+					"Noms des cliens": {
+						"type": "string"
+					},
+					"Objectif et mission": {
+						"type": "string"
+					},
+					"Personnes bénéficiaires de la carte de représentant": {
+						"type": "string"
+					},
+					"Principales initiatives liées à l'Assemblée nationale couvertes l'année précédente": {
+						"type": "string"
+					},
+					"Site internet": {
+						"type": "string"
+					},
+					"Statut légal": {
+						"type": "string"
+					},
+					"URL registre Assemblée": {
+						"type": "string"
+					}
+				}
+			},
+			"document": {
+				"properties": {
+					"@xsi:type": {
+						"type": "string"
+					},
+					"auteurs": {
+						"properties": {
+							"auteur": {
+								"properties": {
+									"acteur": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											},
+											"qualite": {
+												"type": "string"
+											}
+										}
+									},
+									"organe": {
+										"properties": {
+											"organeRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"classification": {
+						"properties": {
+							"sousType": {
+								"properties": {
+									"code": {
+										"type": "string"
+									},
+									"libelle": {
+										"type": "string"
+									}
+								}
+							},
+							"statutAdoption": {
+								"type": "string"
+							},
+							"type": {
+								"properties": {
+									"code": {
+										"type": "string"
+									},
+									"libelle": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"coSignataires": {
+						"properties": {
+							"coSignataire": {
+								"properties": {
+									"acteur": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											}
+										}
+									},
+									"dateCosignature": {
+										"type": "string"
+									},
+									"dateRetraitCosignature": {
+										"type": "string"
+									},
+									"edite": {
+										"type": "string"
+									},
+									"organe": {
+										"properties": {
+											"etApparentes": {
+												"type": "string"
+											},
+											"organeRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"correction": {
+						"properties": {
+							"niveauCorrection": {
+								"type": "string"
+							},
+							"typeCorrection": {
+								"type": "string"
+							}
+						}
+					},
+					"cycleDeVie": {
+						"properties": {
+							"chrono": {
+								"properties": {
+									"dateCreation": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"dateDepot": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"datePublication": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"datePublicationWeb": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									}
+								}
+							}
+						}
+					},
+					"denominationStructurelle": {
+						"type": "string"
+					},
+					"depotAmendements": {
+						"properties": {
+							"amendementsCommission": {
+								"properties": {
+									"commission": {
+										"properties": {
+											"amendable": {
+												"type": "string"
+											},
+											"organeRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"amendementsSeance": {
+								"properties": {
+									"amendable": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"divisions": {
+						"properties": {
+							"division": {
+								"properties": {
+									"@xsi:type": {
+										"type": "string"
+									},
+									"auteurs": {
+										"properties": {
+											"auteur": {
+												"properties": {
+													"acteur": {
+														"properties": {
+															"acteurRef": {
+																"type": "string"
+															},
+															"qualite": {
+																"type": "string"
+															}
+														}
+													},
+													"organe": {
+														"properties": {
+															"organeRef": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									"classification": {
+										"properties": {
+											"statutAdoption": {
+												"type": "string"
+											},
+											"type": {
+												"properties": {
+													"code": {
+														"type": "string"
+													},
+													"libelle": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									},
+									"correction": {
+										"properties": {
+											"niveauCorrection": {
+												"type": "string"
+											},
+											"typeCorrection": {
+												"type": "string"
+											}
+										}
+									},
+									"cycleDeVie": {
+										"properties": {
+											"chrono": {
+												"properties": {
+													"dateCreation": {
+														"type": "date",
+														"format": "strict_date_optional_time||epoch_millis"
+													},
+													"dateDepot": {
+														"type": "date",
+														"format": "strict_date_optional_time||epoch_millis"
+													},
+													"datePublication": {
+														"type": "date",
+														"format": "strict_date_optional_time||epoch_millis"
+													},
+													"datePublicationWeb": {
+														"type": "date",
+														"format": "strict_date_optional_time||epoch_millis"
+													}
+												}
+											}
+										}
+									},
+									"denominationStructurelle": {
+										"type": "string"
+									},
+									"divisions": {
+										"properties": {
+											"division": {
+												"properties": {
+													"@xsi:type": {
+														"type": "string"
+													},
+													"auteurs": {
+														"properties": {
+															"auteur": {
+																"properties": {
+																	"acteur": {
+																		"properties": {
+																			"acteurRef": {
+																				"type": "string"
+																			},
+																			"qualite": {
+																				"type": "string"
+																			}
+																		}
+																	},
+																	"organe": {
+																		"properties": {
+																			"organeRef": {
+																				"type": "string"
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													},
+													"classification": {
+														"properties": {
+															"statutAdoption": {
+																"type": "string"
+															},
+															"type": {
+																"properties": {
+																	"code": {
+																		"type": "string"
+																	},
+																	"libelle": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"cycleDeVie": {
+														"properties": {
+															"chrono": {
+																"properties": {
+																	"dateCreation": {
+																		"type": "date",
+																		"format": "strict_date_optional_time||epoch_millis"
+																	},
+																	"dateDepot": {
+																		"type": "date",
+																		"format": "strict_date_optional_time||epoch_millis"
+																	},
+																	"datePublication": {
+																		"type": "date",
+																		"format": "strict_date_optional_time||epoch_millis"
+																	},
+																	"datePublicationWeb": {
+																		"type": "date",
+																		"format": "strict_date_optional_time||epoch_millis"
+																	}
+																}
+															}
+														}
+													},
+													"denominationStructurelle": {
+														"type": "string"
+													},
+													"dossierRef": {
+														"type": "string"
+													},
+													"imprimerie": {
+														"properties": {
+															"prix": {
+																"type": "string"
+															}
+														}
+													},
+													"indexation": {
+														"properties": {
+															"themes": {
+																"properties": {
+																	"@niveau": {
+																		"type": "string"
+																	},
+																	"theme": {
+																		"properties": {
+																			"libelleTheme": {
+																				"type": "string"
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													},
+													"legislature": {
+														"type": "string"
+													},
+													"notice": {
+														"properties": {
+															"adoptionConforme": {
+																"type": "string"
+															},
+															"formule": {
+																"type": "string"
+															},
+															"numNotice": {
+																"type": "string"
+															}
+														}
+													},
+													"titres": {
+														"properties": {
+															"titrePrincipal": {
+																"type": "string"
+															},
+															"titrePrincipalCourt": {
+																"type": "string"
+															}
+														}
+													},
+													"uid": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									},
+									"dossierRef": {
+										"type": "string"
+									},
+									"imprimerie": {
+										"properties": {
+											"prix": {
+												"type": "string"
+											}
+										}
+									},
+									"indexation": {
+										"properties": {
+											"themes": {
+												"properties": {
+													"@niveau": {
+														"type": "string"
+													},
+													"theme": {
+														"properties": {
+															"libelleTheme": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									"legislature": {
+										"type": "string"
+									},
+									"notice": {
+										"properties": {
+											"adoptionConforme": {
+												"type": "string"
+											},
+											"formule": {
+												"type": "string"
+											},
+											"numNotice": {
+												"type": "string"
+											}
+										}
+									},
+									"titres": {
+										"properties": {
+											"titrePrincipal": {
+												"type": "string"
+											},
+											"titrePrincipalCourt": {
+												"type": "string"
+											}
+										}
+									},
+									"uid": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"dossierRef": {
+						"type": "string"
+					},
+					"imprimerie": {
+						"properties": {
+							"prix": {
+								"type": "string"
+							}
+						}
+					},
+					"indexation": {
+						"properties": {
+							"themes": {
+								"properties": {
+									"@niveau": {
+										"type": "string"
+									},
+									"theme": {
+										"properties": {
+											"libelleTheme": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"legislature": {
+						"type": "string"
+					},
+					"notice": {
+						"properties": {
+							"adoptionConforme": {
+								"type": "string"
+							},
+							"formule": {
+								"type": "string"
+							},
+							"numNotice": {
+								"type": "string"
+							}
+						}
+					},
+					"titres": {
+						"properties": {
+							"titrePrincipal": {
+								"type": "string"
+							},
+							"titrePrincipalCourt": {
+								"type": "string"
+							}
+						}
+					},
+					"uid": {
+						"type": "string"
+					}
+				}
+			},
+			"scrutin": {
+				"properties": {
+					"@xmlns:xsi": {
+						"type": "string"
+					},
+					"dateScrutin": {
+						"type": "date",
+						"format": "strict_date_optional_time||epoch_millis"
+					},
+					"demandeur": {
+						"properties": {
+							"texte": {
+								"type": "string"
+							}
+						}
+					},
+					"legislature": {
+						"type": "string"
+					},
+					"miseAuPoint": {
+						"properties": {
+							"abstentions": {
+								"properties": {
+									"votant": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											},
+											"mandatRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"contres": {
+								"properties": {
+									"votant": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											},
+											"mandatRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"nonVotantsVolontaires": {
+								"properties": {
+									"votant": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											},
+											"mandatRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"pours": {
+								"properties": {
+									"votant": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											},
+											"mandatRef": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"modePublicationDesVotes": {
+						"type": "string"
+					},
+					"numero": {
+						"type": "long"
+					},
+					"objet": {
+						"properties": {
+							"libelle": {
+								"type": "string"
+							}
+						}
+					},
+					"organeRef": {
+						"type": "string"
+					},
+					"quantiemeJourSeance": {
+						"type": "long"
+					},
+					"seanceRef": {
+						"type": "string"
+					},
+					"sessionRef": {
+						"type": "string"
+					},
+					"sort": {
+						"properties": {
+							"code": {
+								"type": "string"
+							},
+							"libelle": {
+								"type": "string"
+							}
+						}
+					},
+					"syntheseVote": {
+						"properties": {
+							"annonce": {
+								"type": "string"
+							},
+							"decompte": {
+								"properties": {
+									"abstention": {
+										"type": "long"
+									},
+									"contre": {
+										"type": "long"
+									},
+									"nonVotant": {
+										"type": "long"
+									},
+									"pour": {
+										"type": "long"
+									}
+								}
+							},
+							"nbrSuffragesRequis": {
+								"type": "long"
+							},
+							"nombreVotants": {
+								"type": "long"
+							},
+							"suffragesExprimes": {
+								"type": "long"
+							}
+						}
+					},
+					"titre": {
+						"type": "string"
+					},
+					"typeVote": {
+						"properties": {
+							"codeTypeVote": {
+								"type": "string"
+							},
+							"libelleTypeVote": {
+								"type": "string"
+							},
+							"typeMajorite": {
+								"type": "string"
+							}
+						}
+					},
+					"uid": {
+						"type": "string"
+					},
+					"ventilationVotes": {
+						"properties": {
+							"organe": {
+								"properties": {
+									"groupes": {
+										"properties": {
+											"groupe": {
+												"properties": {
+													"nombreMembresGroupe": {
+														"type": "long"
+													},
+													"organeRef": {
+														"type": "string"
+													},
+													"vote": {
+														"properties": {
+															"decompteNominatif": {
+																"properties": {
+																	"abstentions": {
+																		"properties": {
+																			"votant": {
+																				"properties": {
+																					"acteurRef": {
+																						"type": "string"
+																					},
+																					"mandatRef": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	},
+																	"contres": {
+																		"properties": {
+																			"votant": {
+																				"properties": {
+																					"acteurRef": {
+																						"type": "string"
+																					},
+																					"mandatRef": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	},
+																	"nonVotants": {
+																		"properties": {
+																			"votant": {
+																				"properties": {
+																					"acteurRef": {
+																						"type": "string"
+																					},
+																					"causePositionVote": {
+																						"type": "string"
+																					},
+																					"mandatRef": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	},
+																	"pours": {
+																		"properties": {
+																			"votant": {
+																				"properties": {
+																					"acteurRef": {
+																						"type": "string"
+																					},
+																					"mandatRef": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															},
+															"decompteVoix": {
+																"properties": {
+																	"abstention": {
+																		"type": "long"
+																	},
+																	"contre": {
+																		"type": "long"
+																	},
+																	"nonVotant": {
+																		"type": "long"
+																	},
+																	"pour": {
+																		"type": "long"
+																	}
+																}
+															},
+															"positionMajoritaire": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									"organeRef": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			"reunion": {
+				"properties": {
+					"@xmlns:xsi": {
+						"type": "string"
+					},
+					"ODJ": {
+						"properties": {
+							"convocationODJ": {
+								"properties": {
+									"item": {
+										"type": "string"
+									}
+								}
+							},
+							"pointsODJ": {
+								"properties": {
+									"pointODJ": {
+										"properties": {
+											"@xsi:type": {
+												"type": "string"
+											},
+											"comiteSecret": {
+												"type": "string"
+											},
+											"cycleDeVie": {
+												"properties": {
+													"chrono": {
+														"properties": {
+															"cloture": {
+																"type": "date",
+																"format": "strict_date_optional_time||epoch_millis"
+															},
+															"creation": {
+																"type": "date",
+																"format": "strict_date_optional_time||epoch_millis"
+															}
+														}
+													},
+													"etat": {
+														"type": "string"
+													}
+												}
+											},
+											"dateConfPres": {
+												"type": "string"
+											},
+											"dateLettreMinistre": {
+												"type": "string"
+											},
+											"dossiersLegislatifsRefs": {
+												"properties": {
+													"dossierRef": {
+														"type": "string"
+													}
+												}
+											},
+											"natureTravauxODJ": {
+												"type": "string"
+											},
+											"objet": {
+												"type": "string"
+											},
+											"procedure": {
+												"type": "string"
+											},
+											"typePointODJ": {
+												"type": "string"
+											},
+											"uid": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"resumeODJ": {
+								"properties": {
+									"item": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"compteRenduRef": {
+						"type": "string"
+					},
+					"cycleDeVie": {
+						"properties": {
+							"chrono": {
+								"properties": {
+									"cloture": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"creation": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									}
+								}
+							},
+							"etat": {
+								"type": "string"
+							}
+						}
+					},
+					"demandeur": {
+						"properties": {
+							"acteurNom": {
+								"type": "string"
+							},
+							"acteurRef": {
+								"type": "string"
+							}
+						}
+					},
+					"demandeurs": {
+						"properties": {
+							"acteur": {
+								"properties": {
+									"acteurRef": {
+										"type": "string"
+									},
+									"nom": {
+										"type": "string"
+									}
+								}
+							},
+							"organe": {
+								"properties": {
+									"nom": {
+										"type": "string"
+									},
+									"organeRef": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"identifiants": {
+						"properties": {
+							"DateSeance": {
+								"type": "string"
+							},
+							"idJO": {
+								"type": "string"
+							},
+							"numSeanceJO": {
+								"type": "string"
+							},
+							"quantieme": {
+								"type": "string"
+							},
+							"sessionRef": {
+								"type": "string"
+							}
+						}
+					},
+					"lieu": {
+						"properties": {
+							"code": {
+								"type": "string"
+							},
+							"libelleCourt": {
+								"type": "string"
+							},
+							"libelleLong": {
+								"type": "string"
+							}
+						}
+					},
+					"organe": {
+						"properties": {
+							"organeNom": {
+								"type": "string"
+							},
+							"organeRef": {
+								"type": "string"
+							}
+						}
+					},
+					"organeReuniRef": {
+						"type": "string"
+					},
+					"ouverturePresse": {
+						"type": "string"
+					},
+					"participants": {
+						"properties": {
+							"participant": {
+								"properties": {
+									"acteurRef": {
+										"type": "string"
+									},
+									"presence": {
+										"type": "string"
+									}
+								}
+							},
+							"participantsInternes": {
+								"properties": {
+									"participantInterne": {
+										"properties": {
+											"acteurRef": {
+												"type": "string"
+											},
+											"presence": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							},
+							"personnesAuditionnees": {
+								"properties": {
+									"personneAuditionnee": {
+										"properties": {
+											"dateNais": {
+												"type": "date",
+												"format": "strict_date_optional_time||epoch_millis"
+											},
+											"ident": {
+												"properties": {
+													"alpha": {
+														"type": "string"
+													},
+													"civ": {
+														"type": "string"
+													},
+													"nom": {
+														"type": "string"
+													},
+													"prenom": {
+														"type": "string"
+													}
+												}
+											},
+											"uid": {
+												"properties": {
+													"#text": {
+														"type": "string"
+													},
+													"@xsi:type": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"sessionRef": {
+						"type": "string"
+					},
+					"statut": {
+						"type": "string"
+					},
+					"timeStampDebut": {
+						"type": "date",
+						"format": "strict_date_optional_time||epoch_millis"
+					},
+					"timeStampFin": {
+						"type": "date",
+						"format": "strict_date_optional_time||epoch_millis"
+					},
+					"typeReunion": {
+						"type": "string"
+					},
+					"uid": {
+						"type": "string"
+					}
+				}
+			},
+			"organe": {
+				"properties": {
+					"@xsi:type": {
+						"type": "string"
+					},
+					"codeType": {
+						"type": "string"
+					},
+					"legislature": {
+						"type": "string"
+					},
+					"libelle": {
+						"type": "string"
+					},
+					"libelleAbrege": {
+						"type": "string"
+					},
+					"libelleAbrev": {
+						"type": "string"
+					},
+					"libelleEdition": {
+						"type": "string"
+					},
+					"regime": {
+						"type": "string"
+					},
+					"secretariat": {
+						"properties": {
+							"secretaire01": {
+								"type": "string"
+							},
+							"secretaire02": {
+								"type": "string"
+							}
+						}
+					},
+					"uid": {
+						"type": "string"
+					},
+					"viMoDe": {
+						"properties": {
+							"dateAgrement": {
+								"type": "date",
+								"format": "strict_date_optional_time||epoch_millis"
+							},
+							"dateDebut": {
+								"type": "date",
+								"format": "strict_date_optional_time||epoch_millis"
+							},
+							"dateFin": {
+								"type": "date",
+								"format": "strict_date_optional_time||epoch_millis"
+							}
+						}
+					}
+				}
+			},
+			"acteur": {
+				"properties": {
+					"etatCivil": {
+						"properties": {
+							"dateDeces": {
+								"type": "date",
+								"format": "strict_date_optional_time||epoch_millis"
+							},
+							"ident": {
+								"properties": {
+									"alpha": {
+										"type": "string"
+									},
+									"civ": {
+										"type": "string"
+									},
+									"nom": {
+										"type": "string"
+									},
+									"prenom": {
+										"type": "string"
+									}
+								}
+							},
+							"infoNaissance": {
+								"properties": {
+									"dateNais": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"depNais": {
+										"type": "string"
+									},
+									"paysNais": {
+										"type": "string"
+									},
+									"villeNais": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"mandats": {
+						"properties": {
+							"mandat": {
+								"properties": {
+									"@xsi:type": {
+										"type": "string"
+									},
+									"InfosHorsSIAN": {
+										"properties": {
+											"HATVP_URI": {
+												"type": "string"
+											}
+										}
+									},
+									"acteurRef": {
+										"type": "string"
+									},
+									"dateDebut": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"dateFin": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"datePublication": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"election": {
+										"properties": {
+											"causeMandat": {
+												"type": "string"
+											},
+											"lieu": {
+												"properties": {
+													"departement": {
+														"type": "string"
+													},
+													"numCirco": {
+														"type": "string"
+													},
+													"numDepartement": {
+														"type": "string"
+													},
+													"region": {
+														"type": "string"
+													},
+													"regionType": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									},
+									"infosQualite": {
+										"properties": {
+											"codeQualite": {
+												"type": "string"
+											},
+											"libQualite": {
+												"type": "string"
+											},
+											"libQualiteSex": {
+												"type": "string"
+											}
+										}
+									},
+									"legislature": {
+										"type": "string"
+									},
+									"libelle": {
+										"type": "string"
+									},
+									"mandature": {
+										"properties": {
+											"causeFin": {
+												"type": "string"
+											},
+											"datePriseFonction": {
+												"type": "date",
+												"format": "strict_date_optional_time||epoch_millis"
+											},
+											"mandatRemplaceRef": {
+												"type": "string"
+											},
+											"placeHemicycle": {
+												"type": "string"
+											},
+											"premiereElection": {
+												"type": "string"
+											}
+										}
+									},
+									"nominPrincipale": {
+										"type": "string"
+									},
+									"organes": {
+										"properties": {
+											"organeRef": {
+												"type": "string"
+											}
+										}
+									},
+									"preseance": {
+										"type": "long"
+									},
+									"suppleants": {
+										"properties": {
+											"suppleant": {
+												"properties": {
+													"dateDebut": {
+														"type": "date",
+														"format": "strict_date_optional_time||epoch_millis"
+													},
+													"dateFin": {
+														"type": "date",
+														"format": "strict_date_optional_time||epoch_millis"
+													},
+													"suppleantRef": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									},
+									"typeOrgane": {
+										"type": "string"
+									},
+									"uid": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"uid": {
+						"properties": {
+							"#text": {
+								"type": "string"
+							},
+							"@xsi:type": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"question": {
+				"properties": {
+					"auteur": {
+						"properties": {
+							"groupe": {
+								"properties": {
+									"abrege": {
+										"type": "string"
+									},
+									"developpe": {
+										"type": "string"
+									},
+									"organeRef": {
+										"type": "string"
+									}
+								}
+							},
+							"identite": {
+								"properties": {
+									"acteurRef": {
+										"type": "string"
+									},
+									"mandatRef": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"cloture": {
+						"properties": {
+							"codeCloture": {
+								"type": "string"
+							},
+							"dateCloture": {
+								"type": "date",
+								"format": "strict_date_optional_time||epoch_millis"
+							},
+							"infoJO": {
+								"properties": {
+									"dateJO": {
+										"type": "date",
+										"format": "strict_date_optional_time||epoch_millis"
+									},
+									"pageJO": {
+										"type": "string"
+									},
+									"typeJO": {
+										"type": "string"
+									}
+								}
+							},
+							"libelleCloture": {
+								"type": "string"
+							}
+						}
+					},
+					"identifiant": {
+						"properties": {
+							"legislature": {
+								"type": "string"
+							},
+							"numero": {
+								"type": "string"
+							},
+							"regime": {
+								"type": "string"
+							}
+						}
+					},
+					"indexationAN": {
+						"properties": {
+							"analyses": {
+								"properties": {
+									"analyse": {
+										"type": "string"
+									}
+								}
+							},
+							"rubrique": {
+								"type": "string"
+							},
+							"teteAnalyse": {
+								"type": "string"
+							}
+						}
+					},
+					"minAttribs": {
+						"properties": {
+							"minAttrib": {
+								"properties": {
+									"denomination": {
+										"properties": {
+											"abrege": {
+												"type": "string"
+											},
+											"developpe": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"minInt": {
+						"properties": {
+							"abrege": {
+								"type": "string"
+							},
+							"developpe": {
+								"type": "string"
+							}
+						}
+					},
+					"renouvellements": {
+						"properties": {
+							"renouvellement": {
+								"properties": {
+									"infoJO": {
+										"properties": {
+											"dateJO": {
+												"type": "date",
+												"format": "strict_date_optional_time||epoch_millis"
+											},
+											"typeJO": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"textesQuestion": {
+						"properties": {
+							"texteQuestion": {
+								"properties": {
+									"erratum": {
+										"type": "string"
+									},
+									"infoJO": {
+										"properties": {
+											"dateJO": {
+												"type": "date",
+												"format": "strict_date_optional_time||epoch_millis"
+											},
+											"typeJO": {
+												"type": "string"
+											}
+										}
+									},
+									"texte": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"textesReponse": {
+						"properties": {
+							"texteReponse": {
+								"properties": {
+									"infoJO": {
+										"properties": {
+											"dateJO": {
+												"type": "date",
+												"format": "strict_date_optional_time||epoch_millis"
+											},
+											"typeJO": {
+												"type": "string"
+											}
+										}
+									},
+									"texte": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"type": {
+						"type": "string"
+					},
+					"uid": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}
