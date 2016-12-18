@@ -43,51 +43,62 @@ public class ServiceConfiguration {
 
 	@Bean(name = "defaultDownloader")
 	public ResourceDownloader defaultDownloader() {
-		return new ResourceDownloaderImpl();
+		ResourceDownloaderImpl downloader = new ResourceDownloaderImpl();
+		return downloader;
 	}
 
 	@Bean(name = "defaultUnarchiver")
 	public ResourceUnarchiver defaultUnarchiver() {
-		return new ResourceUnarchiverImpl();
+		ResourceUnarchiverImpl unarchiver = new ResourceUnarchiverImpl();
+		return unarchiver;
 	}
 
 	@Bean(name = "acteursResourceParser")
 	public ResourceParser acteurResourceParser() {
-		return new ResourceParserImpl(this.acteursParser);
+		ResourceParserImpl parser = new ResourceParserImpl(this.acteursParser);
+		return parser;
 	}
 
 	@Bean(name = "votesResourceParser")
 	public ResourceParser votesResourceParser() {
-		return new ResourceParserImpl(this.votesParser);
+		ResourceParserImpl parser = new ResourceParserImpl(this.votesParser);
+		return parser;
 	}
 
 	@Bean(name = "amendementsResourceParser")
 	public ResourceParser amendementsResourceParser() {
-		return new ResourceParserImpl(this.amendementsParser);
+		ResourceParserImpl parser = new ResourceParserImpl(this.amendementsParser);
+		return parser;
 	}
 
 	@Bean(name = "reunionsResourceParser")
 	public ResourceParser reunionsResourceParser() {
-		return new ResourceParserImpl(this.reunionsParser);
+		ResourceParserImpl parser = new ResourceParserImpl(this.reunionsParser);
+		return parser;
 	}
 
 	@Bean(name = "dossiersResourceParser")
 	public ResourceParser dossiersResourceParser() {
-		return new ResourceParserImpl(this.dossiersParser);
+		ResourceParserImpl parser = new ResourceParserImpl(this.dossiersParser);
+		return parser;
 	}
 
 	@Bean(name = "questionsResourceParser")
 	public ResourceParser questionsResourceParser() {
-		return new ResourceParserImpl(this.questionsParser);
+		ResourceParserImpl parser = new ResourceParserImpl(this.questionsParser);
+		return parser;
 	}
 
 	@Bean(name = "reservesResourceParser")
 	public ResourceParser reservesResourceParser() {
-		return new FrenchReserveResourceParserImpl(this.reservesParser);
+		FrenchReserveResourceParserImpl parser = new FrenchReserveResourceParserImpl(this.reservesParser);
+		return parser;
 	}
 
 	@Bean(name = "representantsResourceParser")
 	public ResourceParser representantsResourceParser() {
-		return new FrenchRepresentantResourceParserImpl(this.representantsParser);
+		FrenchRepresentantResourceParserImpl parser = new FrenchRepresentantResourceParserImpl(
+				this.representantsParser);
+		return parser;
 	}
 }

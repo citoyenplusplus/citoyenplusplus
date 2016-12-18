@@ -12,12 +12,15 @@ import org.codehaus.jackson.JsonParser.Feature;
 import org.codehaus.jackson.JsonToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.BeanNameAware;
 
-public class ResourceParserImpl implements ResourceParser {
+public class ResourceParserImpl implements ResourceParser, BeanNameAware {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ResourceParserImpl.class);
 
 	private final JSONParser parser;
+
+	private String beanName;
 
 	public ResourceParserImpl(JSONParser parser) {
 		super();
@@ -32,16 +35,26 @@ public class ResourceParserImpl implements ResourceParser {
 		try {
 			JsonParser parser = factory.createJsonParser(new File(sourceFilePath));
 			JsonToken currentToken = parser.nextToken();
+			int tokenCount = 0;
 			while (!parser.isClosed()) {
 				if (currentToken != null) {
-					LOG.debug("parsing token {}", currentToken);
+					tokenCount++;
+					LOG.trace("{}  parsing token {} ({})", this.beanName, currentToken, tokenCount);
 					this.parser.handleToken(context, parser, currentToken);
 				}
 				currentToken = parser.nextToken();
 			}
 		} catch (IOException e) {
-			LOG.error("unable to parse file {}", sourceFilePath, e);
+			LOG.error("{} unable to parse file {}", this.beanName, sourceFilePath, e);
 		}
 	}
 
+	@Override
+	public void setBeanName(String beanName) {
+		this.beanName = beanName;
+	}
+
+	protected String getBeanName() {
+		return this.beanName;
+	}
 }

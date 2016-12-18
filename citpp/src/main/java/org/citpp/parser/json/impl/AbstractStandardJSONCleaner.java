@@ -10,8 +10,11 @@ import org.citpp.parser.json.JSONTransformerType;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.springframework.beans.factory.BeanNameAware;
 
-public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
+public abstract class AbstractStandardJSONCleaner implements JSONCleaner, BeanNameAware {
+
+	private String beanName;
 
 	protected final static class JSONPathValues {
 		private final JSONPath path;
@@ -66,5 +69,14 @@ public abstract class AbstractStandardJSONCleaner implements JSONCleaner {
 	}
 
 	protected abstract JSONPathValues[] getValuesForTransformerType(JSONTransformerType type);
+
+	@Override
+	public void setBeanName(String beanName) {
+		this.beanName = beanName;
+	}
+
+	protected String getBeanName() {
+		return this.beanName;
+	}
 
 }

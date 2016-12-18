@@ -25,6 +25,9 @@ public class ResourceParserTest {
 	@Resource(name = "votesResourceParser")
 	private ResourceParser votesResourceParser;
 
+	@Resource(name = "amendementsResourceParser")
+	private ResourceParser amendementsResourceParser;
+
 	@Test
 	public void testParseDeputes() {
 		ServiceContext context = new SimpleserviceContextImpl();
@@ -42,4 +45,14 @@ public class ResourceParserTest {
 		this.votesResourceParser.execute(context);
 		Assert.assertNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
 	}
+
+	@Test
+	public void testParseAmendements() {
+		ServiceContext context = new SimpleserviceContextImpl();
+		context.putParam(ResourceParser.INPUT_FILE_PATH_KEY, "src/test/resources/json/sample-amendements.json");
+		LOG.debug("trying to parse file {}", context.getParam(ResourceParser.INPUT_FILE_PATH_KEY));
+		this.amendementsResourceParser.execute(context);
+		Assert.assertNull(context.getParam(Service.DEFAULT_OUTPUT_STRING_KEY));
+	}
+
 }

@@ -15,12 +15,14 @@ import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonToken;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.node.ObjectNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.BeanNameAware;
 
-public class ObjectArrayJSONParser implements JSONParser {
+public class LeafJSONParserImpl implements JSONParser, BeanNameAware {
 
-	private final static Logger LOG = LoggerFactory.getLogger(ObjectArrayJSONParser.class);
+	private final static Logger LOG = LoggerFactory.getLogger(LeafJSONParserImpl.class);
 	private final JSONCleaner cleaner;
 	private final JSONIDExtractor extractor;
 	private final Indexer indexer;
@@ -28,7 +30,9 @@ public class ObjectArrayJSONParser implements JSONParser {
 	private final String fieldName;
 	private final String objectType;
 
-	public ObjectArrayJSONParser(Indexer indexer, JSONCleaner cleaner, JSONIDExtractor extractor,
+	private String beanName;
+
+	public LeafJSONParserImpl(Indexer indexer, JSONCleaner cleaner, JSONIDExtractor extractor,
 			JSONServiceContextHandler serviceContextHandler, String fieldName, String objectType) {
 		this.indexer = indexer;
 		this.cleaner = cleaner;
@@ -44,13 +48,18 @@ public class ObjectArrayJSONParser implements JSONParser {
 		if (JsonToken.FIELD_NAME.equals(token)) {
 			String currentFieldName = parser.getCurrentName();
 			if (StringUtils.equals(this.fieldName, currentFieldName)) {
-				while (!JsonToken.START_ARRAY.equals(token)) {
+				while (!JsonToken.START_ARRAY.equals(token) && !JsonToken.START_OBJECT.equals(token)) {
 					token = parser.nextToken();
 				}
+				JsonToken endToken = JsonToken.END_ARRAY;
+				if (JsonToken.START_OBJECT.equals(token)) {
+					endToken = JsonToken.END_OBJECT;
+				}
+				token = parser.nextToken();
+				int objectCreated = 0;
 				ObjectMapper mapper = new ObjectMapper();
-				while (!JsonToken.END_ARRAY.equals(token)) {
-					token = parser.nextToken();
-					LOG.debug("parsing token {}", token);
+				while (!endToken.equals(token)) {
+					LOG.trace("{} parsing token {}", this.beanName, token);
 					if (token != null) {
 						JsonNode node = mapper.readTree(parser);
 						Map<String, Object> rootMap = null;
@@ -60,6 +69,7 @@ public class ObjectArrayJSONParser implements JSONParser {
 						if (this.serviceContextHandler != null) {
 							node = this.serviceContextHandler.handleServiceContext(context, node);
 						}
+						this.addMapToNode(context, node);
 						if (this.extractor != null) {
 							String objectID = null;
 							if (rootMap != null) {
@@ -69,9 +79,15 @@ public class ObjectArrayJSONParser implements JSONParser {
 								objectID = this.extractor.extractID(node);
 							}
 							indexer.createOrUpdate(this.objectType, objectID, node.toString().getBytes("UTF-8"));
+							LOG.debug("/// {} : ending creation/update of {} ID {} count {}", this.beanName,
+									this.objectType, objectID, objectCreated);
 						} else {
+							LOG.debug("/// {} : ending creation of {} count {}", this.beanName, this.objectType,
+									objectCreated);
 							indexer.create(this.objectType, node.toString().getBytes("UTF-8"));
 						}
+
+						objectCreated++;
 						token = parser.nextToken();
 					}
 				}
@@ -79,6 +95,22 @@ public class ObjectArrayJSONParser implements JSONParser {
 			}
 		}
 		return false;
+	}
+
+	@SuppressWarnings("unchecked")
+	private void addMapToNode(ServiceContext context, JsonNode node) {
+		Object object = context.getParam(CONTEXT_MAP_KEY);
+		if (object instanceof Map) {
+			Map<String, Object> contextMap = (Map<String, Object>) object;
+			for (String key : contextMap.keySet()) {
+				((ObjectNode) node).putPOJO(key, contextMap.get(key));
+			}
+		}
+	}
+
+	@Override
+	public void setBeanName(String beanName) {
+		this.beanName = beanName;
 	}
 
 }

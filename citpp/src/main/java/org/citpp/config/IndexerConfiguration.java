@@ -20,7 +20,8 @@ public class IndexerConfiguration {
 
 	@Bean(name = "defaultESIndexer")
 	public Indexer defaultESIndexer() {
-		return new ESIndexerImpl(elasticSearchHost, elasticSearchPort, elasticSearchIndexName,
+		ESIndexerImpl indexer = new ESIndexerImpl(elasticSearchHost, elasticSearchPort, elasticSearchIndexName,
 				elasticSearchClusterName);
+		return indexer;
 	}
 }

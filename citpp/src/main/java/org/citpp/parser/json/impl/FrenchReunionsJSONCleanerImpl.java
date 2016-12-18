@@ -53,7 +53,7 @@ public class FrenchReunionsJSONCleanerImpl extends AbstractStandardJSONCleaner {
 					map.put(key, time.format(DateTimeFormatter.ISO_OFFSET_DATE_TIME));
 				} catch (DateTimeParseException e) {
 
-					LOG.error("{}", e);
+					LOG.error("{}", this.getBeanName(), e);
 				}
 			}
 		}, paths);

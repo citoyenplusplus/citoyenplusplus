@@ -31,9 +31,9 @@ public class FrenchRepresentantResourceParserImpl extends ResourceParserImpl {
 			Files.write(Paths.get(sourceTempFilePath), "}".getBytes(), StandardOpenOption.APPEND);
 			Files.move(Paths.get(sourceTempFilePath), Paths.get(sourceFilePath), StandardCopyOption.REPLACE_EXISTING);
 		} catch (FileNotFoundException e) {
-			LOG.error("{}", e);
+			LOG.error("{}", this.getBeanName(), e);
 		} catch (IOException e) {
-			LOG.error("{}", e);
+			LOG.error("{}", this.getBeanName(), e);
 		}
 		super.execute(context);
 	}

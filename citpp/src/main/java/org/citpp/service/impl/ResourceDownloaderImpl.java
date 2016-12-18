@@ -12,10 +12,13 @@ import org.citpp.service.Service;
 import org.citpp.service.ServiceContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.BeanNameAware;
 
-public class ResourceDownloaderImpl implements ResourceDownloader {
+public class ResourceDownloaderImpl implements ResourceDownloader, BeanNameAware {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ResourceDownloaderImpl.class);
+
+	private String beanName;
 
 	@Override
 	public void execute(ServiceContext context) {
@@ -26,9 +29,14 @@ public class ResourceDownloaderImpl implements ResourceDownloader {
 		try {
 			FileUtils.copyURLToFile(new URL(URL), new File(filePath));
 		} catch (IOException e) {
-			LOG.error("unable to download file {}", filePath);
+			LOG.error("{} unable to download file {}", this.beanName, filePath);
 		}
 
+	}
+
+	@Override
+	public void setBeanName(String beanName) {
+		this.beanName = beanName;
 	}
 
 }

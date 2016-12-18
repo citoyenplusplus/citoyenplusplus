@@ -14,10 +14,13 @@ import org.citpp.service.Service;
 import org.citpp.service.ServiceContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.BeanNameAware;
 
-public class ResourceUnarchiverImpl implements ResourceUnarchiver {
+public class ResourceUnarchiverImpl implements ResourceUnarchiver, BeanNameAware {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ResourceUnarchiverImpl.class);
+
+	private String beanName;
 
 	@Override
 	public void execute(ServiceContext context) {
@@ -44,8 +47,13 @@ public class ResourceUnarchiverImpl implements ResourceUnarchiver {
 			zis.closeEntry();
 			zis.close();
 		} catch (IOException e) {
-			LOG.error("Unable to unarchive file {}", filePath);
+			LOG.error("{} Unable to unarchive file {}", this.beanName, filePath, e);
 		}
+	}
+
+	@Override
+	public void setBeanName(String beanName) {
+		this.beanName = beanName;
 	}
 
 }

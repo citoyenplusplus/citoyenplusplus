@@ -41,6 +41,9 @@ public class ImportProcessTest {
 	@Resource(name = "representantsProcess")
 	private Process representantsProcess;
 
+	@Resource(name = "dailyProcess")
+	private Process dailyProcess;
+
 	@Test
 	public void testImportActeursProcess() {
 		this.acteursProcess.execute();
@@ -89,5 +92,10 @@ public class ImportProcessTest {
 	@Test
 	public void testImportRepresentantsProcess() {
 		this.representantsProcess.execute();
+	}
+
+	@Test
+	public void testDailyProcess() {
+		this.dailyProcess.execute();
 	}
 }

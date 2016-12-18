@@ -183,4 +183,19 @@ public class ProcessConfiguration {
 				this.representantsResourceURL, this.representantsDownloaderPathPattern,
 				this.representantsUnarchiverPathPattern);
 	}
+
+	@Bean(name = "dailyProcess")
+	public Process dailyProcess() {
+		List<Process> processes = new ArrayList<>();
+		processes.add(this.acteursProcess());
+		processes.add(this.amendementsProcess());
+		processes.add(this.dossiersProcess());
+		processes.add(this.questionsEcritesProcess());
+		processes.add(this.questionsGouvProcess());
+		processes.add(this.questionsOralesProcess());
+		processes.add(this.representantsProcess());
+		processes.add(this.reunionsProcess());
+		processes.add(this.votesProcess());
+		return new ProcessListImpl(processes);
+	}
 }
